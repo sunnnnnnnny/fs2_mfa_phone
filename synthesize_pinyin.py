@@ -169,31 +169,17 @@ def preprocess_mandarin(text, preprocess_config,model_g2p):
     #"""
     #print(pinyins)
     pinyins = model_g2p(text)[0]
-    prosody_list = "#3 #3 #3 #3 #0 #1 #0 #1 #1 #0 #1 #0 #0 #1 #0 #1 #0 #2 #0 #0 #1 #0 #1".split()
-    #import ipdb
-    #ipdb.set_trace()
     print("Pinyin Sequence：{}".format(pinyins))
     piny2phone_list = []
-    prosody_seq = []
     punc = ",.!?，。！？"
-    j = 0
     for p in pinyins:
         if p in lexicon:
             phones += lexicon[p]
-            piny2phone_list.append("{}-{}".format(p,lexicon[p]))
-            for _ in range(len(lexicon[p][0].split())):
-                prosody_seq.append(prosody_list[j].replace("#",""))
-            j = j + 1
+            piny2phone_list.append("{}-{}".format(p, lexicon[p]))
         else:
             phones.append("sp")
-            piny2phone_list.append("{}-{}".format(p,"sp"))
-            prosody_seq.append(5)
+            piny2phone_list.append("{}-{}".format(p, "sp"))
     phones = " ".join(phones) + " sil"
-    prosody_seq.append(5)
-    prosody_seq = [int(item) for item in prosody_seq]
-    #phones = "y˧˥ tɕʰ i˥˥ x ə˨˩˦ n tɕ j ow˨˩˦ l o˦"
-    #phones  = "l j a˨˩˦ ŋ p aj˨˩˦ ʔ o˥˩ ɻ ʂ ʐ̩˧˥"
-    # l ə˨
     print("Raw Text Sequence: {}".format(text))
     piny2phone_cat = " *|* ".join(piny2phone_list) 
     print("piny2phone_cat Sequence: {}".format(piny2phone_cat))
@@ -201,9 +187,8 @@ def preprocess_mandarin(text, preprocess_config,model_g2p):
     #import ipdb
     #ipdb.set_trace()
     sequence = phone_text_to_sequence(phones)
-    assert len(prosody_seq) == len(sequence)
 
-    return np.array(sequence), np.array(prosody_seq)
+    return np.array(sequence)
 
 
 def synthesize(model, step, configs, vocoder, batchs, control_values):
@@ -237,8 +222,7 @@ def synthesize_sub(model, configs, vocoder, batchs, control_values):
         with torch.no_grad():
             # Forward
             output = model(
-                *(batch[2:-1]),
-                prosodys = batch[-1],
+                *(batch[2:]),
                 p_control=pitch_control,
                 e_control=energy_control,
                 d_control=duration_control
@@ -290,16 +274,15 @@ def text_to_speech(text, models):
         speakers = np.array([speaker_id])
         #import ipdb
         #ipdb.set_trace()
-        texts,prosody = preprocess_mandarin(text, preprocess_config, models["g2p"])
+        texts = preprocess_mandarin(text, preprocess_config, models["g2p"])
         texts = np.array([texts])
-        prosody = np.array([prosody])
         text_lens = np.array([len(texts[0])])
-        batchs = [(ids, raw_texts, speakers, texts, text_lens, max(text_lens), prosody)]
+        batchs = [(ids, raw_texts, speakers, texts, text_lens, max(text_lens))]
 
     control_values = pitch_control, energy_control, duration_control
     _, wav_path = synthesize_sub(models["model"], configs, models["vocoder"],batchs, control_values)
     return wav_path
-def main1():
+def main():
     import yaml
     import torch
     from utils.model import get_model, get_vocoder
@@ -321,13 +304,7 @@ def main1():
     models["model"] = model
     models["vocoder"] = vocoder
     models["g2p"] = conv
-    
-    text = "要下雨了，记得带一把伞哦"
     text = "你这里有一笔贷款还没有还,一共222.24元"
-    text = "一二三四五六七八九十百千万"
-    text = "您好，这边是富民银行的，您在我公司有办理过贷款，您还记得吗，"
-    text = "此诗袭用乐府旧题，以浪漫主义的手法，展开丰富的想象"
-    prosody_list = "#0 #2 #0 #1 #0 #1 #0 #1 #1 #0 #1 #0 #0 #1 #0 #1 #0 #2 #0 #0 #1 #0".split()
     import time
     t0 = time.time()
     wav_path = text_to_speech(text, models)
@@ -336,4 +313,4 @@ def main1():
 
 
 if __name__ == "__main__":
-    main1()
+    main()
