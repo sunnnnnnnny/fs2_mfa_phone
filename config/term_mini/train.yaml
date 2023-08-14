@@ -1,0 +1,22 @@
+path:
+  ckpt_path: "./output/ckpt/term_mini"
+  log_path: "./output/log/term_mini"
+  result_path: "./output/result/term_mini"
+optimizer:
+  batch_size: 16
+  betas: [0.9, 0.98]
+  eps: 0.000000001
+  weight_decay: 0.0
+  grad_clip_thresh: 1.0
+  grad_acc_step: 1
+  warm_up_step: 100
+  anneal_steps: [120000, 150000, 180000]
+  anneal_rate: 0.3
+step:
+  total_step: 470000
+  log_step: 1000
+  synth_step: 5000
+  val_step: 1000
+  save_step: 10000
+
+

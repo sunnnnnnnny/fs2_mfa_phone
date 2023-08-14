@@ -1,0 +1,35 @@
+dataset: "dongd_mini"
+
+path:
+  wav_path: "/tmp/zhangyuqiang/dataset_models/fastspeech2_finetune/dataset/dongdie_44k_total200"
+  corpus_path: "/tmp/zhangyuqiang/dataset_models/fastspeech2_finetune/dataset/dongdie_44k_total200"
+  lexicon_path: "/tmp/zhangyuqiang/mfa/reconstruct_mfa_phone.dict"
+  tg_path: "/home/duser/tts/mfa_exp/dongdie_44k_total200_mfa_out"
+  phone_path: "/home/duser/tts/mfa_exp/dongdie_44k_total200_mfa_out"
+  raw_path: "./raw_data_dongd"
+  preprocessed_path: "./preprocessed_data/dongd_mini_prosody"
+  prosody_file: "/tmp/zhangyuqiang/prosody/filename_prosody.txt"
+
+preprocessing:
+  val_size: 20
+  text:
+    text_cleaners: []
+    language: "zh"
+  audio:
+    sampling_rate: 22050
+    max_wav_value: 32768.0
+  stft:
+    filter_length: 1024
+    hop_length: 256
+    win_length: 1024
+  mel:
+    n_mel_channels: 80
+    mel_fmin: 0
+    mel_fmax: 8000 # please set to 8000 for HiFi-GAN vocoder, set to null for MelGAN vocoder
+  pitch:
+    feature: "phoneme_level" # support 'phoneme_level' or 'frame_level'
+    normalization: True
+  energy:
+    feature: "phoneme_level" # support 'phoneme_level' or 'frame_level'
+    normalization: True
+
