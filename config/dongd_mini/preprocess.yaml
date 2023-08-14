@@ -7,8 +7,7 @@ path:
   tg_path: "/home/duser/tts/mfa_exp/dongdie_44k_total200_mfa_out"
   phone_path: "/home/duser/tts/mfa_exp/dongdie_44k_total200_mfa_out"
   raw_path: "./raw_data_dongd"
-  preprocessed_path: "./preprocessed_data/dongd_mini_prosody"
-  prosody_file: "/tmp/zhangyuqiang/prosody/filename_prosody.txt"
+  preprocessed_path: "./preprocessed_data/dongd_mini"
 
 preprocessing:
   val_size: 20

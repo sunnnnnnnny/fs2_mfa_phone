@@ -53,7 +53,6 @@ class FastSpeech2(nn.Module):
         p_targets=None,
         e_targets=None,
         d_targets=None,
-        prosodys = None,
         p_control=1.0,
         e_control=1.0,
         d_control=1.0,
@@ -64,9 +63,7 @@ class FastSpeech2(nn.Module):
             if mel_lens is not None
             else None
         )
-        output, prosody_embed = self.encoder(texts, src_masks, prosodys)
-        #import ipdb
-        #ipdb.set_trace()
+        output = self.encoder(texts, src_masks)
         if self.speaker_emb is not None:
             output = output + self.speaker_emb(speakers).unsqueeze(1).expand(
                 -1, max_src_len, -1
@@ -91,7 +88,6 @@ class FastSpeech2(nn.Module):
             p_control,
             e_control,
             d_control,
-            prosody_embed
         )
 
         output, mel_masks = self.decoder(output, mel_masks)

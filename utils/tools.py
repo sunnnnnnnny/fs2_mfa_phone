@@ -9,15 +9,13 @@ import matplotlib
 from scipy.io import wavfile
 from matplotlib import pyplot as plt
 
-
 matplotlib.use("Agg")
-
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
 def to_device(data, device):
-    if len(data) == 13:
+    if len(data) == 12:
         (
             ids,
             raw_texts,
@@ -31,7 +29,6 @@ def to_device(data, device):
             pitches,
             energies,
             durations,
-            prosodys
         ) = data
 
         speakers = torch.from_numpy(speakers).long().to(device)
@@ -42,7 +39,6 @@ def to_device(data, device):
         pitches = torch.from_numpy(pitches).float().to(device)
         energies = torch.from_numpy(energies).to(device)
         durations = torch.from_numpy(durations).long().to(device)
-        prosodys = torch.from_numpy(prosodys).long().to(device)
 
         return (
             ids,
@@ -57,23 +53,20 @@ def to_device(data, device):
             pitches,
             energies,
             durations,
-            prosodys
         )
 
-    if len(data) == 7:
-        (ids, raw_texts, speakers, texts, src_lens, max_src_len,prosody) = data
+    if len(data) == 6:
+        (ids, raw_texts, speakers, texts, src_lens, max_src_len) = data
 
         speakers = torch.from_numpy(speakers).long().to(device)
         texts = torch.from_numpy(texts).long().to(device)
         src_lens = torch.from_numpy(src_lens).to(device)
-        prosody = torch.from_numpy(prosody).long().to(device)
-        
 
-        return (ids, raw_texts, speakers, texts, src_lens, max_src_len,prosody)
+        return (ids, raw_texts, speakers, texts, src_lens, max_src_len)
 
 
 def log(
-    logger, step=None, losses=None, fig=None, audio=None, sampling_rate=22050, tag=""
+        logger, step=None, losses=None, fig=None, audio=None, sampling_rate=22050, tag=""
 ):
     if losses is not None:
         logger.add_scalar("Loss/total_loss", losses[0], step)
@@ -113,7 +106,6 @@ def expand(values, durations):
 
 
 def synth_one_sample(targets, predictions, vocoder, model_config, preprocess_config):
-
     basename = targets[0][0]
     src_len = predictions[8][0].item()
     mel_len = predictions[9][0].item()
@@ -132,7 +124,7 @@ def synth_one_sample(targets, predictions, vocoder, model_config, preprocess_con
         energy = targets[10][0, :mel_len].detach().cpu().numpy()
 
     with open(
-        os.path.join(preprocess_config["path"]["preprocessed_path"], "stats.json")
+            os.path.join(preprocess_config["path"]["preprocessed_path"], "stats.json")
     ) as f:
         stats = json.load(f)
         stats = stats["pitch"] + stats["energy"][:2]
@@ -183,10 +175,10 @@ def synth_samples(targets, predictions, vocoder, model_config, preprocess_config
             energy = expand(energy, duration)
         else:
             energy = predictions[3][i, :mel_len].detach().cpu().numpy()
-    #import ipdb
-    #ipdb.set_trace()
+    # import ipdb
+    # ipdb.set_trace()
     with open(
-        os.path.join(preprocess_config["path"]["preprocessed_path"], "stats.json")
+            os.path.join(preprocess_config["path"]["preprocessed_path"], "stats.json")
     ) as f:
         stats = json.load(f)
         stats = stats["pitch"] + stats["energy"][:2]
@@ -213,12 +205,12 @@ def synth_samples(targets, predictions, vocoder, model_config, preprocess_config
     if not os.path.exists(outdir):
         os.makedirs(outdir)
     basename_list = []
-    for i,wav  in enumerate(wav_predictions):
-        now = time.time() 
+    for i, wav in enumerate(wav_predictions):
+        now = time.time()
         basename = str(int(now) + i + 1)
         wavfile.write(os.path.join(outdir, "{}.wav".format(basename)), sampling_rate, wav)
         basename_list.append(os.path.join(outdir, "{}.wav".format(basename)))
-    #return mel_predictions.squeeze().cpu().numpy(), os.path.join(outdir, "{}.wav".format(basename))
+    # return mel_predictions.squeeze().cpu().numpy(), os.path.join(outdir, "{}.wav".format(basename))
     return mel_predictions.squeeze().cpu().numpy(), basename_list
 
 
@@ -327,4 +319,3 @@ def pad(input_ele, mel_max_length=None):
         out_list.append(one_batch_padded)
     out_padded = torch.stack(out_list)
     return out_padded
-

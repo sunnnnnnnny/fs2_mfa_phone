@@ -77,8 +77,8 @@ class VarianceAdaptor(nn.Module):
             n_bins, model_config["transformer"]["encoder_hidden"]
         )
 
-    def get_pitch_embedding(self, x, target, mask, control, prosody_embed):
-        prediction = self.pitch_predictor(x, mask,prosody_embed)
+    def get_pitch_embedding(self, x, target, mask, control):
+        prediction = self.pitch_predictor(x, mask)
         if target is not None:
             embedding = self.pitch_embedding(torch.bucketize(target, self.pitch_bins))
         else:
@@ -88,8 +88,8 @@ class VarianceAdaptor(nn.Module):
             )
         return prediction, embedding
 
-    def get_energy_embedding(self, x, target, mask, control,prosody_embed):
-        prediction = self.energy_predictor(x, mask,prosody_embed)
+    def get_energy_embedding(self, x, target, mask, control):
+        prediction = self.energy_predictor(x, mask)
         if target is not None:
             embedding = self.energy_embedding(torch.bucketize(target, self.energy_bins))
         else:
@@ -111,18 +111,17 @@ class VarianceAdaptor(nn.Module):
         p_control=1.0,
         e_control=1.0,
         d_control=1.0,
-        prosody_embed = None,
     ):
-        log_duration_prediction = self.duration_predictor(x, src_mask, prosody_embed)
+        log_duration_prediction = self.duration_predictor(x, src_mask)
         if self.pitch_feature_level == "phoneme_level":
             pitch_prediction, pitch_embedding = self.get_pitch_embedding(
-                x, pitch_target, src_mask, p_control,prosody_embed
+                x, pitch_target, src_mask, p_control
             )
             #print(pitch_embedding.shape)
             x = x + pitch_embedding
         if self.energy_feature_level == "phoneme_level":
             energy_prediction, energy_embedding = self.get_energy_embedding(
-                x, energy_target, src_mask, p_control,prosody_embed
+                x, energy_target, src_mask, e_control
             )
             x = x + energy_embedding
 
@@ -240,8 +239,8 @@ class VariancePredictor(nn.Module):
 
         self.linear_layer = nn.Linear(self.conv_output_size, 1)
 
-    def forward(self, encoder_output, mask, prosody_embed):
-        encoder_output = encoder_output + prosody_embed
+    def forward(self, encoder_output, mask):
+        encoder_output = encoder_output
         
         out = self.conv_layer(encoder_output)
         out = self.linear_layer(out)

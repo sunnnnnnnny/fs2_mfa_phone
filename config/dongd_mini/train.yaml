@@ -1,7 +1,7 @@
 path:
-  ckpt_path: "./output/ckpt/dongd_mini_prosody"
-  log_path: "./output/log/dongd_mini_prosody"
-  result_path: "./output/result/dongd_mini_prosody"
+  ckpt_path: "./output/ckpt/dongd_mini"
+  log_path: "./output/log/dongd_mini"
+  result_path: "./output/result/dongd_mini"
 optimizer:
   batch_size: 8
   betas: [0.9, 0.98]

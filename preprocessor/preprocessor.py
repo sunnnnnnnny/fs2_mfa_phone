@@ -24,7 +24,6 @@ class Preprocessor:
         self.val_size = config["preprocessing"]["val_size"]
         self.sampling_rate = config["preprocessing"]["audio"]["sampling_rate"]
         self.hop_length = config["preprocessing"]["stft"]["hop_length"]
-        self.prosody_file = config["path"]["prosody_file"]
 
         assert config["preprocessing"]["pitch"]["feature"] in [
             "phoneme_level",
@@ -54,16 +53,6 @@ class Preprocessor:
             config["preprocessing"]["mel"]["mel_fmax"],
         )
 
-        self.filename2pinyin = {}
-        self.filename2prosody = {}
-        self.get_filename2pinyin_prosody()
-        self.select_filename = set()
-        with open(self.prosody_file, "r") as log:
-            lines = log.readlines()
-            for line in lines:
-                line_split = line.strip().split("\t")
-                filename = line_split[0]
-                self.select_filename.add(filename)
 
     def build_from_path(self):
         os.makedirs((os.path.join(self.out_dir, "mel")), exist_ok=True)
@@ -186,10 +175,7 @@ class Preprocessor:
 
         # Get alignments
         # textgrid = tgt.io.read_textgrid(tg_path)
-        phone_tmp, duration, start, end, phone_prosody = self.get_alignment(tg_path)
-        # phone, duration, start, end = self.get_alignment(basename,
-        #    textgrid.get_tier_by_name("phones")
-        # )
+        phone_tmp, duration, start, end = self.get_alignment(tg_path)
         phone = []
         for item in phone_tmp:
             if len(item) == 0 or item == " ":
@@ -258,8 +244,7 @@ class Preprocessor:
                     energy[i] = 0
                 pos += d
             energy = energy[: len(duration)]
-        assert len(text.split()) == len(duration) == len(pitch) == len(energy) == len(phone_prosody)
-        phone_prosody = " ".join(phone_prosody)
+        assert len(text.split()) == len(duration) == len(pitch) == len(energy)
         dur_filename = "{}-duration-{}.npy".format(speaker, basename)
         np.save(os.path.join(self.out_dir, "duration", dur_filename), duration)
 
@@ -276,72 +261,16 @@ class Preprocessor:
         )
 
         return (
-            "|".join([basename, speaker, text, raw_text,phone_prosody]),
+            "|".join([basename, speaker, text, raw_text]),
             self.remove_outlier(pitch),
             self.remove_outlier(energy),
             mel_spectrogram.shape[1],
         )
 
-    def detect_position(self, intervals_word, val):
-        for idx, interval in enumerate(intervals_word):
-            if val in interval:
-                return idx
-
-    def get_phones_prosody(self, alignment, word_prosody_list):
-        word_entryList = alignment.getTier("words").entries
-        intervals_word = []
-        intervals_prosody = []
-        j = 0
-        for idx, interval in enumerate(word_entryList):
-            start, end, word = interval.start, interval.end, interval.label
-            if word == "sil" or word == "" or word == "sp":
-                intervals_word.append(Interval(start, end))
-                intervals_prosody.append("#5")
-            else:
-                intervals_word.append(Interval(start, end))
-                intervals_prosody.append(word_prosody_list[j])
-                j = j + 1
-        assert j == len(word_prosody_list)
-        phones_entryList = alignment.getTier("phones").entries
-        phones_prosody = []
-        for interval in phones_entryList:
-            start, end, word = interval.start, interval.end, interval.label
-            mid = (start + end) / 2
-            word_idx = self.detect_position(intervals_word, mid)
-            phones_prosody.append(intervals_prosody[word_idx])
-        assert len(phones_prosody) == len(phones_entryList)
-        return phones_prosody
-
-
-    def get_filename2pinyin_prosody(self):
-        with open(self.prosody_file, "r") as log:
-            lines = log.readlines()
-            idx = 0
-            while idx < len(lines):
-                filename, pinyin = lines[idx].strip().split("\t", 1)
-                filename, prosody = lines[idx + 1].strip().split("\t", 1)
-                pinyin_split = pinyin.split("\t")
-                prosody_split = prosody.split("\t")
-                assert len(pinyin_split) == len(prosody_split)
-                self.filename2pinyin[filename] = pinyin_split
-                self.filename2prosody[filename] = prosody_split
-                idx = idx + 2
-
-    def get_prosody(self, alignment, filename):
-        punc = ",.!?，。！？"
-        prosody_remove_punc_list = []
-        for idx_j, pinyin in enumerate(self.filename2pinyin[filename]):
-            if pinyin in punc:
-                continue
-            prosody_remove_punc_list.append(self.filename2prosody[filename][idx_j])
-        phones_prosody = self.get_phones_prosody(alignment, prosody_remove_punc_list)
-        return phones_prosody
 
     def get_alignment(self, tg_path):
         alignment = textgrid.openTextgrid(tg_path, includeEmptyIntervals=True)
-        basename = tg_path.split("/")[-1].split(".")[0]
         phone_entryList = alignment.getTier("phones").entries
-        phone_prosody = self.get_prosody(alignment, basename)
         sil_phones = ["sil", "sp", "spn"]
 
         phones = []
@@ -383,7 +312,7 @@ class Preprocessor:
         phones = phones[:end_idx]
         durations = durations[:end_idx]
 
-        return phones, durations, start_time, end_time, phone_prosody
+        return phones, durations, start_time, end_time
 
     def remove_outlier(self, values):
         values = np.array(values)
