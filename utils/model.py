@@ -9,8 +9,6 @@ from model import FastSpeech2, ScheduledOptim
 
 
 def get_model(restore_step, configs, device, train=False):
-    #import ipdb
-    #ipdb.set_trace()
     (preprocess_config, model_config, train_config) = configs
 
     model = FastSpeech2(preprocess_config, model_config).to(device)

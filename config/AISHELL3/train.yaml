@@ -1,9 +1,9 @@
 path:
-  ckpt_path: "./output/ckpt/AISHELL3"
-  log_path: "./output/log/AISHELL3"
-  result_path: "./output/result/AISHELL3"
+  ckpt_path: "/home/fm001/zhangyuqiang_check/workspace/dataset_and_model/fs2_mfa_phone/dataset/output/ckpt/AISHELL3"
+  log_path: "/home/fm001/zhangyuqiang_check/workspace/dataset_and_model/fs2_mfa_phone/dataset/output/log/AISHELL3"
+  result_path: "/home/fm001/zhangyuqiang_check/workspace/dataset_and_model/fs2_mfa_phone/dataset/dataset/output/result/AISHELL3"
 optimizer:
-  batch_size: 16
+  batch_size: 32
   betas: [0.9, 0.98]
   eps: 0.000000001
   weight_decay: 0.0

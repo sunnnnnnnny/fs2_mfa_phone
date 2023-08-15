@@ -2,10 +2,10 @@ dataset: "AISHELL3"
 
 path:
   corpus_path: "/home/duser/tts/dataset_tts/aishell3"
-  lexicon_path: "/tmp/zhangyuqiang/mfa/reconstruct_mfa_phone.dict"
-  tg_path: "/home/duser/tts/mfa_exp/aishell3_train_mfa_out/"
-  raw_path: "./raw_data/AISHELL3"
-  preprocessed_path: "./preprocessed_data/AISHELL3"
+  lexicon_path: "/home/fm001/zhangyuqiang_check/workspace/dataset_and_model/fs2_mfa_phone/dataset/mandarin_china_mfa.dict"
+  tg_path: "/home/fm001/zhangyuqiang_check/workspace/dataset_and_model/fs2_mfa_phone/dataset/AISHELL3_train_mfa_out"
+  raw_path: "/home/fm001/zhangyuqiang_check/workspace/dataset_and_model/fs2_mfa_phone/dataset/raw_data/AISHELL3"
+  preprocessed_path: "/home/fm001/zhangyuqiang_check/workspace/dataset_and_model/fs2_mfa_phone/dataset/AISHELL3_processed"
 
 preprocessing:
   val_size: 512

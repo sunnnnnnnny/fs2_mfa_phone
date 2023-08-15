@@ -2,7 +2,6 @@ import os
 import random
 import json
 
-import tgt
 import librosa
 import numpy as np
 import pyworld as pw
@@ -10,8 +9,6 @@ from scipy.interpolate import interp1d
 from sklearn.preprocessing import StandardScaler
 from tqdm import tqdm
 from praatio import textgrid
-from interval import Interval
-
 import audio as Audio
 
 

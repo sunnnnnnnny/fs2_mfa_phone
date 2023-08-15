@@ -5,34 +5,7 @@ import os
 import numpy as np
 from torch.utils.data import Dataset
 
-# from text import text_to_sequence
 from utils.tools import pad_1D, pad_2D
-
-lexicon_path = "/home/duser/tts/mfa_exp/mandarin_china_mfa.dict"
-lexicon_tmp = set()
-with open(lexicon_path, "r") as log:
-    lines = log.readlines()
-    for line in lines:
-        phones = line.strip().split("\t")[-1]
-        phones_split = phones.split()
-        for phone in phones_split:
-            lexicon_tmp.add(phone)
-lexicon = list(lexicon_tmp)
-lexicon.append("sil")
-lexicon.append("sp")
-lexicon.sort()
-
-
-def phone_text_to_sequence(text):
-    # import ipdb
-    # ipdb.set_trace()
-    text_split = text.strip().split()
-    text_ids = []
-    for phone in text_split:
-        if phone not in lexicon:
-            continue
-        text_ids.append(lexicon.index(phone) + 1)
-    return text_ids
 
 
 class Dataset(Dataset):
@@ -43,15 +16,43 @@ class Dataset(Dataset):
         self.preprocessed_path = preprocess_config["path"]["preprocessed_path"]
         self.cleaners = preprocess_config["preprocessing"]["text"]["text_cleaners"]
         self.batch_size = train_config["optimizer"]["batch_size"]
+        self.lexicon_path = preprocess_config["path"]["lexicon_path"]
 
-        self.basename, self.speaker, self.text, self.raw_text  = self.process_meta(filename)
+        self.basename, self.speaker, self.text, self.raw_text = self.process_meta(filename)
         with open(os.path.join(self.preprocessed_path, "speakers.json")) as f:
             self.speaker_map = json.load(f)
         self.sort = sort
         self.drop_last = drop_last
+        self.lexicon = None
+        self.read_lexicon()
 
     def __len__(self):
         return len(self.text)
+
+    def read_lexicon(self):
+        lexicon_tmp = set()
+        with open(self.lexicon_path, "r") as log:
+            lines = log.readlines()
+            for line in lines:
+                phones = line.strip().split("\t")[-1]
+                phones_split = phones.split()
+                for phone in phones_split:
+                    lexicon_tmp.add(phone)
+        self.lexicon = list(lexicon_tmp)
+        self.lexicon.append("sil")
+        self.lexicon.append("sp")
+        self.lexicon.sort()
+
+    def phone_text_to_sequence(self, text):
+        # import ipdb
+        # ipdb.set_trace()
+        text_split = text.strip().split()
+        text_ids = []
+        for phone in text_split:
+            if phone not in self.lexicon:
+                continue
+            text_ids.append(self.lexicon.index(phone) + 1)
+        return text_ids
 
     def __getitem__(self, idx):
         # import ipdb
@@ -62,7 +63,7 @@ class Dataset(Dataset):
         raw_text = self.raw_text[idx]
         text = self.text[idx]
         text = text.replace("{", "").replace("}", "")
-        phone = np.array(phone_text_to_sequence(text))
+        phone = np.array(self.phone_text_to_sequence(text))
         # phone = np.array(text_to_sequence(self.text[idx], self.cleaners))
         mel_path = os.path.join(
             self.preprocessed_path,
@@ -115,7 +116,7 @@ class Dataset(Dataset):
             text = []
             raw_text = []
             for line in f.readlines():
-                n, s, t, r, psdy = line.strip("\n").split("|")
+                n, s, t, r = line.strip("\n").split("|")
                 name.append(n)
                 speaker.append(s)
                 text.append(t)
@@ -201,7 +202,7 @@ class TextDataset(Dataset):
         speaker = self.speaker[idx]
         speaker_id = self.speaker_map[speaker]
         raw_text = self.raw_text[idx]
-        phone = np.array(text_to_sequence(self.text[idx], self.cleaners))
+        phone = np.array(self.text_to_sequence(self.text[idx], self.cleaners))
 
         return (basename, speaker_id, phone, raw_text)
 

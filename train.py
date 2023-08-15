@@ -27,13 +27,10 @@ def main(args, configs):
     dataset = Dataset(
         "train.txt", preprocess_config, train_config, sort=True, drop_last=True
     )
-    import ipdb
-    ipdb.set_trace()
-    dataset.__getitem__(0)
     batch_size = train_config["optimizer"]["batch_size"]
     group_size = 1  # Set this larger than 1 to enable sorting in Dataset
-    assert batch_size * group_size < len(dataset)
-    args.restore_step = 235*1000
+    assert batch_size * group_size <= len(dataset)
+    args.restore_step = 0
     loader = DataLoader(
         dataset,
         batch_size=batch_size * group_size,
@@ -51,7 +48,6 @@ def main(args, configs):
 
     # Load vocoder
     vocoder = get_vocoder(model_config, device)
-
     # Init logger
     for p in train_config["path"].values():
         os.makedirs(p, exist_ok=True)
@@ -61,7 +57,6 @@ def main(args, configs):
     os.makedirs(val_log_path, exist_ok=True)
     train_logger = SummaryWriter(train_log_path)
     val_logger = SummaryWriter(val_log_path)
-
     # Training
     step = args.restore_step + 1
     step = 1
@@ -73,7 +68,6 @@ def main(args, configs):
     save_step = train_config["step"]["save_step"]
     synth_step = train_config["step"]["synth_step"]
     val_step = train_config["step"]["val_step"]
-
     outer_bar = tqdm(total=total_step, desc="Training", position=0)
     outer_bar.n = args.restore_step
     outer_bar.update()

@@ -32,13 +32,11 @@ def get_sinusoid_encoding_table(n_position, d_hid, padding_idx=None):
 class Encoder(nn.Module):
     """ Encoder """
 
-    def __init__(self, config):
+    def __init__(self, config, preprocess_config):
         super(Encoder, self).__init__()
 
         n_position = config["max_seq_len"] + 1
-        #n_src_vocab = len(symbols) + 1
-        #"""
-        lexicon_path = "/home/duser/tts/mfa_exp/mandarin_china_mfa.dict"
+        lexicon_path = preprocess_config["path"]["lexicon_path"]
         lexicon_tmp = set()
         with open(lexicon_path, "r") as log:
             lines = log.readlines()
