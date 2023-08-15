@@ -15,7 +15,6 @@ def get_model(restore_step, configs, device, train=False):
     if restore_step > 0 :
         ckpt_path = os.path.join(
             train_config["path"]["ckpt_path"],
-            #"AISHELL3_{}.pth.tar".format(restore_step),
             "{}.pth.tar".format(restore_step),
         )
         ckpt = torch.load(ckpt_path)
@@ -25,10 +24,8 @@ def get_model(restore_step, configs, device, train=False):
         scheduled_optim = ScheduledOptim(
             model, train_config, model_config, restore_step
         )
-        #import ipdb
-        #ipdb.set_trace()
-        #if restore_step > 0 :
-        #    scheduled_optim.load_state_dict(ckpt["optimizer"])
+        if restore_step > 0 :
+           scheduled_optim.load_state_dict(ckpt["optimizer"])
         model.train()
         return model, scheduled_optim
 

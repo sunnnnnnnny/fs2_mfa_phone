@@ -1,0 +1,4080 @@
+a1 ʔ a˥˥
+a2 ʔ a˧˥
+a3 ʔ a˨˩˦
+a4 ʔ a˥˩
+a5 ʔ a˦
+ar1 a˥˥ rr rr
+ar2 a˧˥ rr rr
+ar3 a˨˩˦ rr rr
+ar4 a˥˩ rr rr
+ar5 a˦ rr rr
+ai1 ʔ aj˥˥
+ai2 ʔ aj˧˥
+ai3 ʔ aj˨˩˦
+ai4 ʔ aj˥˩
+ai5 ʔ aj˦
+air1 aj˥˥ rr rr
+air2 aj˧˥ rr rr
+air3 aj˨˩˦ rr rr
+air4 aj˥˩ rr rr
+air5 aj˦ rr rr
+ao1 ʔ aw˥˥
+ao2 ʔ aw˧˥
+ao3 ʔ aw˨˩˦
+ao4 ʔ aw˥˩
+ao5 ʔ aw˦
+aor1 aw˥˥ rr rr
+aor2 aw˧˥ rr rr
+aor3 aw˨˩˦ rr rr
+aor4 aw˥˩ rr rr
+aor5 aw˦ rr rr
+an1 ʔ a˥˥ n
+an2 ʔ a˧˥ n
+an3 ʔ a˨˩˦ n
+an4 ʔ a˥˩ n
+an5 ʔ a˦ n
+anr1 a˥˥ n rr rr
+anr2 a˧˥ n rr rr
+anr3 a˨˩˦ n rr rr
+anr4 a˥˩ n rr rr
+anr5 a˦ n rr rr
+ang1 ʔ a˥˥ ŋ
+ang2 ʔ a˧˥ ŋ
+ang3 ʔ a˨˩˦ ŋ
+ang4 ʔ a˥˩ ŋ
+ang5 ʔ a˦ ŋ
+angr1 a˥˥ ŋ rr rr
+angr2 a˧˥ ŋ rr rr
+angr3 a˨˩˦ ŋ rr rr
+angr4 a˥˩ ŋ rr rr
+angr5 a˦ ŋ rr rr
+e1 ʔ o˥˥
+e2 ʔ o˧˥
+e3 ʔ o˨˩˦
+e4 ʔ o˥˩
+e5 ʔ o˦
+er1 ʔ o˥˥ ɻ
+er2 ʔ o˧˥ ɻ
+er3 ʔ o˨˩˦ ɻ
+er4 ʔ o˥˩ ɻ
+er5 ʔ o˦ ɻ
+ei1 ʔ ej˥˥
+ei2 ʔ ej˧˥
+ei3 ʔ ej˨˩˦
+ei4 ʔ ej˥˩
+ei5 ʔ ej˦
+eir1 ej˥˥ rr rr
+eir2 ej˧˥ rr rr
+eir3 ej˨˩˦ rr rr
+eir4 ej˥˩ rr rr
+eir5 ej˦ rr rr
+en1 ʔ ə˥˥ n
+en2 ʔ ə˧˥ n
+en3 ʔ ə˨˩˦ n
+en4 ʔ ə˥˩ n
+en5 ʔ ə˦ n
+enr1 ə˥˥ n rr rr
+enr2 ə˧˥ n rr rr
+enr3 ə˨˩˦ n rr rr
+enr4 ə˥˩ n rr rr
+enr5 ə˦ n rr rr
+eng1 o˥˥ ŋ
+eng2 o˧˥ ŋ
+eng3 o˨˩˦ ŋ
+eng4 o˥˩ ŋ
+eng5 o˦ ŋ
+engr1 o˥˥ ŋ rr rr
+engr2 o˧˥ ŋ rr rr
+engr3 o˨˩˦ ŋ rr rr
+engr4 o˥˩ ŋ rr rr
+engr5 o˦ ŋ rr rr
+o1 ʔ w o˥˥
+o2 ʔ w o˧˥
+o3 ʔ w o˨˩˦
+o4 ʔ w o˥˩
+o5 ʔ w o˦
+or1 w o˥˥ rr rr
+or2 w o˧˥ rr rr
+or3 w o˨˩˦ rr rr
+or4 w o˥˩ rr rr
+or5 w o˦ rr rr
+ou1 ʔ ow˥˥
+ou2 ʔ ow˧˥
+ou3 ʔ ow˨˩˦
+ou4 ʔ ow˥˩
+ou5 ʔ ow˦
+our1 ow˥˥ rr rr
+our2 ow˧˥ rr rr
+our3 ow˨˩˦ rr rr
+our4 ow˥˩ rr rr
+our5 ow˦ rr rr
+yi1 i˥˥
+yi2 i˧˥
+yi3 i˨˩˦
+yi4 i˥˩
+yi5 i˦
+yir1 i˥˥ rr
+yir2 i˧˥ rr
+yir3 i˨˩˦ rr
+yir4 i˥˩ rr
+yir5 i˦ rr
+ya1 j a˥˥
+ya2 j a˧˥
+ya3 j a˨˩˦
+ya4 j a˥˩
+ya5 j a˦
+yar1 j a˥˥ rr
+yar2 j a˧˥ rr
+yar3 j a˨˩˦ rr
+yar4 j a˥˩ rr
+yar5 j a˦ rr
+yao1 j aw˥˥
+yao2 j aw˧˥
+yao3 j aw˨˩˦
+yao4 j aw˥˩
+yao5 j aw˦
+yaor1 j aw˥˥ rr
+yaor2 j aw˧˥ rr
+yaor3 j aw˨˩˦ rr
+yaor4 j aw˥˩ rr
+yaor5 j aw˦ rr
+yan1 j e˥˥ n
+yan2 j e˧˥ n
+yan3 j e˨˩˦ n
+yan4 j e˥˩ n
+yan5 j e˦ n
+yanr1 j e˥˥ n rr
+yanr2 j e˧˥ n rr
+yanr3 j e˨˩˦ n rr
+yanr4 j e˥˩ n rr
+yanr5 j e˦ n rr
+yang1 j a˥˥ ŋ
+yang2 j a˧˥ ŋ
+yang3 j a˨˩˦ ŋ
+yang4 j a˥˩ ŋ
+yang5 j a˦ ŋ
+yangr1 j a˥˥ ŋ rr
+yangr2 j a˧˥ ŋ rr
+yangr3 j a˨˩˦ ŋ rr
+yangr4 j a˥˩ ŋ rr
+yangr5 j a˦ ŋ rr
+ye1 j e˥˥
+ye2 j e˧˥
+ye3 j e˨˩˦
+ye4 j e˥˩
+ye5 j e˦
+yer1 j e˥˥ rr
+yer2 j e˧˥ rr
+yer3 j e˨˩˦ rr
+yer4 j e˥˩ rr
+yer5 j e˦ rr
+yo1 j ow˥˥
+yo2 j ow˧˥
+yo3 j ow˨˩˦
+yo4 j ow˥˩
+yo5 j ow˦
+yor1 j ow˥˥ rr
+yor2 j ow˧˥ rr
+yor3 j ow˨˩˦ rr
+yor4 j ow˥˩ rr
+yor5 j ow˦ rr
+you1 j ow˥˥
+you2 j ow˧˥
+you3 j ow˨˩˦
+you4 j ow˥˩
+you5 j ow˦
+your1 j ow˥˥ rr
+your2 j ow˧˥ rr
+your3 j ow˨˩˦ rr
+your4 j ow˥˩ rr
+your5 j ow˦ rr
+yong1 j u˥˥ ŋ
+yong2 j u˧˥ ŋ
+yong3 j u˨˩˦ ŋ
+yong4 j u˥˩ ŋ
+yong5 j u˦ ŋ
+yongr1 j u˥˥ ŋ rr
+yongr2 j u˧˥ ŋ rr
+yongr3 j u˨˩˦ ŋ rr
+yongr4 j u˥˩ ŋ rr
+yongr5 j u˦ ŋ rr
+yin1 i˥˥ n
+yin2 i˧˥ n
+yin3 i˨˩˦ n
+yin4 i˥˩ n
+yin5 i˦ n
+yinr1 i˥˥ n rr
+yinr2 i˧˥ n rr
+yinr3 i˨˩˦ n rr
+yinr4 i˥˩ n rr
+yinr5 i˦ n rr
+ying1 i˥˥ ŋ
+ying2 i˧˥ ŋ
+ying3 i˨˩˦ ŋ
+ying4 i˥˩ ŋ
+ying5 i˦ ŋ
+yingr1 i˥˥ ŋ rr
+yingr2 i˧˥ ŋ rr
+yingr3 i˨˩˦ ŋ rr
+yingr4 i˥˩ ŋ rr
+yingr5 i˦ ŋ rr
+wu1 u˥˥
+wu2 u˧˥
+wu3 u˨˩˦
+wu4 u˥˩
+wu5 u˦
+wur1 u˥˥ rr
+wur2 u˧˥ rr
+wur3 u˨˩˦ rr
+wur4 u˥˩ rr
+wur5 u˦ rr
+wa1 w a˥˥
+wa2 w a˧˥
+wa3 w a˨˩˦
+wa4 w a˥˩
+wa5 w a˦
+war1 w a˥˥ rr
+war2 w a˧˥ rr
+war3 w a˨˩˦ rr
+war4 w a˥˩ rr
+war5 w a˦ rr
+wai1 w aj˥˥
+wai2 w aj˧˥
+wai3 w aj˨˩˦
+wai4 w aj˥˩
+wai5 w aj˦
+wair1 w aj˥˥ rr
+wair2 w aj˧˥ rr
+wair3 w aj˨˩˦ rr
+wair4 w aj˥˩ rr
+wair5 w aj˦ rr
+wan1 w a˥˥ n
+wan2 w a˧˥ n
+wan3 w a˨˩˦ n
+wan4 w a˥˩ n
+wan5 w a˦ n
+wanr1 w a˥˥ n rr
+wanr2 w a˧˥ n rr
+wanr3 w a˨˩˦ n rr
+wanr4 w a˥˩ n rr
+wanr5 w a˦ n rr
+wang1 w a˥˥ ŋ
+wang2 w a˧˥ ŋ
+wang3 w a˨˩˦ ŋ
+wang4 w a˥˩ ŋ
+wang5 w a˦ ŋ
+wangr1 w a˥˥ ŋ rr
+wangr2 w a˧˥ ŋ rr
+wangr3 w a˨˩˦ ŋ rr
+wangr4 w a˥˩ ŋ rr
+wangr5 w a˦ ŋ rr
+wei1 w ej˥˥
+wei2 w ej˧˥
+wei3 w ej˨˩˦
+wei4 w ej˥˩
+wei5 w ej˦
+weir1 w ej˥˥ rr
+weir2 w ej˧˥ rr
+weir3 w ej˨˩˦ rr
+weir4 w ej˥˩ rr
+weir5 w ej˦ rr
+wo1 w o˥˥
+wo2 w o˧˥
+wo3 w o˨˩˦
+wo4 w o˥˩
+wo5 w o˦
+wor1 w o˥˥ rr
+wor2 w o˧˥ rr
+wor3 w o˨˩˦ rr
+wor4 w o˥˩ rr
+wor5 w o˦ rr
+wen1 w ə˥˥ n
+wen2 w ə˧˥ n
+wen3 w ə˨˩˦ n
+wen4 w ə˥˩ n
+wen5 w ə˦ n
+wenr1 w ə˥˥ n rr
+wenr2 w ə˧˥ n rr
+wenr3 w ə˨˩˦ n rr
+wenr4 w ə˥˩ n rr
+wenr5 w ə˦ n rr
+weng1 w ə˥˥ n
+weng2 w ə˧˥ n
+weng3 w ə˨˩˦ n
+weng4 w ə˥˩ n
+weng5 w ə˦ n
+wengr1 w ə˥˥ n rr
+wengr2 w ə˧˥ n rr
+wengr3 w ə˨˩˦ n rr
+wengr4 w ə˥˩ n rr
+wengr5 w ə˦ n rr
+yu1 y˥˥
+yu2 y˧˥
+yu3 y˨˩˦
+yu4 y˥˩
+yu5 y˦
+yur1 y˥˥ rr
+yur2 y˧˥ rr
+yur3 y˨˩˦ rr
+yur4 y˥˩ rr
+yur5 y˦ rr
+yue1 ɥ e˥˥
+yue2 ɥ e˧˥
+yue3 ɥ e˨˩˦
+yue4 ɥ e˥˩
+yue5 ɥ e˦
+yuer1 ɥ e˥˥ rr
+yuer2 ɥ e˧˥ rr
+yuer3 ɥ e˨˩˦ rr
+yuer4 ɥ e˥˩ rr
+yuer5 ɥ e˦ rr
+yuan1 ɥ e˥˥ n
+yuan2 ɥ e˧˥ n
+yuan3 ɥ e˨˩˦ n
+yuan4 ɥ e˥˩ n
+yuan5 ɥ e˦ n
+yuanr1 ɥ e˥˥ n rr
+yuanr2 ɥ e˧˥ n rr
+yuanr3 ɥ e˨˩˦ n rr
+yuanr4 ɥ e˥˩ n rr
+yuanr5 ɥ e˦ n rr
+yun1 y˥˥ n
+yun2 y˧˥ n
+yun3 y˨˩˦ n
+yun4 y˥˩ n
+yun5 y˦ n
+yunr1 y˥˥ n rr
+yunr2 y˧˥ n rr
+yunr3 y˨˩˦ n rr
+yunr4 y˥˩ n rr
+yunr5 y˦ n rr
+ba1 p a˥˥
+ba2 p a˧˥
+ba3 p a˨˩˦
+ba4 p a˥˩
+ba5 p a˦
+bar1 p a˥˥ rr
+bar2 p a˧˥ rr
+bar3 p a˨˩˦ rr
+bar4 p a˥˩ rr
+bar5 p a˦ rr
+bai1 p aj˥˥
+bai2 p aj˧˥
+bai3 p aj˨˩˦
+bai4 p aj˥˩
+bai5 p aj˦
+bair1 p aj˥˥ rr
+bair2 p aj˧˥ rr
+bair3 p aj˨˩˦ rr
+bair4 p aj˥˩ rr
+bair5 p aj˦ rr
+bao1 p aw˥˥
+bao2 p aw˧˥
+bao3 p aw˨˩˦
+bao4 p aw˥˩
+bao5 p aw˦
+baor1 p aw˥˥ rr
+baor2 p aw˧˥ rr
+baor3 p aw˨˩˦ rr
+baor4 p aw˥˩ rr
+baor5 p aw˦ rr
+ban1 p a˥˥ n
+ban2 p a˧˥ n
+ban3 p a˨˩˦ n
+ban4 p a˥˩ n
+ban5 p a˦ n
+banr1 p a˥˥ n rr
+banr2 p a˧˥ n rr
+banr3 p a˨˩˦ n rr
+banr4 p a˥˩ n rr
+banr5 p a˦ n rr
+bang1 p a˥˥ ŋ
+bang2 p a˧˥ ŋ
+bang3 p a˨˩˦ ŋ
+bang4 p a˥˩ ŋ
+bang5 p a˦ ŋ
+bangr1 p a˥˥ ŋ rr
+bangr2 p a˧˥ ŋ rr
+bangr3 p a˨˩˦ ŋ rr
+bangr4 p a˥˩ ŋ rr
+bangr5 p a˦ ŋ rr
+bei1 p ej˥˥
+bei2 p ej˧˥
+bei3 p ej˨˩˦
+bei4 p ej˥˩
+bei5 p ej˦
+beir1 p ej˥˥ rr
+beir2 p ej˧˥ rr
+beir3 p ej˨˩˦ rr
+beir4 p ej˥˩ rr
+beir5 p ej˦ rr
+ben1 p ə˥˥ n
+ben2 p ə˧˥ n
+ben3 p ə˨˩˦ n
+ben4 p ə˥˩ n
+ben5 p ə˦ n
+benr1 p ə˥˥ n rr
+benr2 p ə˧˥ n rr
+benr3 p ə˨˩˦ n rr
+benr4 p ə˥˩ n rr
+benr5 p ə˦ n rr
+beng1 p o˥˥ ŋ
+beng2 p o˧˥ ŋ
+beng3 p o˨˩˦ ŋ
+beng4 p o˥˩ ŋ
+beng5 p o˦ ŋ
+bengr1 p o˥˥ ŋ rr
+bengr2 p o˧˥ ŋ rr
+bengr3 p o˨˩˦ ŋ rr
+bengr4 p o˥˩ ŋ rr
+bengr5 p o˦ ŋ rr
+bo1 p w o˥˥
+bo2 p w o˧˥
+bo3 p w o˨˩˦
+bo4 p w o˥˩
+bo5 p w o˦
+bor1 p w o˥˥ rr
+bor2 p w o˧˥ rr
+bor3 p w o˨˩˦ rr
+bor4 p w o˥˩ rr
+bor5 p w o˦ rr
+bi1 p i˥˥
+bi2 p i˧˥
+bi3 p i˨˩˦
+bi4 p i˥˩
+bi5 p i˦
+bir1 p i˥˥ rr
+bir2 p i˧˥ rr
+bir3 p i˨˩˦ rr
+bir4 p i˥˩ rr
+bir5 p i˦ rr
+biao1 p j aw˥˥
+biao2 p j aw˧˥
+biao3 p j aw˨˩˦
+biao4 p j aw˥˩
+biao5 p j aw˦
+biaor1 p j aw˥˥ rr
+biaor2 p j aw˧˥ rr
+biaor3 p j aw˨˩˦ rr
+biaor4 p j aw˥˩ rr
+biaor5 p j aw˦ rr
+bian1 p j e˥˥ n
+bian2 p j e˧˥ n
+bian3 p j e˨˩˦ n
+bian4 p j e˥˩ n
+bian5 p j e˦ n
+bianr1 p j e˥˥ n rr
+bianr2 p j e˧˥ n rr
+bianr3 p j e˨˩˦ n rr
+bianr4 p j e˥˩ n rr
+bianr5 p j e˦ n rr
+bie1 p j e˥˥
+bie2 p j e˧˥
+bie3 p j e˨˩˦
+bie4 p j e˥˩
+bie5 p j e˦
+bier1 p j e˥˥ rr
+bier2 p j e˧˥ rr
+bier3 p j e˨˩˦ rr
+bier4 p j e˥˩ rr
+bier5 p j e˦ rr
+bin1 p i˥˥ n
+bin2 p i˧˥ n
+bin3 p i˨˩˦ n
+bin4 p i˥˩ n
+bin5 p i˦ n
+binr1 p i˥˥ n rr
+binr2 p i˧˥ n rr
+binr3 p i˨˩˦ n rr
+binr4 p i˥˩ n rr
+binr5 p i˦ n rr
+bing1 p i˥˥ ŋ
+bing2 p i˧˥ ŋ
+bing3 p i˨˩˦ ŋ
+bing4 p i˥˩ ŋ
+bing5 p i˦ ŋ
+bingr1 p i˥˥ ŋ rr
+bingr2 p i˧˥ ŋ rr
+bingr3 p i˨˩˦ ŋ rr
+bingr4 p i˥˩ ŋ rr
+bingr5 p i˦ ŋ rr
+bu1 p u˥˥
+bu2 p u˧˥
+bu3 p u˨˩˦
+bu4 p u˥˩
+bu5 p u˦
+bur1 p u˥˥ rr
+bur2 p u˧˥ rr
+bur3 p u˨˩˦ rr
+bur4 p u˥˩ rr
+bur5 p u˦ rr
+pa1 pʰ a˥˥
+pa2 pʰ a˧˥
+pa3 pʰ a˨˩˦
+pa4 pʰ a˥˩
+pa5 pʰ a˦
+par1 pʰ a˥˥ rr
+par2 pʰ a˧˥ rr
+par3 pʰ a˨˩˦ rr
+par4 pʰ a˥˩ rr
+par5 pʰ a˦ rr
+pai1 pʰ aj˥˥
+pai2 pʰ aj˧˥
+pai3 pʰ aj˨˩˦
+pai4 pʰ aj˥˩
+pai5 pʰ aj˦
+pair1 pʰ aj˥˥ rr
+pair2 pʰ aj˧˥ rr
+pair3 pʰ aj˨˩˦ rr
+pair4 pʰ aj˥˩ rr
+pair5 pʰ aj˦ rr
+pao1 pʰ aw˥˥
+pao2 pʰ aw˧˥
+pao3 pʰ aw˨˩˦
+pao4 pʰ aw˥˩
+pao5 pʰ aw˦
+paor1 pʰ aw˥˥ rr
+paor2 pʰ aw˧˥ rr
+paor3 pʰ aw˨˩˦ rr
+paor4 pʰ aw˥˩ rr
+paor5 pʰ aw˦ rr
+pan1 pʰ a˥˥ n
+pan2 pʰ a˧˥ n
+pan3 pʰ a˨˩˦ n
+pan4 pʰ a˥˩ n
+pan5 pʰ a˦ n
+panr1 pʰ a˥˥ n rr
+panr2 pʰ a˧˥ n rr
+panr3 pʰ a˨˩˦ n rr
+panr4 pʰ a˥˩ n rr
+panr5 pʰ a˦ n rr
+pang1 pʰ a˥˥ ŋ
+pang2 pʰ a˧˥ ŋ
+pang3 pʰ a˨˩˦ ŋ
+pang4 pʰ a˥˩ ŋ
+pang5 pʰ a˦ ŋ
+pangr1 pʰ a˥˥ ŋ rr
+pangr2 pʰ a˧˥ ŋ rr
+pangr3 pʰ a˨˩˦ ŋ rr
+pangr4 pʰ a˥˩ ŋ rr
+pangr5 pʰ a˦ ŋ rr
+pei1 pʰ ej˥˥
+pei2 pʰ ej˧˥
+pei3 pʰ ej˨˩˦
+pei4 pʰ ej˥˩
+pei5 pʰ ej˦
+peir1 pʰ ej˥˥ rr
+peir2 pʰ ej˧˥ rr
+peir3 pʰ ej˨˩˦ rr
+peir4 pʰ ej˥˩ rr
+peir5 pʰ ej˦ rr
+pen1 pʰ ə˥˥ n
+pen2 pʰ ə˧˥ n
+pen3 pʰ ə˨˩˦ n
+pen4 pʰ ə˥˩ n
+pen5 pʰ ə˦ n
+penr1 pʰ ə˥˥ n rr
+penr2 pʰ ə˧˥ n rr
+penr3 pʰ ə˨˩˦ n rr
+penr4 pʰ ə˥˩ n rr
+penr5 pʰ ə˦ n rr
+peng1 pʰ o˥˥ ŋ
+peng2 pʰ o˧˥ ŋ
+peng3 pʰ o˨˩˦ ŋ
+peng4 pʰ o˥˩ ŋ
+peng5 pʰ o˦ ŋ
+pengr1 pʰ o˥˥ ŋ rr
+pengr2 pʰ o˧˥ ŋ rr
+pengr3 pʰ o˨˩˦ ŋ rr
+pengr4 pʰ o˥˩ ŋ rr
+pengr5 pʰ o˦ ŋ rr
+po1 pʰ w o˥˥
+po2 pʰ w o˧˥
+po3 pʰ w o˨˩˦
+po4 pʰ w o˥˩
+po5 pʰ w o˦
+por1 pʰ w o˥˥ rr
+por2 pʰ w o˧˥ rr
+por3 pʰ w o˨˩˦ rr
+por4 pʰ w o˥˩ rr
+por5 pʰ w o˦ rr
+pou1 pʰ ow˥˥
+pou2 pʰ ow˧˥
+pou3 pʰ ow˨˩˦
+pou4 pʰ ow˥˩
+pou5 pʰ ow˦
+pour1 pʰ ow˥˥ rr
+pour2 pʰ ow˧˥ rr
+pour3 pʰ ow˨˩˦ rr
+pour4 pʰ ow˥˩ rr
+pour5 pʰ ow˦ rr
+pi1 pʰ i˥˥
+pi2 pʰ i˧˥
+pi3 pʰ i˨˩˦
+pi4 pʰ i˥˩
+pi5 pʰ i˦
+pir1 pʰ i˥˥ rr
+pir2 pʰ i˧˥ rr
+pir3 pʰ i˨˩˦ rr
+pir4 pʰ i˥˩ rr
+pir5 pʰ i˦ rr
+piao1 pʰ j aw˥˥
+piao2 pʰ j aw˧˥
+piao3 pʰ j aw˨˩˦
+piao4 pʰ j aw˥˩
+piao5 pʰ j aw˦
+piaor1 pʰ j aw˥˥ rr
+piaor2 pʰ j aw˧˥ rr
+piaor3 pʰ j aw˨˩˦ rr
+piaor4 pʰ j aw˥˩ rr
+piaor5 pʰ j aw˦ rr
+pian1 pʰ j e˥˥ n
+pian2 pʰ j e˧˥ n
+pian3 pʰ j e˨˩˦ n
+pian4 pʰ j e˥˩ n
+pian5 pʰ j e˦ n
+pianr1 pʰ j e˥˥ n rr
+pianr2 pʰ j e˧˥ n rr
+pianr3 pʰ j e˨˩˦ n rr
+pianr4 pʰ j e˥˩ n rr
+pianr5 pʰ j e˦ n rr
+pie1 pʰ j e˥˥
+pie2 pʰ j e˧˥
+pie3 pʰ j e˨˩˦
+pie4 pʰ j e˥˩
+pie5 pʰ j e˦
+pier1 pʰ j e˥˥ rr
+pier2 pʰ j e˧˥ rr
+pier3 pʰ j e˨˩˦ rr
+pier4 pʰ j e˥˩ rr
+pier5 pʰ j e˦ rr
+pin1 pʰ i˥˥ n
+pin2 pʰ i˧˥ n
+pin3 pʰ i˨˩˦ n
+pin4 pʰ i˥˩ n
+pin5 pʰ i˦ n
+pinr1 pʰ i˥˥ n rr
+pinr2 pʰ i˧˥ n rr
+pinr3 pʰ i˨˩˦ n rr
+pinr4 pʰ i˥˩ n rr
+pinr5 pʰ i˦ n rr
+ping1 pʰ i˥˥ ŋ
+ping2 pʰ i˧˥ ŋ
+ping3 pʰ i˨˩˦ ŋ
+ping4 pʰ i˥˩ ŋ
+ping5 pʰ i˦ ŋ
+pingr1 pʰ i˥˥ ŋ rr
+pingr2 pʰ i˧˥ ŋ rr
+pingr3 pʰ i˨˩˦ ŋ rr
+pingr4 pʰ i˥˩ ŋ rr
+pingr5 pʰ i˦ ŋ rr
+pu1 pʰ u˥˥
+pu2 pʰ u˧˥
+pu3 pʰ u˨˩˦
+pu4 pʰ u˥˩
+pu5 pʰ u˦
+pur1 pʰ u˥˥ rr
+pur2 pʰ u˧˥ rr
+pur3 pʰ u˨˩˦ rr
+pur4 pʰ u˥˩ rr
+pur5 pʰ u˦ rr
+ma1 m a˥˥
+ma2 m a˧˥
+ma3 m a˨˩˦
+ma4 m a˥˩
+ma5 m a˦
+mar1 m a˥˥ rr
+mar2 m a˧˥ rr
+mar3 m a˨˩˦ rr
+mar4 m a˥˩ rr
+mar5 m a˦ rr
+mai1 m aj˥˥
+mai2 m aj˧˥
+mai3 m aj˨˩˦
+mai4 m aj˥˩
+mai5 m aj˦
+mair1 m aj˥˥ rr
+mair2 m aj˧˥ rr
+mair3 m aj˨˩˦ rr
+mair4 m aj˥˩ rr
+mair5 m aj˦ rr
+mao1 m aw˥˥
+mao2 m aw˧˥
+mao3 m aw˨˩˦
+mao4 m aw˥˩
+mao5 m aw˦
+maor1 m aw˥˥ rr
+maor2 m aw˧˥ rr
+maor3 m aw˨˩˦ rr
+maor4 m aw˥˩ rr
+maor5 m aw˦ rr
+man1 m a˥˥ n
+man2 m a˧˥ n
+man3 m a˨˩˦ n
+man4 m a˥˩ n
+man5 m a˦ n
+manr1 m a˥˥ n rr
+manr2 m a˧˥ n rr
+manr3 m a˨˩˦ n rr
+manr4 m a˥˩ n rr
+manr5 m a˦ n rr
+mang1 m a˥˥ ŋ
+mang2 m a˧˥ ŋ
+mang3 m a˨˩˦ ŋ
+mang4 m a˥˩ ŋ
+mang5 m a˦ ŋ
+mangr1 m a˥˥ ŋ rr
+mangr2 m a˧˥ ŋ rr
+mangr3 m a˨˩˦ ŋ rr
+mangr4 m a˥˩ ŋ rr
+mangr5 m a˦ ŋ rr
+me1 m o˥˥
+me2 m o˧˥
+me3 m o˨˩˦
+me4 m o˥˩
+me5 m o˦
+mer1 m o˥˥ rr
+mer2 m o˧˥ rr
+mer3 m o˨˩˦ rr
+mer4 m o˥˩ rr
+mer5 m o˦ rr
+mei1 m ej˥˥
+mei2 m ej˧˥
+mei3 m ej˨˩˦
+mei4 m ej˥˩
+mei5 m ej˦
+meir1 m ej˥˥ rr
+meir2 m ej˧˥ rr
+meir3 m ej˨˩˦ rr
+meir4 m ej˥˩ rr
+meir5 m ej˦ rr
+men1 m ə˥˥ n
+men2 m ə˧˥ n
+men3 m ə˨˩˦ n
+men4 m ə˥˩ n
+men5 m ə˦ n
+menr1 m ə˥˥ n rr
+menr2 m ə˧˥ n rr
+menr3 m ə˨˩˦ n rr
+menr4 m ə˥˩ n rr
+menr5 m ə˦ n rr
+meng1 m o˥˥ ŋ
+meng2 m o˧˥ ŋ
+meng3 m o˨˩˦ ŋ
+meng4 m o˥˩ ŋ
+meng5 m o˦ ŋ
+mengr1 m o˥˥ ŋ rr
+mengr2 m o˧˥ ŋ rr
+mengr3 m o˨˩˦ ŋ rr
+mengr4 m o˥˩ ŋ rr
+mengr5 m o˦ ŋ rr
+mo1 m w o˥˥
+mo2 m w o˧˥
+mo3 m w o˨˩˦
+mo4 m w o˥˩
+mo5 m w o˦
+mor1 m w o˥˥ rr
+mor2 m w o˧˥ rr
+mor3 m w o˨˩˦ rr
+mor4 m w o˥˩ rr
+mor5 m w o˦ rr
+mou1 m ow˥˥
+mou2 m ow˧˥
+mou3 m ow˨˩˦
+mou4 m ow˥˩
+mou5 m ow˦
+mour1 m ow˥˥ rr
+mour2 m ow˧˥ rr
+mour3 m ow˨˩˦ rr
+mour4 m ow˥˩ rr
+mour5 m ow˦ rr
+mi1 m i˥˥
+mi2 m i˧˥
+mi3 m i˨˩˦
+mi4 m i˥˩
+mi5 m i˦
+mir1 m i˥˥ rr
+mir2 m i˧˥ rr
+mir3 m i˨˩˦ rr
+mir4 m i˥˩ rr
+mir5 m i˦ rr
+miao1 m j aw˥˥
+miao2 m j aw˧˥
+miao3 m j aw˨˩˦
+miao4 m j aw˥˩
+miao5 m j aw˦
+miaor1 m j aw˥˥ rr
+miaor2 m j aw˧˥ rr
+miaor3 m j aw˨˩˦ rr
+miaor4 m j aw˥˩ rr
+miaor5 m j aw˦ rr
+mian1 m j e˥˥ n
+mian2 m j e˧˥ n
+mian3 m j e˨˩˦ n
+mian4 m j e˥˩ n
+mian5 m j e˦ n
+mianr1 m j e˥˥ n rr
+mianr2 m j e˧˥ n rr
+mianr3 m j e˨˩˦ n rr
+mianr4 m j e˥˩ n rr
+mianr5 m j e˦ n rr
+mie1 m j e˥˥
+mie2 m j e˧˥
+mie3 m j e˨˩˦
+mie4 m j e˥˩
+mie5 m j e˦
+mier1 m j e˥˥ rr
+mier2 m j e˧˥ rr
+mier3 m j e˨˩˦ rr
+mier4 m j e˥˩ rr
+mier5 m j e˦ rr
+miu1 m j ow˥˥
+miu2 m j ow˧˥
+miu3 m j ow˨˩˦
+miu4 m j ow˥˩
+miu5 m j ow˦
+miur1 m j ow˥˥ rr
+miur2 m j ow˧˥ rr
+miur3 m j ow˨˩˦ rr
+miur4 m j ow˥˩ rr
+miur5 m j ow˦ rr
+min1 m i˥˥ n
+min2 m i˧˥ n
+min3 m i˨˩˦ n
+min4 m i˥˩ n
+min5 m i˦ n
+minr1 m i˥˥ n rr
+minr2 m i˧˥ n rr
+minr3 m i˨˩˦ n rr
+minr4 m i˥˩ n rr
+minr5 m i˦ n rr
+ming1 m i˥˥ ŋ
+ming2 m i˧˥ ŋ
+ming3 m i˨˩˦ ŋ
+ming4 m i˥˩ ŋ
+ming5 m i˦ ŋ
+mingr1 m i˥˥ ŋ rr
+mingr2 m i˧˥ ŋ rr
+mingr3 m i˨˩˦ ŋ rr
+mingr4 m i˥˩ ŋ rr
+mingr5 m i˦ ŋ rr
+mu1 m u˥˥
+mu2 m u˧˥
+mu3 m u˨˩˦
+mu4 m u˥˩
+mu5 m u˦
+mur1 m u˥˥ rr
+mur2 m u˧˥ rr
+mur3 m u˨˩˦ rr
+mur4 m u˥˩ rr
+mur5 m u˦ rr
+fa1 f a˥˥
+fa2 f a˧˥
+fa3 f a˨˩˦
+fa4 f a˥˩
+fa5 f a˦
+far1 f a˥˥ rr
+far2 f a˧˥ rr
+far3 f a˨˩˦ rr
+far4 f a˥˩ rr
+far5 f a˦ rr
+fan1 f a˥˥ n
+fan2 f a˧˥ n
+fan3 f a˨˩˦ n
+fan4 f a˥˩ n
+fan5 f a˦ n
+fanr1 f a˥˥ n rr
+fanr2 f a˧˥ n rr
+fanr3 f a˨˩˦ n rr
+fanr4 f a˥˩ n rr
+fanr5 f a˦ n rr
+fang1 f a˥˥ ŋ
+fang2 f a˧˥ ŋ
+fang3 f a˨˩˦ ŋ
+fang4 f a˥˩ ŋ
+fang5 f a˦ ŋ
+fangr1 f a˥˥ ŋ rr
+fangr2 f a˧˥ ŋ rr
+fangr3 f a˨˩˦ ŋ rr
+fangr4 f a˥˩ ŋ rr
+fangr5 f a˦ ŋ rr
+fei1 f ej˥˥
+fei2 f ej˧˥
+fei3 f ej˨˩˦
+fei4 f ej˥˩
+fei5 f ej˦
+feir1 f ej˥˥ rr
+feir2 f ej˧˥ rr
+feir3 f ej˨˩˦ rr
+feir4 f ej˥˩ rr
+feir5 f ej˦ rr
+fen1 f ə˥˥ n
+fen2 f ə˧˥ n
+fen3 f ə˨˩˦ n
+fen4 f ə˥˩ n
+fen5 f ə˦ n
+fenr1 f ə˥˥ n rr
+fenr2 f ə˧˥ n rr
+fenr3 f ə˨˩˦ n rr
+fenr4 f ə˥˩ n rr
+fenr5 f ə˦ n rr
+feng1 f o˥˥ ŋ
+feng2 f o˧˥ ŋ
+feng3 f o˨˩˦ ŋ
+feng4 f o˥˩ ŋ
+feng5 f o˦ ŋ
+fengr1 f o˥˥ ŋ rr
+fengr2 f o˧˥ ŋ rr
+fengr3 f o˨˩˦ ŋ rr
+fengr4 f o˥˩ ŋ rr
+fengr5 f o˦ ŋ rr
+fo1 f w o˥˥
+fo2 f w o˧˥
+fo3 f w o˨˩˦
+fo4 f w o˥˩
+fo5 f w o˦
+for1 f w o˥˥ rr
+for2 f w o˧˥ rr
+for3 f w o˨˩˦ rr
+for4 f w o˥˩ rr
+for5 f w o˦ rr
+fou1 f ow˥˥
+fou2 f ow˧˥
+fou3 f ow˨˩˦
+fou4 f ow˥˩
+fou5 f ow˦
+four1 f ow˥˥ rr
+four2 f ow˧˥ rr
+four3 f ow˨˩˦ rr
+four4 f ow˥˩ rr
+four5 f ow˦ rr
+fu1 f u˥˥
+fu2 f u˧˥
+fu3 f u˨˩˦
+fu4 f u˥˩
+fu5 f u˦
+fur1 f u˥˥ rr
+fur2 f u˧˥ rr
+fur3 f u˨˩˦ rr
+fur4 f u˥˩ rr
+fur5 f u˦ rr
+da1 t a˥˥
+da2 t a˧˥
+da3 t a˨˩˦
+da4 t a˥˩
+da5 t a˦
+dar1 t a˥˥ rr
+dar2 t a˧˥ rr
+dar3 t a˨˩˦ rr
+dar4 t a˥˩ rr
+dar5 t a˦ rr
+dai1 t aj˥˥
+dai2 t aj˧˥
+dai3 t aj˨˩˦
+dai4 t aj˥˩
+dai5 t aj˦
+dair1 t aj˥˥ rr
+dair2 t aj˧˥ rr
+dair3 t aj˨˩˦ rr
+dair4 t aj˥˩ rr
+dair5 t aj˦ rr
+dao1 t aw˥˥
+dao2 t aw˧˥
+dao3 t aw˨˩˦
+dao4 t aw˥˩
+dao5 t aw˦
+daor1 t aw˥˥ rr
+daor2 t aw˧˥ rr
+daor3 t aw˨˩˦ rr
+daor4 t aw˥˩ rr
+daor5 t aw˦ rr
+dan1 t a˥˥ n
+dan2 t a˧˥ n
+dan3 t a˨˩˦ n
+dan4 t a˥˩ n
+dan5 t a˦ n
+danr1 t a˥˥ n rr
+danr2 t a˧˥ n rr
+danr3 t a˨˩˦ n rr
+danr4 t a˥˩ n rr
+danr5 t a˦ n rr
+dang1 t a˥˥ ŋ
+dang2 t a˧˥ ŋ
+dang3 t a˨˩˦ ŋ
+dang4 t a˥˩ ŋ
+dang5 t a˦ ŋ
+dangr1 t a˥˥ ŋ rr
+dangr2 t a˧˥ ŋ rr
+dangr3 t a˨˩˦ ŋ rr
+dangr4 t a˥˩ ŋ rr
+dangr5 t a˦ ŋ rr
+de1 t o˥˥
+de2 t o˧˥
+de3 t o˨˩˦
+de4 t o˥˩
+de5 t o˦
+der1 t o˥˥ rr
+der2 t o˧˥ rr
+der3 t o˨˩˦ rr
+der4 t o˥˩ rr
+der5 t o˦ rr
+dei1 t ej˥˥
+dei2 t ej˧˥
+dei3 t ej˨˩˦
+dei4 t ej˥˩
+dei5 t ej˦
+deir1 t ej˥˥ rr
+deir2 t ej˧˥ rr
+deir3 t ej˨˩˦ rr
+deir4 t ej˥˩ rr
+deir5 t ej˦ rr
+den1 t ə˥˥ n
+den2 t ə˧˥ n
+den3 t ə˨˩˦ n
+den4 t ə˥˩ n
+den5 t ə˦ n
+denr1 t ə˥˥ n rr
+denr2 t ə˧˥ n rr
+denr3 t ə˨˩˦ n rr
+denr4 t ə˥˩ n rr
+denr5 t ə˦ n rr
+deng1 t o˥˥ ŋ
+deng2 t o˧˥ ŋ
+deng3 t o˨˩˦ ŋ
+deng4 t o˥˩ ŋ
+deng5 t o˦ ŋ
+dengr1 t o˥˥ ŋ rr
+dengr2 t o˧˥ ŋ rr
+dengr3 t o˨˩˦ ŋ rr
+dengr4 t o˥˩ ŋ rr
+dengr5 t o˦ ŋ rr
+dou1 t ow˥˥
+dou2 t ow˧˥
+dou3 t ow˨˩˦
+dou4 t ow˥˩
+dou5 t ow˦
+dour1 t ow˥˥ rr
+dour2 t ow˧˥ rr
+dour3 t ow˨˩˦ rr
+dour4 t ow˥˩ rr
+dour5 t ow˦ rr
+dong1 t u˥˥ ŋ
+dong2 t u˧˥ ŋ
+dong3 t u˨˩˦ ŋ
+dong4 t u˥˩ ŋ
+dong5 t u˦ ŋ
+dongr1 t u˥˥ ŋ rr
+dongr2 t u˧˥ ŋ rr
+dongr3 t u˨˩˦ ŋ rr
+dongr4 t u˥˩ ŋ rr
+dongr5 t u˦ ŋ rr
+di1 t i˥˥
+di2 t i˧˥
+di3 t i˨˩˦
+di4 t i˥˩
+di5 t i˦
+dir1 t i˥˥ rr
+dir2 t i˧˥ rr
+dir3 t i˨˩˦ rr
+dir4 t i˥˩ rr
+dir5 t i˦ rr
+dia1 t j a˥˥
+dia2 t j a˧˥
+dia3 t j a˨˩˦
+dia4 t j a˥˩
+dia5 t j a˦
+diar1 t j a˥˥ rr
+diar2 t j a˧˥ rr
+diar3 t j a˨˩˦ rr
+diar4 t j a˥˩ rr
+diar5 t j a˦ rr
+diao1 t j aw˥˥
+diao2 t j aw˧˥
+diao3 t j aw˨˩˦
+diao4 t j aw˥˩
+diao5 t j aw˦
+diaor1 t j aw˥˥ rr
+diaor2 t j aw˧˥ rr
+diaor3 t j aw˨˩˦ rr
+diaor4 t j aw˥˩ rr
+diaor5 t j aw˦ rr
+dian1 t j e˥˥ n
+dian2 t j e˧˥ n
+dian3 t j e˨˩˦ n
+dian4 t j e˥˩ n
+dian5 t j e˦ n
+dianr1 t j e˥˥ n rr
+dianr2 t j e˧˥ n rr
+dianr3 t j e˨˩˦ n rr
+dianr4 t j e˥˩ n rr
+dianr5 t j e˦ n rr
+die1 t j e˥˥
+die2 t j e˧˥
+die3 t j e˨˩˦
+die4 t j e˥˩
+die5 t j e˦
+dier1 t j e˥˥ rr
+dier2 t j e˧˥ rr
+dier3 t j e˨˩˦ rr
+dier4 t j e˥˩ rr
+dier5 t j e˦ rr
+diu1 t j ow˥˥
+diu2 t j ow˧˥
+diu3 t j ow˨˩˦
+diu4 t j ow˥˩
+diu5 t j ow˦
+diur1 t j ow˥˥ rr
+diur2 t j ow˧˥ rr
+diur3 t j ow˨˩˦ rr
+diur4 t j ow˥˩ rr
+diur5 t j ow˦ rr
+ding1 t i˥˥ ŋ
+ding2 t i˧˥ ŋ
+ding3 t i˨˩˦ ŋ
+ding4 t i˥˩ ŋ
+ding5 t i˦ ŋ
+dingr1 t i˥˥ ŋ rr
+dingr2 t i˧˥ ŋ rr
+dingr3 t i˨˩˦ ŋ rr
+dingr4 t i˥˩ ŋ rr
+dingr5 t i˦ ŋ rr
+du1 t u˥˥
+du2 t u˧˥
+du3 t u˨˩˦
+du4 t u˥˩
+du5 t u˦
+dur1 t u˥˥ rr
+dur2 t u˧˥ rr
+dur3 t u˨˩˦ rr
+dur4 t u˥˩ rr
+dur5 t u˦ rr
+duan1 t w a˥˥ n
+duan2 t w a˧˥ n
+duan3 t w a˨˩˦ n
+duan4 t w a˥˩ n
+duan5 t w a˦ n
+duanr1 t w a˥˥ n rr
+duanr2 t w a˧˥ n rr
+duanr3 t w a˨˩˦ n rr
+duanr4 t w a˥˩ n rr
+duanr5 t w a˦ n rr
+dui1 t w ej˥˥
+dui2 t w ej˧˥
+dui3 t w ej˨˩˦
+dui4 t w ej˥˩
+dui5 t w ej˦
+duir1 t w ej˥˥ rr
+duir2 t w ej˧˥ rr
+duir3 t w ej˨˩˦ rr
+duir4 t w ej˥˩ rr
+duir5 t w ej˦ rr
+duo1 t w o˥˥
+duo2 t w o˧˥
+duo3 t w o˨˩˦
+duo4 t w o˥˩
+duo5 t w o˦
+duor1 t w o˥˥ rr
+duor2 t w o˧˥ rr
+duor3 t w o˨˩˦ rr
+duor4 t w o˥˩ rr
+duor5 t w o˦ rr
+dun1 t w ə˥˥ n
+dun2 t w ə˧˥ n
+dun3 t w ə˨˩˦ n
+dun4 t w ə˥˩ n
+dun5 t w ə˦ n
+dunr1 t w ə˥˥ n rr
+dunr2 t w ə˧˥ n rr
+dunr3 t w ə˨˩˦ n rr
+dunr4 t w ə˥˩ n rr
+dunr5 t w ə˦ n rr
+ta1 tʰ a˥˥
+ta2 tʰ a˧˥
+ta3 tʰ a˨˩˦
+ta4 tʰ a˥˩
+ta5 tʰ a˦
+tar1 tʰ a˥˥ rr
+tar2 tʰ a˧˥ rr
+tar3 tʰ a˨˩˦ rr
+tar4 tʰ a˥˩ rr
+tar5 tʰ a˦ rr
+tai1 tʰ aj˥˥
+tai2 tʰ aj˧˥
+tai3 tʰ aj˨˩˦
+tai4 tʰ aj˥˩
+tai5 tʰ aj˦
+tair1 tʰ aj˥˥ rr
+tair2 tʰ aj˧˥ rr
+tair3 tʰ aj˨˩˦ rr
+tair4 tʰ aj˥˩ rr
+tair5 tʰ aj˦ rr
+tao1 tʰ aw˥˥
+tao2 tʰ aw˧˥
+tao3 tʰ aw˨˩˦
+tao4 tʰ aw˥˩
+tao5 tʰ aw˦
+taor1 tʰ aw˥˥ rr
+taor2 tʰ aw˧˥ rr
+taor3 tʰ aw˨˩˦ rr
+taor4 tʰ aw˥˩ rr
+taor5 tʰ aw˦ rr
+tan1 tʰ a˥˥ n
+tan2 tʰ a˧˥ n
+tan3 tʰ a˨˩˦ n
+tan4 tʰ a˥˩ n
+tan5 tʰ a˦ n
+tanr1 tʰ a˥˥ n rr
+tanr2 tʰ a˧˥ n rr
+tanr3 tʰ a˨˩˦ n rr
+tanr4 tʰ a˥˩ n rr
+tanr5 tʰ a˦ n rr
+tang1 tʰ a˥˥ ŋ
+tang2 tʰ a˧˥ ŋ
+tang3 tʰ a˨˩˦ ŋ
+tang4 tʰ a˥˩ ŋ
+tang5 tʰ a˦ ŋ
+tangr1 tʰ a˥˥ ŋ rr
+tangr2 tʰ a˧˥ ŋ rr
+tangr3 tʰ a˨˩˦ ŋ rr
+tangr4 tʰ a˥˩ ŋ rr
+tangr5 tʰ a˦ ŋ rr
+te1 tʰ o˥˥
+te2 tʰ o˧˥
+te3 tʰ o˨˩˦
+te4 tʰ o˥˩
+te5 tʰ o˦
+ter1 tʰ o˥˥ rr
+ter2 tʰ o˧˥ rr
+ter3 tʰ o˨˩˦ rr
+ter4 tʰ o˥˩ rr
+ter5 tʰ o˦ rr
+tei1 tʰ ej˥˥
+tei2 tʰ ej˧˥
+tei3 tʰ ej˨˩˦
+tei4 tʰ ej˥˩
+tei5 tʰ ej˦
+teir1 tʰ ej˥˥ rr
+teir2 tʰ ej˧˥ rr
+teir3 tʰ ej˨˩˦ rr
+teir4 tʰ ej˥˩ rr
+teir5 tʰ ej˦ rr
+teng1 tʰ o˥˥ ŋ
+teng2 tʰ o˧˥ ŋ
+teng3 tʰ o˨˩˦ ŋ
+teng4 tʰ o˥˩ ŋ
+teng5 tʰ o˦ ŋ
+tengr1 tʰ o˥˥ ŋ rr
+tengr2 tʰ o˧˥ ŋ rr
+tengr3 tʰ o˨˩˦ ŋ rr
+tengr4 tʰ o˥˩ ŋ rr
+tengr5 tʰ o˦ ŋ rr
+tou1 tʰ ow˥˥
+tou2 tʰ ow˧˥
+tou3 tʰ ow˨˩˦
+tou4 tʰ ow˥˩
+tou5 tʰ ow˦
+tour1 tʰ ow˥˥ rr
+tour2 tʰ ow˧˥ rr
+tour3 tʰ ow˨˩˦ rr
+tour4 tʰ ow˥˩ rr
+tour5 tʰ ow˦ rr
+tong1 tʰ u˥˥ ŋ
+tong2 tʰ u˧˥ ŋ
+tong3 tʰ u˨˩˦ ŋ
+tong4 tʰ u˥˩ ŋ
+tong5 tʰ u˦ ŋ
+tongr1 tʰ u˥˥ ŋ rr
+tongr2 tʰ u˧˥ ŋ rr
+tongr3 tʰ u˨˩˦ ŋ rr
+tongr4 tʰ u˥˩ ŋ rr
+tongr5 tʰ u˦ ŋ rr
+ti1 tʰ i˥˥
+ti2 tʰ i˧˥
+ti3 tʰ i˨˩˦
+ti4 tʰ i˥˩
+ti5 tʰ i˦
+tir1 tʰ i˥˥ rr
+tir2 tʰ i˧˥ rr
+tir3 tʰ i˨˩˦ rr
+tir4 tʰ i˥˩ rr
+tir5 tʰ i˦ rr
+tiao1 tʰ j aw˥˥
+tiao2 tʰ j aw˧˥
+tiao3 tʰ j aw˨˩˦
+tiao4 tʰ j aw˥˩
+tiao5 tʰ j aw˦
+tiaor1 tʰ j aw˥˥ rr
+tiaor2 tʰ j aw˧˥ rr
+tiaor3 tʰ j aw˨˩˦ rr
+tiaor4 tʰ j aw˥˩ rr
+tiaor5 tʰ j aw˦ rr
+tian1 tʰ j e˥˥ n
+tian2 tʰ j e˧˥ n
+tian3 tʰ j e˨˩˦ n
+tian4 tʰ j e˥˩ n
+tian5 tʰ j e˦ n
+tianr1 tʰ j e˥˥ n rr
+tianr2 tʰ j e˧˥ n rr
+tianr3 tʰ j e˨˩˦ n rr
+tianr4 tʰ j e˥˩ n rr
+tianr5 tʰ j e˦ n rr
+tie1 tʰ j e˥˥
+tie2 tʰ j e˧˥
+tie3 tʰ j e˨˩˦
+tie4 tʰ j e˥˩
+tie5 tʰ j e˦
+tier1 tʰ j e˥˥ rr
+tier2 tʰ j e˧˥ rr
+tier3 tʰ j e˨˩˦ rr
+tier4 tʰ j e˥˩ rr
+tier5 tʰ j e˦ rr
+ting1 tʰ i˥˥ ŋ
+ting2 tʰ i˧˥ ŋ
+ting3 tʰ i˨˩˦ ŋ
+ting4 tʰ i˥˩ ŋ
+ting5 tʰ i˦ ŋ
+tingr1 tʰ i˥˥ ŋ rr
+tingr2 tʰ i˧˥ ŋ rr
+tingr3 tʰ i˨˩˦ ŋ rr
+tingr4 tʰ i˥˩ ŋ rr
+tingr5 tʰ i˦ ŋ rr
+tu1 tʰ u˥˥
+tu2 tʰ u˧˥
+tu3 tʰ u˨˩˦
+tu4 tʰ u˥˩
+tu5 tʰ u˦
+tur1 tʰ u˥˥ rr
+tur2 tʰ u˧˥ rr
+tur3 tʰ u˨˩˦ rr
+tur4 tʰ u˥˩ rr
+tur5 tʰ u˦ rr
+tuan1 tʰ w a˥˥ n
+tuan2 tʰ w a˧˥ n
+tuan3 tʰ w a˨˩˦ n
+tuan4 tʰ w a˥˩ n
+tuan5 tʰ w a˦ n
+tuanr1 tʰ w a˥˥ n rr
+tuanr2 tʰ w a˧˥ n rr
+tuanr3 tʰ w a˨˩˦ n rr
+tuanr4 tʰ w a˥˩ n rr
+tuanr5 tʰ w a˦ n rr
+tui1 tʰ w ej˥˥
+tui2 tʰ w ej˧˥
+tui3 tʰ w ej˨˩˦
+tui4 tʰ w ej˥˩
+tui5 tʰ w ej˦
+tuir1 tʰ w ej˥˥ rr
+tuir2 tʰ w ej˧˥ rr
+tuir3 tʰ w ej˨˩˦ rr
+tuir4 tʰ w ej˥˩ rr
+tuir5 tʰ w ej˦ rr
+tuo1 tʰ w o˥˥
+tuo2 tʰ w o˧˥
+tuo3 tʰ w o˨˩˦
+tuo4 tʰ w o˥˩
+tuo5 tʰ w o˦
+tuor1 tʰ w o˥˥ rr
+tuor2 tʰ w o˧˥ rr
+tuor3 tʰ w o˨˩˦ rr
+tuor4 tʰ w o˥˩ rr
+tuor5 tʰ w o˦ rr
+tun1 tʰ w ə˥˥ n
+tun2 tʰ w ə˧˥ n
+tun3 tʰ w ə˨˩˦ n
+tun4 tʰ w ə˥˩ n
+tun5 tʰ w ə˦ n
+tunr1 tʰ w ə˥˥ n rr
+tunr2 tʰ w ə˧˥ n rr
+tunr3 tʰ w ə˨˩˦ n rr
+tunr4 tʰ w ə˥˩ n rr
+tunr5 tʰ w ə˦ n rr
+na1 n a˥˥
+na2 n a˧˥
+na3 n a˨˩˦
+na4 n a˥˩
+na5 n a˦
+nar1 n a˥˥ rr
+nar2 n a˧˥ rr
+nar3 n a˨˩˦ rr
+nar4 n a˥˩ rr
+nar5 n a˦ rr
+nai1 n aj˥˥
+nai2 n aj˧˥
+nai3 n aj˨˩˦
+nai4 n aj˥˩
+nai5 n aj˦
+nair1 n aj˥˥ rr
+nair2 n aj˧˥ rr
+nair3 n aj˨˩˦ rr
+nair4 n aj˥˩ rr
+nair5 n aj˦ rr
+nao1 n aw˥˥
+nao2 n aw˧˥
+nao3 n aw˨˩˦
+nao4 n aw˥˩
+nao5 n aw˦
+naor1 n aw˥˥ rr
+naor2 n aw˧˥ rr
+naor3 n aw˨˩˦ rr
+naor4 n aw˥˩ rr
+naor5 n aw˦ rr
+nan1 n a˥˥ n
+nan2 n a˧˥ n
+nan3 n a˨˩˦ n
+nan4 n a˥˩ n
+nan5 n a˦ n
+nanr1 n a˥˥ n rr
+nanr2 n a˧˥ n rr
+nanr3 n a˨˩˦ n rr
+nanr4 n a˥˩ n rr
+nanr5 n a˦ n rr
+nang1 n a˥˥ ŋ
+nang2 n a˧˥ ŋ
+nang3 n a˨˩˦ ŋ
+nang4 n a˥˩ ŋ
+nang5 n a˦ ŋ
+nangr1 n a˥˥ ŋ rr
+nangr2 n a˧˥ ŋ rr
+nangr3 n a˨˩˦ ŋ rr
+nangr4 n a˥˩ ŋ rr
+nangr5 n a˦ ŋ rr
+ne1 n o˥˥
+ne2 n o˧˥
+ne3 n o˨˩˦
+ne4 n o˥˩
+ne5 n o˦
+ner1 n o˥˥ rr
+ner2 n o˧˥ rr
+ner3 n o˨˩˦ rr
+ner4 n o˥˩ rr
+ner5 n o˦ rr
+nei1 n ej˥˥
+nei2 n ej˧˥
+nei3 n ej˨˩˦
+nei4 n ej˥˩
+nei5 n ej˦
+neir1 n ej˥˥ rr
+neir2 n ej˧˥ rr
+neir3 n ej˨˩˦ rr
+neir4 n ej˥˩ rr
+neir5 n ej˦ rr
+nen1 n ə˥˥ n
+nen2 n ə˧˥ n
+nen3 n ə˨˩˦ n
+nen4 n ə˥˩ n
+nen5 n ə˦ n
+nenr1 n ə˥˥ n rr
+nenr2 n ə˧˥ n rr
+nenr3 n ə˨˩˦ n rr
+nenr4 n ə˥˩ n rr
+nenr5 n ə˦ n rr
+neng1 n o˥˥ ŋ
+neng2 n o˧˥ ŋ
+neng3 n o˨˩˦ ŋ
+neng4 n o˥˩ ŋ
+neng5 n o˦ ŋ
+nengr1 n o˥˥ ŋ rr
+nengr2 n o˧˥ ŋ rr
+nengr3 n o˨˩˦ ŋ rr
+nengr4 n o˥˩ ŋ rr
+nengr5 n o˦ ŋ rr
+nou1 n ow˥˥
+nou2 n ow˧˥
+nou3 n ow˨˩˦
+nou4 n ow˥˩
+nou5 n ow˦
+nour1 n ow˥˥ rr
+nour2 n ow˧˥ rr
+nour3 n ow˨˩˦ rr
+nour4 n ow˥˩ rr
+nour5 n ow˦ rr
+nong1 n u˥˥ ŋ
+nong2 n u˧˥ ŋ
+nong3 n u˨˩˦ ŋ
+nong4 n u˥˩ ŋ
+nong5 n u˦ ŋ
+nongr1 n u˥˥ ŋ rr
+nongr2 n u˧˥ ŋ rr
+nongr3 n u˨˩˦ ŋ rr
+nongr4 n u˥˩ ŋ rr
+nongr5 n u˦ ŋ rr
+ni1 n i˥˥
+ni2 n i˧˥
+ni3 n i˨˩˦
+ni4 n i˥˩
+ni5 n i˦
+nir1 n i˥˥ rr
+nir2 n i˧˥ rr
+nir3 n i˨˩˦ rr
+nir4 n i˥˩ rr
+nir5 n i˦ rr
+niao1 n j aw˥˥
+niao2 n j aw˧˥
+niao3 n j aw˨˩˦
+niao4 n j aw˥˩
+niao5 n j aw˦
+niaor1 n j aw˥˥ rr
+niaor2 n j aw˧˥ rr
+niaor3 n j aw˨˩˦ rr
+niaor4 n j aw˥˩ rr
+niaor5 n j aw˦ rr
+nian1 n j e˥˥ n
+nian2 n j e˧˥ n
+nian3 n j e˨˩˦ n
+nian4 n j e˥˩ n
+nian5 n j e˦ n
+nianr1 n j e˥˥ n rr
+nianr2 n j e˧˥ n rr
+nianr3 n j e˨˩˦ n rr
+nianr4 n j e˥˩ n rr
+nianr5 n j e˦ n rr
+niang1 n j a˥˥ ŋ
+niang2 n j a˧˥ ŋ
+niang3 n j a˨˩˦ ŋ
+niang4 n j a˥˩ ŋ
+niang5 n j a˦ ŋ
+niangr1 n j a˥˥ ŋ rr
+niangr2 n j a˧˥ ŋ rr
+niangr3 n j a˨˩˦ ŋ rr
+niangr4 n j a˥˩ ŋ rr
+niangr5 n j a˦ ŋ rr
+nie1 n j e˥˥
+nie2 n j e˧˥
+nie3 n j e˨˩˦
+nie4 n j e˥˩
+nie5 n j e˦
+nier1 n j e˥˥ rr
+nier2 n j e˧˥ rr
+nier3 n j e˨˩˦ rr
+nier4 n j e˥˩ rr
+nier5 n j e˦ rr
+niu1 n j ow˥˥
+niu2 n j ow˧˥
+niu3 n j ow˨˩˦
+niu4 n j ow˥˩
+niu5 n j ow˦
+niur1 n j ow˥˥ rr
+niur2 n j ow˧˥ rr
+niur3 n j ow˨˩˦ rr
+niur4 n j ow˥˩ rr
+niur5 n j ow˦ rr
+nin1 n i˥˥ n
+nin2 n i˧˥ n
+nin3 n i˨˩˦ n
+nin4 n i˥˩ n
+nin5 n i˦ n
+ninr1 n i˥˥ n rr
+ninr2 n i˧˥ n rr
+ninr3 n i˨˩˦ n rr
+ninr4 n i˥˩ n rr
+ninr5 n i˦ n rr
+ning1 n i˥˥ ŋ
+ning2 n i˧˥ ŋ
+ning3 n i˨˩˦ ŋ
+ning4 n i˥˩ ŋ
+ning5 n i˦ ŋ
+ningr1 n i˥˥ ŋ rr
+ningr2 n i˧˥ ŋ rr
+ningr3 n i˨˩˦ ŋ rr
+ningr4 n i˥˩ ŋ rr
+ningr5 n i˦ ŋ rr
+nu1 n u˥˥
+nu2 n u˧˥
+nu3 n u˨˩˦
+nu4 n u˥˩
+nu5 n u˦
+nur1 n u˥˥ rr
+nur2 n u˧˥ rr
+nur3 n u˨˩˦ rr
+nur4 n u˥˩ rr
+nur5 n u˦ rr
+nuan1 n w a˥˥ n
+nuan2 n w a˧˥ n
+nuan3 n w a˨˩˦ n
+nuan4 n w a˥˩ n
+nuan5 n w a˦ n
+nuanr1 n w a˥˥ n rr
+nuanr2 n w a˧˥ n rr
+nuanr3 n w a˨˩˦ n rr
+nuanr4 n w a˥˩ n rr
+nuanr5 n w a˦ n rr
+nuo1 n w o˥˥
+nuo2 n w o˧˥
+nuo3 n w o˨˩˦
+nuo4 n w o˥˩
+nuo5 n w o˦
+nuor1 n w o˥˥ rr
+nuor2 n w o˧˥ rr
+nuor3 n w o˨˩˦ rr
+nuor4 n w o˥˩ rr
+nuor5 n w o˦ rr
+nv1 n y˥˥
+nv2 n y˧˥
+nv3 n y˨˩˦
+nv4 n y˥˩
+nv5 n y˦
+nvr1 n y˥˥ rr
+nvr2 n y˧˥ rr
+nvr3 n y˨˩˦ rr
+nvr4 n y˥˩ rr
+nvr5 n y˦ rr
+nve1 n ɥ e˥˥
+nve2 n ɥ e˧˥
+nve3 n ɥ e˨˩˦
+nve4 n ɥ e˥˩
+nve5 n ɥ e˦
+nver1 n ɥ e˥˥ rr
+nver2 n ɥ e˧˥ rr
+nver3 n ɥ e˨˩˦ rr
+nver4 n ɥ e˥˩ rr
+nver5 n ɥ e˦ rr
+la1 l a˥˥
+la2 l a˧˥
+la3 l a˨˩˦
+la4 l a˥˩
+la5 l a˦
+lar1 l a˥˥ rr
+lar2 l a˧˥ rr
+lar3 l a˨˩˦ rr
+lar4 l a˥˩ rr
+lar5 l a˦ rr
+lai1 l aj˥˥
+lai2 l aj˧˥
+lai3 l aj˨˩˦
+lai4 l aj˥˩
+lai5 l aj˦
+lair1 l aj˥˥ rr
+lair2 l aj˧˥ rr
+lair3 l aj˨˩˦ rr
+lair4 l aj˥˩ rr
+lair5 l aj˦ rr
+lao1 l aw˥˥
+lao2 l aw˧˥
+lao3 l aw˨˩˦
+lao4 l aw˥˩
+lao5 l aw˦
+laor1 l aw˥˥ rr
+laor2 l aw˧˥ rr
+laor3 l aw˨˩˦ rr
+laor4 l aw˥˩ rr
+laor5 l aw˦ rr
+lan1 l a˥˥ n
+lan2 l a˧˥ n
+lan3 l a˨˩˦ n
+lan4 l a˥˩ n
+lan5 l a˦ n
+lanr1 l a˥˥ n rr
+lanr2 l a˧˥ n rr
+lanr3 l a˨˩˦ n rr
+lanr4 l a˥˩ n rr
+lanr5 l a˦ n rr
+lang1 l a˥˥ ŋ
+lang2 l a˧˥ ŋ
+lang3 l a˨˩˦ ŋ
+lang4 l a˥˩ ŋ
+lang5 l a˦ ŋ
+langr1 l a˥˥ ŋ rr
+langr2 l a˧˥ ŋ rr
+langr3 l a˨˩˦ ŋ rr
+langr4 l a˥˩ ŋ rr
+langr5 l a˦ ŋ rr
+le1 l o˥˥
+le2 l o˧˥
+le3 l o˨˩˦
+le4 l o˥˩
+le5 l o˦
+ler1 l o˥˥ rr
+ler2 l o˧˥ rr
+ler3 l o˨˩˦ rr
+ler4 l o˥˩ rr
+ler5 l o˦ rr
+lei1 l ej˥˥
+lei2 l ej˧˥
+lei3 l ej˨˩˦
+lei4 l ej˥˩
+lei5 l ej˦
+leir1 l ej˥˥ rr
+leir2 l ej˧˥ rr
+leir3 l ej˨˩˦ rr
+leir4 l ej˥˩ rr
+leir5 l ej˦ rr
+leng1 l o˥˥ ŋ
+leng2 l o˧˥ ŋ
+leng3 l o˨˩˦ ŋ
+leng4 l o˥˩ ŋ
+leng5 l o˦ ŋ
+lengr1 l o˥˥ ŋ rr
+lengr2 l o˧˥ ŋ rr
+lengr3 l o˨˩˦ ŋ rr
+lengr4 l o˥˩ ŋ rr
+lengr5 l o˦ ŋ rr
+lo1 l w o˥˥
+lo2 l w o˧˥
+lo3 l w o˨˩˦
+lo4 l w o˥˩
+lo5 l w o˦
+lor1 l w o˥˥ rr
+lor2 l w o˧˥ rr
+lor3 l w o˨˩˦ rr
+lor4 l w o˥˩ rr
+lor5 l w o˦ rr
+lou1 l ow˥˥
+lou2 l ow˧˥
+lou3 l ow˨˩˦
+lou4 l ow˥˩
+lou5 l ow˦
+lour1 l ow˥˥ rr
+lour2 l ow˧˥ rr
+lour3 l ow˨˩˦ rr
+lour4 l ow˥˩ rr
+lour5 l ow˦ rr
+long1 l u˥˥ ŋ
+long2 l u˧˥ ŋ
+long3 l u˨˩˦ ŋ
+long4 l u˥˩ ŋ
+long5 l u˦ ŋ
+longr1 l u˥˥ ŋ rr
+longr2 l u˧˥ ŋ rr
+longr3 l u˨˩˦ ŋ rr
+longr4 l u˥˩ ŋ rr
+longr5 l u˦ ŋ rr
+li1 l i˥˥
+li2 l i˧˥
+li3 l i˨˩˦
+li4 l i˥˩
+li5 l i˦
+lir1 l i˥˥ rr
+lir2 l i˧˥ rr
+lir3 l i˨˩˦ rr
+lir4 l i˥˩ rr
+lir5 l i˦ rr
+lia1 l j a˥˥
+lia2 l j a˧˥
+lia3 l j a˨˩˦
+lia4 l j a˥˩
+lia5 l j a˦
+liar1 l j a˥˥ rr
+liar2 l j a˧˥ rr
+liar3 l j a˨˩˦ rr
+liar4 l j a˥˩ rr
+liar5 l j a˦ rr
+liao1 l j aw˥˥
+liao2 l j aw˧˥
+liao3 l j aw˨˩˦
+liao4 l j aw˥˩
+liao5 l j aw˦
+liaor1 l j aw˥˥ rr
+liaor2 l j aw˧˥ rr
+liaor3 l j aw˨˩˦ rr
+liaor4 l j aw˥˩ rr
+liaor5 l j aw˦ rr
+lian1 l j e˥˥ n
+lian2 l j e˧˥ n
+lian3 l j e˨˩˦ n
+lian4 l j e˥˩ n
+lian5 l j e˦ n
+lianr1 l j e˥˥ n rr
+lianr2 l j e˧˥ n rr
+lianr3 l j e˨˩˦ n rr
+lianr4 l j e˥˩ n rr
+lianr5 l j e˦ n rr
+liang1 l j a˥˥ ŋ
+liang2 l j a˧˥ ŋ
+liang3 l j a˨˩˦ ŋ
+liang4 l j a˥˩ ŋ
+liang5 l j a˦ ŋ
+liangr1 l j a˥˥ ŋ rr
+liangr2 l j a˧˥ ŋ rr
+liangr3 l j a˨˩˦ ŋ rr
+liangr4 l j a˥˩ ŋ rr
+liangr5 l j a˦ ŋ rr
+lie1 l j e˥˥
+lie2 l j e˧˥
+lie3 l j e˨˩˦
+lie4 l j e˥˩
+lie5 l j e˦
+lier1 l j e˥˥ rr
+lier2 l j e˧˥ rr
+lier3 l j e˨˩˦ rr
+lier4 l j e˥˩ rr
+lier5 l j e˦ rr
+liu1 l j ow˥˥
+liu2 l j ow˧˥
+liu3 l j ow˨˩˦
+liu4 l j ow˥˩
+liu5 l j ow˦
+liur1 l j ow˥˥ rr
+liur2 l j ow˧˥ rr
+liur3 l j ow˨˩˦ rr
+liur4 l j ow˥˩ rr
+liur5 l j ow˦ rr
+lin1 l i˥˥ n
+lin2 l i˧˥ n
+lin3 l i˨˩˦ n
+lin4 l i˥˩ n
+lin5 l i˦ n
+linr1 l i˥˥ n rr
+linr2 l i˧˥ n rr
+linr3 l i˨˩˦ n rr
+linr4 l i˥˩ n rr
+linr5 l i˦ n rr
+ling1 l i˥˥ ŋ
+ling2 l i˧˥ ŋ
+ling3 l i˨˩˦ ŋ
+ling4 l i˥˩ ŋ
+ling5 l i˦ ŋ
+lingr1 l i˥˥ ŋ rr
+lingr2 l i˧˥ ŋ rr
+lingr3 l i˨˩˦ ŋ rr
+lingr4 l i˥˩ ŋ rr
+lingr5 l i˦ ŋ rr
+lu1 l u˥˥
+lu2 l u˧˥
+lu3 l u˨˩˦
+lu4 l u˥˩
+lu5 l u˦
+lur1 l u˥˥ rr
+lur2 l u˧˥ rr
+lur3 l u˨˩˦ rr
+lur4 l u˥˩ rr
+lur5 l u˦ rr
+luan1 l w a˥˥ n
+luan2 l w a˧˥ n
+luan3 l w a˨˩˦ n
+luan4 l w a˥˩ n
+luan5 l w a˦ n
+luanr1 l w a˥˥ n rr
+luanr2 l w a˧˥ n rr
+luanr3 l w a˨˩˦ n rr
+luanr4 l w a˥˩ n rr
+luanr5 l w a˦ n rr
+luo1 l w o˥˥
+luo2 l w o˧˥
+luo3 l w o˨˩˦
+luo4 l w o˥˩
+luo5 l w o˦
+luor1 l w o˥˥ rr
+luor2 l w o˧˥ rr
+luor3 l w o˨˩˦ rr
+luor4 l w o˥˩ rr
+luor5 l w o˦ rr
+lun1 l w ə˥˥ n
+lun2 l w ə˧˥ n
+lun3 l w ə˨˩˦ n
+lun4 l w ə˥˩ n
+lun5 l w ə˦ n
+lunr1 l w ə˥˥ n rr
+lunr2 l w ə˧˥ n rr
+lunr3 l w ə˨˩˦ n rr
+lunr4 l w ə˥˩ n rr
+lunr5 l w ə˦ n rr
+lv1 l y˥˥
+lv2 l y˧˥
+lv3 l y˨˩˦
+lv4 l y˥˩
+lv5 l y˦
+lvr1 l y˥˥ rr
+lvr2 l y˧˥ rr
+lvr3 l y˨˩˦ rr
+lvr4 l y˥˩ rr
+lvr5 l y˦ rr
+lve1 l ɥ e˥˥
+lve2 l ɥ e˧˥
+lve3 l ɥ e˨˩˦
+lve4 l ɥ e˥˩
+lve5 l ɥ e˦
+lver1 l ɥ e˥˥ rr
+lver2 l ɥ e˧˥ rr
+lver3 l ɥ e˨˩˦ rr
+lver4 l ɥ e˥˩ rr
+lver5 l ɥ e˦ rr
+ga1 k a˥˥
+ga2 k a˧˥
+ga3 k a˨˩˦
+ga4 k a˥˩
+ga5 k a˦
+gar1 k a˥˥ rr
+gar2 k a˧˥ rr
+gar3 k a˨˩˦ rr
+gar4 k a˥˩ rr
+gar5 k a˦ rr
+gai1 k aj˥˥
+gai2 k aj˧˥
+gai3 k aj˨˩˦
+gai4 k aj˥˩
+gai5 k aj˦
+gair1 k aj˥˥ rr
+gair2 k aj˧˥ rr
+gair3 k aj˨˩˦ rr
+gair4 k aj˥˩ rr
+gair5 k aj˦ rr
+gao1 k aw˥˥
+gao2 k aw˧˥
+gao3 k aw˨˩˦
+gao4 k aw˥˩
+gao5 k aw˦
+gaor1 k aw˥˥ rr
+gaor2 k aw˧˥ rr
+gaor3 k aw˨˩˦ rr
+gaor4 k aw˥˩ rr
+gaor5 k aw˦ rr
+gan1 k a˥˥ n
+gan2 k a˧˥ n
+gan3 k a˨˩˦ n
+gan4 k a˥˩ n
+gan5 k a˦ n
+ganr1 k a˥˥ n rr
+ganr2 k a˧˥ n rr
+ganr3 k a˨˩˦ n rr
+ganr4 k a˥˩ n rr
+ganr5 k a˦ n rr
+gang1 k a˥˥ ŋ
+gang2 k a˧˥ ŋ
+gang3 k a˨˩˦ ŋ
+gang4 k a˥˩ ŋ
+gang5 k a˦ ŋ
+gangr1 k a˥˥ ŋ rr
+gangr2 k a˧˥ ŋ rr
+gangr3 k a˨˩˦ ŋ rr
+gangr4 k a˥˩ ŋ rr
+gangr5 k a˦ ŋ rr
+ge1 k o˥˥
+ge2 k o˧˥
+ge3 k o˨˩˦
+ge4 k o˥˩
+ge5 k o˦
+ger1 k o˥˥ rr
+ger2 k o˧˥ rr
+ger3 k o˨˩˦ rr
+ger4 k o˥˩ rr
+ger5 k o˦ rr
+gei1 k ej˥˥
+gei2 k ej˧˥
+gei3 k ej˨˩˦
+gei4 k ej˥˩
+gei5 k ej˦
+geir1 k ej˥˥ rr
+geir2 k ej˧˥ rr
+geir3 k ej˨˩˦ rr
+geir4 k ej˥˩ rr
+geir5 k ej˦ rr
+gen1 k ə˥˥ n
+gen2 k ə˧˥ n
+gen3 k ə˨˩˦ n
+gen4 k ə˥˩ n
+gen5 k ə˦ n
+genr1 k ə˥˥ n rr
+genr2 k ə˧˥ n rr
+genr3 k ə˨˩˦ n rr
+genr4 k ə˥˩ n rr
+genr5 k ə˦ n rr
+geng1 k o˥˥ ŋ
+geng2 k o˧˥ ŋ
+geng3 k o˨˩˦ ŋ
+geng4 k o˥˩ ŋ
+geng5 k o˦ ŋ
+gengr1 k o˥˥ ŋ rr
+gengr2 k o˧˥ ŋ rr
+gengr3 k o˨˩˦ ŋ rr
+gengr4 k o˥˩ ŋ rr
+gengr5 k o˦ ŋ rr
+gou1 k ow˥˥
+gou2 k ow˧˥
+gou3 k ow˨˩˦
+gou4 k ow˥˩
+gou5 k ow˦
+gour1 k ow˥˥ rr
+gour2 k ow˧˥ rr
+gour3 k ow˨˩˦ rr
+gour4 k ow˥˩ rr
+gour5 k ow˦ rr
+gong1 k u˥˥ ŋ
+gong2 k u˧˥ ŋ
+gong3 k u˨˩˦ ŋ
+gong4 k u˥˩ ŋ
+gong5 k u˦ ŋ
+gongr1 k u˥˥ ŋ rr
+gongr2 k u˧˥ ŋ rr
+gongr3 k u˨˩˦ ŋ rr
+gongr4 k u˥˩ ŋ rr
+gongr5 k u˦ ŋ rr
+gu1 k u˥˥
+gu2 k u˧˥
+gu3 k u˨˩˦
+gu4 k u˥˩
+gu5 k u˦
+gur1 k u˥˥ rr
+gur2 k u˧˥ rr
+gur3 k u˨˩˦ rr
+gur4 k u˥˩ rr
+gur5 k u˦ rr
+gua1 k w a˥˥
+gua2 k w a˧˥
+gua3 k w a˨˩˦
+gua4 k w a˥˩
+gua5 k w a˦
+guar1 k w a˥˥ rr
+guar2 k w a˧˥ rr
+guar3 k w a˨˩˦ rr
+guar4 k w a˥˩ rr
+guar5 k w a˦ rr
+guai1 k w aj˥˥
+guai2 k w aj˧˥
+guai3 k w aj˨˩˦
+guai4 k w aj˥˩
+guai5 k w aj˦
+guair1 k w aj˥˥ rr
+guair2 k w aj˧˥ rr
+guair3 k w aj˨˩˦ rr
+guair4 k w aj˥˩ rr
+guair5 k w aj˦ rr
+guan1 k w a˥˥ n
+guan2 k w a˧˥ n
+guan3 k w a˨˩˦ n
+guan4 k w a˥˩ n
+guan5 k w a˦ n
+guanr1 k w a˥˥ n rr
+guanr2 k w a˧˥ n rr
+guanr3 k w a˨˩˦ n rr
+guanr4 k w a˥˩ n rr
+guanr5 k w a˦ n rr
+guang1 k w a˥˥ ŋ
+guang2 k w a˧˥ ŋ
+guang3 k w a˨˩˦ ŋ
+guang4 k w a˥˩ ŋ
+guang5 k w a˦ ŋ
+guangr1 k w a˥˥ ŋ rr
+guangr2 k w a˧˥ ŋ rr
+guangr3 k w a˨˩˦ ŋ rr
+guangr4 k w a˥˩ ŋ rr
+guangr5 k w a˦ ŋ rr
+gui1 k w ej˥˥
+gui2 k w ej˧˥
+gui3 k w ej˨˩˦
+gui4 k w ej˥˩
+gui5 k w ej˦
+guir1 k w ej˥˥ rr
+guir2 k w ej˧˥ rr
+guir3 k w ej˨˩˦ rr
+guir4 k w ej˥˩ rr
+guir5 k w ej˦ rr
+guo1 k w o˥˥
+guo2 k w o˧˥
+guo3 k w o˨˩˦
+guo4 k w o˥˩
+guo5 k w o˦
+guor1 k w o˥˥ rr
+guor2 k w o˧˥ rr
+guor3 k w o˨˩˦ rr
+guor4 k w o˥˩ rr
+guor5 k w o˦ rr
+gun1 k w ə˥˥ n
+gun2 k w ə˧˥ n
+gun3 k w ə˨˩˦ n
+gun4 k w ə˥˩ n
+gun5 k w ə˦ n
+gunr1 k w ə˥˥ n rr
+gunr2 k w ə˧˥ n rr
+gunr3 k w ə˨˩˦ n rr
+gunr4 k w ə˥˩ n rr
+gunr5 k w ə˦ n rr
+ka1 kʰ a˥˥
+ka2 kʰ a˧˥
+ka3 kʰ a˨˩˦
+ka4 kʰ a˥˩
+ka5 kʰ a˦
+kar1 kʰ a˥˥ rr
+kar2 kʰ a˧˥ rr
+kar3 kʰ a˨˩˦ rr
+kar4 kʰ a˥˩ rr
+kar5 kʰ a˦ rr
+kai1 kʰ aj˥˥
+kai2 kʰ aj˧˥
+kai3 kʰ aj˨˩˦
+kai4 kʰ aj˥˩
+kai5 kʰ aj˦
+kair1 kʰ aj˥˥ rr
+kair2 kʰ aj˧˥ rr
+kair3 kʰ aj˨˩˦ rr
+kair4 kʰ aj˥˩ rr
+kair5 kʰ aj˦ rr
+kao1 kʰ aw˥˥
+kao2 kʰ aw˧˥
+kao3 kʰ aw˨˩˦
+kao4 kʰ aw˥˩
+kao5 kʰ aw˦
+kaor1 kʰ aw˥˥ rr
+kaor2 kʰ aw˧˥ rr
+kaor3 kʰ aw˨˩˦ rr
+kaor4 kʰ aw˥˩ rr
+kaor5 kʰ aw˦ rr
+kan1 kʰ a˥˥ n
+kan2 kʰ a˧˥ n
+kan3 kʰ a˨˩˦ n
+kan4 kʰ a˥˩ n
+kan5 kʰ a˦ n
+kanr1 kʰ a˥˥ n rr
+kanr2 kʰ a˧˥ n rr
+kanr3 kʰ a˨˩˦ n rr
+kanr4 kʰ a˥˩ n rr
+kanr5 kʰ a˦ n rr
+kang1 kʰ a˥˥ ŋ
+kang2 kʰ a˧˥ ŋ
+kang3 kʰ a˨˩˦ ŋ
+kang4 kʰ a˥˩ ŋ
+kang5 kʰ a˦ ŋ
+kangr1 kʰ a˥˥ ŋ rr
+kangr2 kʰ a˧˥ ŋ rr
+kangr3 kʰ a˨˩˦ ŋ rr
+kangr4 kʰ a˥˩ ŋ rr
+kangr5 kʰ a˦ ŋ rr
+ke1 kʰ o˥˥
+ke2 kʰ o˧˥
+ke3 kʰ o˨˩˦
+ke4 kʰ o˥˩
+ke5 kʰ o˦
+ker1 kʰ o˥˥ rr
+ker2 kʰ o˧˥ rr
+ker3 kʰ o˨˩˦ rr
+ker4 kʰ o˥˩ rr
+ker5 kʰ o˦ rr
+kei1 kʰ ej˥˥
+kei2 kʰ ej˧˥
+kei3 kʰ ej˨˩˦
+kei4 kʰ ej˥˩
+kei5 kʰ ej˦
+keir1 kʰ ej˥˥ rr
+keir2 kʰ ej˧˥ rr
+keir3 kʰ ej˨˩˦ rr
+keir4 kʰ ej˥˩ rr
+keir5 kʰ ej˦ rr
+ken1 kʰ ə˥˥ n
+ken2 kʰ ə˧˥ n
+ken3 kʰ ə˨˩˦ n
+ken4 kʰ ə˥˩ n
+ken5 kʰ ə˦ n
+kenr1 kʰ ə˥˥ n rr
+kenr2 kʰ ə˧˥ n rr
+kenr3 kʰ ə˨˩˦ n rr
+kenr4 kʰ ə˥˩ n rr
+kenr5 kʰ ə˦ n rr
+keng1 kʰ o˥˥ ŋ
+keng2 kʰ o˧˥ ŋ
+keng3 kʰ o˨˩˦ ŋ
+keng4 kʰ o˥˩ ŋ
+keng5 kʰ o˦ ŋ
+kengr1 kʰ o˥˥ ŋ rr
+kengr2 kʰ o˧˥ ŋ rr
+kengr3 kʰ o˨˩˦ ŋ rr
+kengr4 kʰ o˥˩ ŋ rr
+kengr5 kʰ o˦ ŋ rr
+kou1 kʰ ow˥˥
+kou2 kʰ ow˧˥
+kou3 kʰ ow˨˩˦
+kou4 kʰ ow˥˩
+kou5 kʰ ow˦
+kour1 kʰ ow˥˥ rr
+kour2 kʰ ow˧˥ rr
+kour3 kʰ ow˨˩˦ rr
+kour4 kʰ ow˥˩ rr
+kour5 kʰ ow˦ rr
+kong1 kʰ u˥˥ ŋ
+kong2 kʰ u˧˥ ŋ
+kong3 kʰ u˨˩˦ ŋ
+kong4 kʰ u˥˩ ŋ
+kong5 kʰ u˦ ŋ
+kongr1 kʰ u˥˥ ŋ rr
+kongr2 kʰ u˧˥ ŋ rr
+kongr3 kʰ u˨˩˦ ŋ rr
+kongr4 kʰ u˥˩ ŋ rr
+kongr5 kʰ u˦ ŋ rr
+ku1 kʰ u˥˥
+ku2 kʰ u˧˥
+ku3 kʰ u˨˩˦
+ku4 kʰ u˥˩
+ku5 kʰ u˦
+kur1 kʰ u˥˥ rr
+kur2 kʰ u˧˥ rr
+kur3 kʰ u˨˩˦ rr
+kur4 kʰ u˥˩ rr
+kur5 kʰ u˦ rr
+kua1 kʰ w a˥˥
+kua2 kʰ w a˧˥
+kua3 kʰ w a˨˩˦
+kua4 kʰ w a˥˩
+kua5 kʰ w a˦
+kuar1 kʰ w a˥˥ rr
+kuar2 kʰ w a˧˥ rr
+kuar3 kʰ w a˨˩˦ rr
+kuar4 kʰ w a˥˩ rr
+kuar5 kʰ w a˦ rr
+kuai1 kʰ w aj˥˥
+kuai2 kʰ w aj˧˥
+kuai3 kʰ w aj˨˩˦
+kuai4 kʰ w aj˥˩
+kuai5 kʰ w aj˦
+kuair1 kʰ w aj˥˥ rr
+kuair2 kʰ w aj˧˥ rr
+kuair3 kʰ w aj˨˩˦ rr
+kuair4 kʰ w aj˥˩ rr
+kuair5 kʰ w aj˦ rr
+kuan1 kʰ w a˥˥ n
+kuan2 kʰ w a˧˥ n
+kuan3 kʰ w a˨˩˦ n
+kuan4 kʰ w a˥˩ n
+kuan5 kʰ w a˦ n
+kuanr1 kʰ w a˥˥ n rr
+kuanr2 kʰ w a˧˥ n rr
+kuanr3 kʰ w a˨˩˦ n rr
+kuanr4 kʰ w a˥˩ n rr
+kuanr5 kʰ w a˦ n rr
+kuang1 kʰ w a˥˥ ŋ
+kuang2 kʰ w a˧˥ ŋ
+kuang3 kʰ w a˨˩˦ ŋ
+kuang4 kʰ w a˥˩ ŋ
+kuang5 kʰ w a˦ ŋ
+kuangr1 kʰ w a˥˥ ŋ rr
+kuangr2 kʰ w a˧˥ ŋ rr
+kuangr3 kʰ w a˨˩˦ ŋ rr
+kuangr4 kʰ w a˥˩ ŋ rr
+kuangr5 kʰ w a˦ ŋ rr
+kui1 kʰ w ej˥˥
+kui2 kʰ w ej˧˥
+kui3 kʰ w ej˨˩˦
+kui4 kʰ w ej˥˩
+kui5 kʰ w ej˦
+kuir1 kʰ w ej˥˥ rr
+kuir2 kʰ w ej˧˥ rr
+kuir3 kʰ w ej˨˩˦ rr
+kuir4 kʰ w ej˥˩ rr
+kuir5 kʰ w ej˦ rr
+kuo1 kʰ w o˥˥
+kuo2 kʰ w o˧˥
+kuo3 kʰ w o˨˩˦
+kuo4 kʰ w o˥˩
+kuo5 kʰ w o˦
+kuor1 kʰ w o˥˥ rr
+kuor2 kʰ w o˧˥ rr
+kuor3 kʰ w o˨˩˦ rr
+kuor4 kʰ w o˥˩ rr
+kuor5 kʰ w o˦ rr
+kun1 kʰ w ə˥˥ n
+kun2 kʰ w ə˧˥ n
+kun3 kʰ w ə˨˩˦ n
+kun4 kʰ w ə˥˩ n
+kun5 kʰ w ə˦ n
+kunr1 kʰ w ə˥˥ n rr
+kunr2 kʰ w ə˧˥ n rr
+kunr3 kʰ w ə˨˩˦ n rr
+kunr4 kʰ w ə˥˩ n rr
+kunr5 kʰ w ə˦ n rr
+ha1 x a˥˥
+ha2 x a˧˥
+ha3 x a˨˩˦
+ha4 x a˥˩
+ha5 x a˦
+har1 x a˥˥ rr
+har2 x a˧˥ rr
+har3 x a˨˩˦ rr
+har4 x a˥˩ rr
+har5 x a˦ rr
+hai1 x aj˥˥
+hai2 x aj˧˥
+hai3 x aj˨˩˦
+hai4 x aj˥˩
+hai5 x aj˦
+hair1 x aj˥˥ rr
+hair2 x aj˧˥ rr
+hair3 x aj˨˩˦ rr
+hair4 x aj˥˩ rr
+hair5 x aj˦ rr
+hao1 x aw˥˥
+hao2 x aw˧˥
+hao3 x aw˨˩˦
+hao4 x aw˥˩
+hao5 x aw˦
+haor1 x aw˥˥ rr
+haor2 x aw˧˥ rr
+haor3 x aw˨˩˦ rr
+haor4 x aw˥˩ rr
+haor5 x aw˦ rr
+han1 x a˥˥ n
+han2 x a˧˥ n
+han3 x a˨˩˦ n
+han4 x a˥˩ n
+han5 x a˦ n
+hanr1 x a˥˥ n rr
+hanr2 x a˧˥ n rr
+hanr3 x a˨˩˦ n rr
+hanr4 x a˥˩ n rr
+hanr5 x a˦ n rr
+hang1 x a˥˥ ŋ
+hang2 x a˧˥ ŋ
+hang3 x a˨˩˦ ŋ
+hang4 x a˥˩ ŋ
+hang5 x a˦ ŋ
+hangr1 x a˥˥ ŋ rr
+hangr2 x a˧˥ ŋ rr
+hangr3 x a˨˩˦ ŋ rr
+hangr4 x a˥˩ ŋ rr
+hangr5 x a˦ ŋ rr
+he1 x o˥˥
+he2 x o˧˥
+he3 x o˨˩˦
+he4 x o˥˩
+he5 x o˦
+her1 x o˥˥ rr
+her2 x o˧˥ rr
+her3 x o˨˩˦ rr
+her4 x o˥˩ rr
+her5 x o˦ rr
+hei1 x ej˥˥
+hei2 x ej˧˥
+hei3 x ej˨˩˦
+hei4 x ej˥˩
+hei5 x ej˦
+heir1 x ej˥˥ rr
+heir2 x ej˧˥ rr
+heir3 x ej˨˩˦ rr
+heir4 x ej˥˩ rr
+heir5 x ej˦ rr
+hen1 x ə˥˥ n
+hen2 x ə˧˥ n
+hen3 x ə˨˩˦ n
+hen4 x ə˥˩ n
+hen5 x ə˦ n
+henr1 x ə˥˥ n rr
+henr2 x ə˧˥ n rr
+henr3 x ə˨˩˦ n rr
+henr4 x ə˥˩ n rr
+henr5 x ə˦ n rr
+heng1 x o˥˥ ŋ
+heng2 x o˧˥ ŋ
+heng3 x o˨˩˦ ŋ
+heng4 x o˥˩ ŋ
+heng5 x o˦ ŋ
+hengr1 x o˥˥ ŋ rr
+hengr2 x o˧˥ ŋ rr
+hengr3 x o˨˩˦ ŋ rr
+hengr4 x o˥˩ ŋ rr
+hengr5 x o˦ ŋ rr
+hou1 x ow˥˥
+hou2 x ow˧˥
+hou3 x ow˨˩˦
+hou4 x ow˥˩
+hou5 x ow˦
+hour1 x ow˥˥ rr
+hour2 x ow˧˥ rr
+hour3 x ow˨˩˦ rr
+hour4 x ow˥˩ rr
+hour5 x ow˦ rr
+hong1 x u˥˥ ŋ
+hong2 x u˧˥ ŋ
+hong3 x u˨˩˦ ŋ
+hong4 x u˥˩ ŋ
+hong5 x u˦ ŋ
+hongr1 x u˥˥ ŋ rr
+hongr2 x u˧˥ ŋ rr
+hongr3 x u˨˩˦ ŋ rr
+hongr4 x u˥˩ ŋ rr
+hongr5 x u˦ ŋ rr
+hu1 x u˥˥
+hu2 x u˧˥
+hu3 x u˨˩˦
+hu4 x u˥˩
+hu5 x u˦
+hur1 x u˥˥ rr
+hur2 x u˧˥ rr
+hur3 x u˨˩˦ rr
+hur4 x u˥˩ rr
+hur5 x u˦ rr
+hua1 x w a˥˥
+hua2 x w a˧˥
+hua3 x w a˨˩˦
+hua4 x w a˥˩
+hua5 x w a˦
+huar1 x w a˥˥ rr
+huar2 x w a˧˥ rr
+huar3 x w a˨˩˦ rr
+huar4 x w a˥˩ rr
+huar5 x w a˦ rr
+huai1 x w aj˥˥
+huai2 x w aj˧˥
+huai3 x w aj˨˩˦
+huai4 x w aj˥˩
+huai5 x w aj˦
+huair1 x w aj˥˥ rr
+huair2 x w aj˧˥ rr
+huair3 x w aj˨˩˦ rr
+huair4 x w aj˥˩ rr
+huair5 x w aj˦ rr
+huan1 x w a˥˥ n
+huan2 x w a˧˥ n
+huan3 x w a˨˩˦ n
+huan4 x w a˥˩ n
+huan5 x w a˦ n
+huanr1 x w a˥˥ n rr
+huanr2 x w a˧˥ n rr
+huanr3 x w a˨˩˦ n rr
+huanr4 x w a˥˩ n rr
+huanr5 x w a˦ n rr
+huang1 x w a˥˥ ŋ
+huang2 x w a˧˥ ŋ
+huang3 x w a˨˩˦ ŋ
+huang4 x w a˥˩ ŋ
+huang5 x w a˦ ŋ
+huangr1 x w a˥˥ ŋ rr
+huangr2 x w a˧˥ ŋ rr
+huangr3 x w a˨˩˦ ŋ rr
+huangr4 x w a˥˩ ŋ rr
+huangr5 x w a˦ ŋ rr
+hui1 x w ej˥˥
+hui2 x w ej˧˥
+hui3 x w ej˨˩˦
+hui4 x w ej˥˩
+hui5 x w ej˦
+huir1 x w ej˥˥ rr
+huir2 x w ej˧˥ rr
+huir3 x w ej˨˩˦ rr
+huir4 x w ej˥˩ rr
+huir5 x w ej˦ rr
+huo1 x w o˥˥
+huo2 x w o˧˥
+huo3 x w o˨˩˦
+huo4 x w o˥˩
+huo5 x w o˦
+huor1 x w o˥˥ rr
+huor2 x w o˧˥ rr
+huor3 x w o˨˩˦ rr
+huor4 x w o˥˩ rr
+huor5 x w o˦ rr
+hun1 x w ə˥˥ n
+hun2 x w ə˧˥ n
+hun3 x w ə˨˩˦ n
+hun4 x w ə˥˩ n
+hun5 x w ə˦ n
+hunr1 x w ə˥˥ n rr
+hunr2 x w ə˧˥ n rr
+hunr3 x w ə˨˩˦ n rr
+hunr4 x w ə˥˩ n rr
+hunr5 x w ə˦ n rr
+zha1 ʈʂ a˥˥
+zha2 ʈʂ a˧˥
+zha3 ʈʂ a˨˩˦
+zha4 ʈʂ a˥˩
+zha5 ʈʂ a˦
+zhar1 ʈʂ a˥˥ rr
+zhar2 ʈʂ a˧˥ rr
+zhar3 ʈʂ a˨˩˦ rr
+zhar4 ʈʂ a˥˩ rr
+zhar5 ʈʂ a˦ rr
+zhai1 ʈʂ aj˥˥
+zhai2 ʈʂ aj˧˥
+zhai3 ʈʂ aj˨˩˦
+zhai4 ʈʂ aj˥˩
+zhai5 ʈʂ aj˦
+zhair1 ʈʂ aj˥˥ rr
+zhair2 ʈʂ aj˧˥ rr
+zhair3 ʈʂ aj˨˩˦ rr
+zhair4 ʈʂ aj˥˩ rr
+zhair5 ʈʂ aj˦ rr
+zhao1 ʈʂ aw˥˥
+zhao2 ʈʂ aw˧˥
+zhao3 ʈʂ aw˨˩˦
+zhao4 ʈʂ aw˥˩
+zhao5 ʈʂ aw˦
+zhaor1 ʈʂ aw˥˥ rr
+zhaor2 ʈʂ aw˧˥ rr
+zhaor3 ʈʂ aw˨˩˦ rr
+zhaor4 ʈʂ aw˥˩ rr
+zhaor5 ʈʂ aw˦ rr
+zhan1 ʈʂ a˥˥ n
+zhan2 ʈʂ a˧˥ n
+zhan3 ʈʂ a˨˩˦ n
+zhan4 ʈʂ a˥˩ n
+zhan5 ʈʂ a˦ n
+zhanr1 ʈʂ a˥˥ n rr
+zhanr2 ʈʂ a˧˥ n rr
+zhanr3 ʈʂ a˨˩˦ n rr
+zhanr4 ʈʂ a˥˩ n rr
+zhanr5 ʈʂ a˦ n rr
+zhang1 ʈʂ a˥˥ ŋ
+zhang2 ʈʂ a˧˥ ŋ
+zhang3 ʈʂ a˨˩˦ ŋ
+zhang4 ʈʂ a˥˩ ŋ
+zhang5 ʈʂ a˦ ŋ
+zhangr1 ʈʂ a˥˥ ŋ rr
+zhangr2 ʈʂ a˧˥ ŋ rr
+zhangr3 ʈʂ a˨˩˦ ŋ rr
+zhangr4 ʈʂ a˥˩ ŋ rr
+zhangr5 ʈʂ a˦ ŋ rr
+zhe1 ʈʂ o˥˥
+zhe2 ʈʂ o˧˥
+zhe3 ʈʂ o˨˩˦
+zhe4 ʈʂ o˥˩
+zhe5 ʈʂ o˦
+zher1 ʈʂ o˥˥ rr
+zher2 ʈʂ o˧˥ rr
+zher3 ʈʂ o˨˩˦ rr
+zher4 ʈʂ o˥˩ rr
+zher5 ʈʂ o˦ rr
+zhei1 ʈʂ ej˥˥
+zhei2 ʈʂ ej˧˥
+zhei3 ʈʂ ej˨˩˦
+zhei4 ʈʂ ej˥˩
+zhei5 ʈʂ ej˦
+zheir1 ʈʂ ej˥˥ rr
+zheir2 ʈʂ ej˧˥ rr
+zheir3 ʈʂ ej˨˩˦ rr
+zheir4 ʈʂ ej˥˩ rr
+zheir5 ʈʂ ej˦ rr
+zhen1 ʈʂ ə˥˥ n
+zhen2 ʈʂ ə˧˥ n
+zhen3 ʈʂ ə˨˩˦ n
+zhen4 ʈʂ ə˥˩ n
+zhen5 ʈʂ ə˦ n
+zhenr1 ʈʂ ə˥˥ n rr
+zhenr2 ʈʂ ə˧˥ n rr
+zhenr3 ʈʂ ə˨˩˦ n rr
+zhenr4 ʈʂ ə˥˩ n rr
+zhenr5 ʈʂ ə˦ n rr
+zheng1 ʈʂ o˥˥ ŋ
+zheng2 ʈʂ o˧˥ ŋ
+zheng3 ʈʂ o˨˩˦ ŋ
+zheng4 ʈʂ o˥˩ ŋ
+zheng5 ʈʂ o˦ ŋ
+zhengr1 ʈʂ o˥˥ ŋ rr
+zhengr2 ʈʂ o˧˥ ŋ rr
+zhengr3 ʈʂ o˨˩˦ ŋ rr
+zhengr4 ʈʂ o˥˩ ŋ rr
+zhengr5 ʈʂ o˦ ŋ rr
+zhou1 ʈʂ ow˥˥
+zhou2 ʈʂ ow˧˥
+zhou3 ʈʂ ow˨˩˦
+zhou4 ʈʂ ow˥˩
+zhou5 ʈʂ ow˦
+zhour1 ʈʂ ow˥˥ rr
+zhour2 ʈʂ ow˧˥ rr
+zhour3 ʈʂ ow˨˩˦ rr
+zhour4 ʈʂ ow˥˩ rr
+zhour5 ʈʂ ow˦ rr
+zhong1 ʈʂ u˥˥ ŋ
+zhong2 ʈʂ u˧˥ ŋ
+zhong3 ʈʂ u˨˩˦ ŋ
+zhong4 ʈʂ u˥˩ ŋ
+zhong5 ʈʂ u˦ ŋ
+zhongr1 ʈʂ u˥˥ ŋ rr
+zhongr2 ʈʂ u˧˥ ŋ rr
+zhongr3 ʈʂ u˨˩˦ ŋ rr
+zhongr4 ʈʂ u˥˩ ŋ rr
+zhongr5 ʈʂ u˦ ŋ rr
+zhi1 ʈʂ ʐ̩˥˥
+zhi2 ʈʂ ʐ̩˧˥
+zhi3 ʈʂ ʐ̩˨˩˦
+zhi4 ʈʂ ʐ̩˥˩
+zhi5 ʈʂ ʐ̩˦
+zhir1 ʈʂ ʐ̩˥˥ rr
+zhir2 ʈʂ ʐ̩˧˥ rr
+zhir3 ʈʂ ʐ̩˨˩˦ rr
+zhir4 ʈʂ ʐ̩˥˩ rr
+zhir5 ʈʂ ʐ̩˦ rr
+zhu1 ʈʂ u˥˥
+zhu2 ʈʂ u˧˥
+zhu3 ʈʂ u˨˩˦
+zhu4 ʈʂ u˥˩
+zhu5 ʈʂ u˦
+zhur1 ʈʂ u˥˥ rr
+zhur2 ʈʂ u˧˥ rr
+zhur3 ʈʂ u˨˩˦ rr
+zhur4 ʈʂ u˥˩ rr
+zhur5 ʈʂ u˦ rr
+zhua1 ʈʂ w a˥˥
+zhua2 ʈʂ w a˧˥
+zhua3 ʈʂ w a˨˩˦
+zhua4 ʈʂ w a˥˩
+zhua5 ʈʂ w a˦
+zhuar1 ʈʂ w a˥˥ rr
+zhuar2 ʈʂ w a˧˥ rr
+zhuar3 ʈʂ w a˨˩˦ rr
+zhuar4 ʈʂ w a˥˩ rr
+zhuar5 ʈʂ w a˦ rr
+zhuai1 ʈʂ w aj˥˥
+zhuai2 ʈʂ w aj˧˥
+zhuai3 ʈʂ w aj˨˩˦
+zhuai4 ʈʂ w aj˥˩
+zhuai5 ʈʂ w aj˦
+zhuair1 ʈʂ w aj˥˥ rr
+zhuair2 ʈʂ w aj˧˥ rr
+zhuair3 ʈʂ w aj˨˩˦ rr
+zhuair4 ʈʂ w aj˥˩ rr
+zhuair5 ʈʂ w aj˦ rr
+zhuan1 ʈʂ w a˥˥ n
+zhuan2 ʈʂ w a˧˥ n
+zhuan3 ʈʂ w a˨˩˦ n
+zhuan4 ʈʂ w a˥˩ n
+zhuan5 ʈʂ w a˦ n
+zhuanr1 ʈʂ w a˥˥ n rr
+zhuanr2 ʈʂ w a˧˥ n rr
+zhuanr3 ʈʂ w a˨˩˦ n rr
+zhuanr4 ʈʂ w a˥˩ n rr
+zhuanr5 ʈʂ w a˦ n rr
+zhuang1 ʈʂ w a˥˥ ŋ
+zhuang2 ʈʂ w a˧˥ ŋ
+zhuang3 ʈʂ w a˨˩˦ ŋ
+zhuang4 ʈʂ w a˥˩ ŋ
+zhuang5 ʈʂ w a˦ ŋ
+zhuangr1 ʈʂ w a˥˥ ŋ rr
+zhuangr2 ʈʂ w a˧˥ ŋ rr
+zhuangr3 ʈʂ w a˨˩˦ ŋ rr
+zhuangr4 ʈʂ w a˥˩ ŋ rr
+zhuangr5 ʈʂ w a˦ ŋ rr
+zhui1 ʈʂ w ej˥˥
+zhui2 ʈʂ w ej˧˥
+zhui3 ʈʂ w ej˨˩˦
+zhui4 ʈʂ w ej˥˩
+zhui5 ʈʂ w ej˦
+zhuir1 ʈʂ w ej˥˥ rr
+zhuir2 ʈʂ w ej˧˥ rr
+zhuir3 ʈʂ w ej˨˩˦ rr
+zhuir4 ʈʂ w ej˥˩ rr
+zhuir5 ʈʂ w ej˦ rr
+zhuo1 ʈʂ w o˥˥
+zhuo2 ʈʂ w o˧˥
+zhuo3 ʈʂ w o˨˩˦
+zhuo4 ʈʂ w o˥˩
+zhuo5 ʈʂ w o˦
+zhuor1 ʈʂ w o˥˥ rr
+zhuor2 ʈʂ w o˧˥ rr
+zhuor3 ʈʂ w o˨˩˦ rr
+zhuor4 ʈʂ w o˥˩ rr
+zhuor5 ʈʂ w o˦ rr
+zhun1 ʈʂ w ə˥˥ n
+zhun2 ʈʂ w ə˧˥ n
+zhun3 ʈʂ w ə˨˩˦ n
+zhun4 ʈʂ w ə˥˩ n
+zhun5 ʈʂ w ə˦ n
+zhunr1 ʈʂ w ə˥˥ n rr
+zhunr2 ʈʂ w ə˧˥ n rr
+zhunr3 ʈʂ w ə˨˩˦ n rr
+zhunr4 ʈʂ w ə˥˩ n rr
+zhunr5 ʈʂ w ə˦ n rr
+cha1 ʈʂʰ a˥˥
+cha2 ʈʂʰ a˧˥
+cha3 ʈʂʰ a˨˩˦
+cha4 ʈʂʰ a˥˩
+cha5 ʈʂʰ a˦
+char1 ʈʂʰ a˥˥ rr
+char2 ʈʂʰ a˧˥ rr
+char3 ʈʂʰ a˨˩˦ rr
+char4 ʈʂʰ a˥˩ rr
+char5 ʈʂʰ a˦ rr
+chai1 ʈʂʰ aj˥˥
+chai2 ʈʂʰ aj˧˥
+chai3 ʈʂʰ aj˨˩˦
+chai4 ʈʂʰ aj˥˩
+chai5 ʈʂʰ aj˦
+chair1 ʈʂʰ aj˥˥ rr
+chair2 ʈʂʰ aj˧˥ rr
+chair3 ʈʂʰ aj˨˩˦ rr
+chair4 ʈʂʰ aj˥˩ rr
+chair5 ʈʂʰ aj˦ rr
+chao1 ʈʂʰ aw˥˥
+chao2 ʈʂʰ aw˧˥
+chao3 ʈʂʰ aw˨˩˦
+chao4 ʈʂʰ aw˥˩
+chao5 ʈʂʰ aw˦
+chaor1 ʈʂʰ aw˥˥ rr
+chaor2 ʈʂʰ aw˧˥ rr
+chaor3 ʈʂʰ aw˨˩˦ rr
+chaor4 ʈʂʰ aw˥˩ rr
+chaor5 ʈʂʰ aw˦ rr
+chan1 ʈʂʰ a˥˥ n
+chan2 ʈʂʰ a˧˥ n
+chan3 ʈʂʰ a˨˩˦ n
+chan4 ʈʂʰ a˥˩ n
+chan5 ʈʂʰ a˦ n
+chanr1 ʈʂʰ a˥˥ n rr
+chanr2 ʈʂʰ a˧˥ n rr
+chanr3 ʈʂʰ a˨˩˦ n rr
+chanr4 ʈʂʰ a˥˩ n rr
+chanr5 ʈʂʰ a˦ n rr
+chang1 ʈʂʰ a˥˥ ŋ
+chang2 ʈʂʰ a˧˥ ŋ
+chang3 ʈʂʰ a˨˩˦ ŋ
+chang4 ʈʂʰ a˥˩ ŋ
+chang5 ʈʂʰ a˦ ŋ
+changr1 ʈʂʰ a˥˥ ŋ rr
+changr2 ʈʂʰ a˧˥ ŋ rr
+changr3 ʈʂʰ a˨˩˦ ŋ rr
+changr4 ʈʂʰ a˥˩ ŋ rr
+changr5 ʈʂʰ a˦ ŋ rr
+che1 ʈʂʰ o˥˥
+che2 ʈʂʰ o˧˥
+che3 ʈʂʰ o˨˩˦
+che4 ʈʂʰ o˥˩
+che5 ʈʂʰ o˦
+cher1 ʈʂʰ o˥˥ rr
+cher2 ʈʂʰ o˧˥ rr
+cher3 ʈʂʰ o˨˩˦ rr
+cher4 ʈʂʰ o˥˩ rr
+cher5 ʈʂʰ o˦ rr
+chen1 ʈʂʰ ə˥˥ n
+chen2 ʈʂʰ ə˧˥ n
+chen3 ʈʂʰ ə˨˩˦ n
+chen4 ʈʂʰ ə˥˩ n
+chen5 ʈʂʰ ə˦ n
+chenr1 ʈʂʰ ə˥˥ n rr
+chenr2 ʈʂʰ ə˧˥ n rr
+chenr3 ʈʂʰ ə˨˩˦ n rr
+chenr4 ʈʂʰ ə˥˩ n rr
+chenr5 ʈʂʰ ə˦ n rr
+cheng1 ʈʂʰ o˥˥ ŋ
+cheng2 ʈʂʰ o˧˥ ŋ
+cheng3 ʈʂʰ o˨˩˦ ŋ
+cheng4 ʈʂʰ o˥˩ ŋ
+cheng5 ʈʂʰ o˦ ŋ
+chengr1 ʈʂʰ o˥˥ ŋ rr
+chengr2 ʈʂʰ o˧˥ ŋ rr
+chengr3 ʈʂʰ o˨˩˦ ŋ rr
+chengr4 ʈʂʰ o˥˩ ŋ rr
+chengr5 ʈʂʰ o˦ ŋ rr
+chou1 ʈʂʰ ow˥˥
+chou2 ʈʂʰ ow˧˥
+chou3 ʈʂʰ ow˨˩˦
+chou4 ʈʂʰ ow˥˩
+chou5 ʈʂʰ ow˦
+chour1 ʈʂʰ ow˥˥ rr
+chour2 ʈʂʰ ow˧˥ rr
+chour3 ʈʂʰ ow˨˩˦ rr
+chour4 ʈʂʰ ow˥˩ rr
+chour5 ʈʂʰ ow˦ rr
+chong1 ʈʂʰ u˥˥ ŋ
+chong2 ʈʂʰ u˧˥ ŋ
+chong3 ʈʂʰ u˨˩˦ ŋ
+chong4 ʈʂʰ u˥˩ ŋ
+chong5 ʈʂʰ u˦ ŋ
+chongr1 ʈʂʰ u˥˥ ŋ rr
+chongr2 ʈʂʰ u˧˥ ŋ rr
+chongr3 ʈʂʰ u˨˩˦ ŋ rr
+chongr4 ʈʂʰ u˥˩ ŋ rr
+chongr5 ʈʂʰ u˦ ŋ rr
+chi1 ʈʂʰ ʐ̩˥˥
+chi2 ʈʂʰ ʐ̩˧˥
+chi3 ʈʂʰ ʐ̩˨˩˦
+chi4 ʈʂʰ ʐ̩˥˩
+chi5 ʈʂʰ ʐ̩˦
+chir1 ʈʂʰ ʐ̩˥˥ rr
+chir2 ʈʂʰ ʐ̩˧˥ rr
+chir3 ʈʂʰ ʐ̩˨˩˦ rr
+chir4 ʈʂʰ ʐ̩˥˩ rr
+chir5 ʈʂʰ ʐ̩˦ rr
+chu1 ʈʂʰ u˥˥
+chu2 ʈʂʰ u˧˥
+chu3 ʈʂʰ u˨˩˦
+chu4 ʈʂʰ u˥˩
+chu5 ʈʂʰ u˦
+chur1 ʈʂʰ u˥˥ rr
+chur2 ʈʂʰ u˧˥ rr
+chur3 ʈʂʰ u˨˩˦ rr
+chur4 ʈʂʰ u˥˩ rr
+chur5 ʈʂʰ u˦ rr
+chuai1 ʈʂʰ w aj˥˥
+chuai2 ʈʂʰ w aj˧˥
+chuai3 ʈʂʰ w aj˨˩˦
+chuai4 ʈʂʰ w aj˥˩
+chuai5 ʈʂʰ w aj˦
+chuair1 ʈʂʰ w aj˥˥ rr
+chuair2 ʈʂʰ w aj˧˥ rr
+chuair3 ʈʂʰ w aj˨˩˦ rr
+chuair4 ʈʂʰ w aj˥˩ rr
+chuair5 ʈʂʰ w aj˦ rr
+chuan1 ʈʂʰ w a˥˥ n
+chuan2 ʈʂʰ w a˧˥ n
+chuan3 ʈʂʰ w a˨˩˦ n
+chuan4 ʈʂʰ w a˥˩ n
+chuan5 ʈʂʰ w a˦ n
+chuanr1 ʈʂʰ w a˥˥ n rr
+chuanr2 ʈʂʰ w a˧˥ n rr
+chuanr3 ʈʂʰ w a˨˩˦ n rr
+chuanr4 ʈʂʰ w a˥˩ n rr
+chuanr5 ʈʂʰ w a˦ n rr
+chuang1 ʈʂʰ w a˥˥ ŋ
+chuang2 ʈʂʰ w a˧˥ ŋ
+chuang3 ʈʂʰ w a˨˩˦ ŋ
+chuang4 ʈʂʰ w a˥˩ ŋ
+chuang5 ʈʂʰ w a˦ ŋ
+chuangr1 ʈʂʰ w a˥˥ ŋ rr
+chuangr2 ʈʂʰ w a˧˥ ŋ rr
+chuangr3 ʈʂʰ w a˨˩˦ ŋ rr
+chuangr4 ʈʂʰ w a˥˩ ŋ rr
+chuangr5 ʈʂʰ w a˦ ŋ rr
+chui1 ʈʂʰ w ej˥˥
+chui2 ʈʂʰ w ej˧˥
+chui3 ʈʂʰ w ej˨˩˦
+chui4 ʈʂʰ w ej˥˩
+chui5 ʈʂʰ w ej˦
+chuir1 ʈʂʰ w ej˥˥ rr
+chuir2 ʈʂʰ w ej˧˥ rr
+chuir3 ʈʂʰ w ej˨˩˦ rr
+chuir4 ʈʂʰ w ej˥˩ rr
+chuir5 ʈʂʰ w ej˦ rr
+chuo1 ʈʂʰ w o˥˥
+chuo2 ʈʂʰ w o˧˥
+chuo3 ʈʂʰ w o˨˩˦
+chuo4 ʈʂʰ w o˥˩
+chuo5 ʈʂʰ w o˦
+chuor1 ʈʂʰ w o˥˥ rr
+chuor2 ʈʂʰ w o˧˥ rr
+chuor3 ʈʂʰ w o˨˩˦ rr
+chuor4 ʈʂʰ w o˥˩ rr
+chuor5 ʈʂʰ w o˦ rr
+chun1 ʈʂʰ w ə˥˥ n
+chun2 ʈʂʰ w ə˧˥ n
+chun3 ʈʂʰ w ə˨˩˦ n
+chun4 ʈʂʰ w ə˥˩ n
+chun5 ʈʂʰ w ə˦ n
+chunr1 ʈʂʰ w ə˥˥ n rr
+chunr2 ʈʂʰ w ə˧˥ n rr
+chunr3 ʈʂʰ w ə˨˩˦ n rr
+chunr4 ʈʂʰ w ə˥˩ n rr
+chunr5 ʈʂʰ w ə˦ n rr
+sha1 ʂ a˥˥
+sha2 ʂ a˧˥
+sha3 ʂ a˨˩˦
+sha4 ʂ a˥˩
+sha5 ʂ a˦
+shar1 ʂ a˥˥ rr
+shar2 ʂ a˧˥ rr
+shar3 ʂ a˨˩˦ rr
+shar4 ʂ a˥˩ rr
+shar5 ʂ a˦ rr
+shai1 ʂ aj˥˥
+shai2 ʂ aj˧˥
+shai3 ʂ aj˨˩˦
+shai4 ʂ aj˥˩
+shai5 ʂ aj˦
+shair1 ʂ aj˥˥ rr
+shair2 ʂ aj˧˥ rr
+shair3 ʂ aj˨˩˦ rr
+shair4 ʂ aj˥˩ rr
+shair5 ʂ aj˦ rr
+shao1 ʂ aw˥˥
+shao2 ʂ aw˧˥
+shao3 ʂ aw˨˩˦
+shao4 ʂ aw˥˩
+shao5 ʂ aw˦
+shaor1 ʂ aw˥˥ rr
+shaor2 ʂ aw˧˥ rr
+shaor3 ʂ aw˨˩˦ rr
+shaor4 ʂ aw˥˩ rr
+shaor5 ʂ aw˦ rr
+shan1 ʂ a˥˥ n
+shan2 ʂ a˧˥ n
+shan3 ʂ a˨˩˦ n
+shan4 ʂ a˥˩ n
+shan5 ʂ a˦ n
+shanr1 ʂ a˥˥ n rr
+shanr2 ʂ a˧˥ n rr
+shanr3 ʂ a˨˩˦ n rr
+shanr4 ʂ a˥˩ n rr
+shanr5 ʂ a˦ n rr
+shang1 ʂ a˥˥ ŋ
+shang2 ʂ a˧˥ ŋ
+shang3 ʂ a˨˩˦ ŋ
+shang4 ʂ a˥˩ ŋ
+shang5 ʂ a˦ ŋ
+shangr1 ʂ a˥˥ ŋ rr
+shangr2 ʂ a˧˥ ŋ rr
+shangr3 ʂ a˨˩˦ ŋ rr
+shangr4 ʂ a˥˩ ŋ rr
+shangr5 ʂ a˦ ŋ rr
+she1 ʂ o˥˥
+she2 ʂ o˧˥
+she3 ʂ o˨˩˦
+she4 ʂ o˥˩
+she5 ʂ o˦
+sher1 ʂ o˥˥ rr
+sher2 ʂ o˧˥ rr
+sher3 ʂ o˨˩˦ rr
+sher4 ʂ o˥˩ rr
+sher5 ʂ o˦ rr
+shei1 ʂ ej˥˥
+shei2 ʂ ej˧˥
+shei3 ʂ ej˨˩˦
+shei4 ʂ ej˥˩
+shei5 ʂ ej˦
+sheir1 ʂ ej˥˥ rr
+sheir2 ʂ ej˧˥ rr
+sheir3 ʂ ej˨˩˦ rr
+sheir4 ʂ ej˥˩ rr
+sheir5 ʂ ej˦ rr
+shen1 ʂ ə˥˥ n
+shen2 ʂ ə˧˥ n
+shen3 ʂ ə˨˩˦ n
+shen4 ʂ ə˥˩ n
+shen5 ʂ ə˦ n
+shenr1 ʂ ə˥˥ n rr
+shenr2 ʂ ə˧˥ n rr
+shenr3 ʂ ə˨˩˦ n rr
+shenr4 ʂ ə˥˩ n rr
+shenr5 ʂ ə˦ n rr
+sheng1 ʂ o˥˥ ŋ
+sheng2 ʂ o˧˥ ŋ
+sheng3 ʂ o˨˩˦ ŋ
+sheng4 ʂ o˥˩ ŋ
+sheng5 ʂ o˦ ŋ
+shengr1 ʂ o˥˥ ŋ rr
+shengr2 ʂ o˧˥ ŋ rr
+shengr3 ʂ o˨˩˦ ŋ rr
+shengr4 ʂ o˥˩ ŋ rr
+shengr5 ʂ o˦ ŋ rr
+shou1 ʂ ow˥˥
+shou2 ʂ ow˧˥
+shou3 ʂ ow˨˩˦
+shou4 ʂ ow˥˩
+shou5 ʂ ow˦
+shour1 ʂ ow˥˥ rr
+shour2 ʂ ow˧˥ rr
+shour3 ʂ ow˨˩˦ rr
+shour4 ʂ ow˥˩ rr
+shour5 ʂ ow˦ rr
+shi1 ʂ ʐ̩˥˥
+shi2 ʂ ʐ̩˧˥
+shi3 ʂ ʐ̩˨˩˦
+shi4 ʂ ʐ̩˥˩
+shi5 ʂ ʐ̩˦
+shir1 ʂ ʐ̩˥˥ rr
+shir2 ʂ ʐ̩˧˥ rr
+shir3 ʂ ʐ̩˨˩˦ rr
+shir4 ʂ ʐ̩˥˩ rr
+shir5 ʂ ʐ̩˦ rr
+shu1 ʂ u˥˥
+shu2 ʂ u˧˥
+shu3 ʂ u˨˩˦
+shu4 ʂ u˥˩
+shu5 ʂ u˦
+shur1 ʂ u˥˥ rr
+shur2 ʂ u˧˥ rr
+shur3 ʂ u˨˩˦ rr
+shur4 ʂ u˥˩ rr
+shur5 ʂ u˦ rr
+shua1 ʂ w a˥˥
+shua2 ʂ w a˧˥
+shua3 ʂ w a˨˩˦
+shua4 ʂ w a˥˩
+shua5 ʂ w a˦
+shuar1 ʂ w a˥˥ rr
+shuar2 ʂ w a˧˥ rr
+shuar3 ʂ w a˨˩˦ rr
+shuar4 ʂ w a˥˩ rr
+shuar5 ʂ w a˦ rr
+shuai1 ʂ w aj˥˥
+shuai2 ʂ w aj˧˥
+shuai3 ʂ w aj˨˩˦
+shuai4 ʂ w aj˥˩
+shuai5 ʂ w aj˦
+shuair1 ʂ w aj˥˥ rr
+shuair2 ʂ w aj˧˥ rr
+shuair3 ʂ w aj˨˩˦ rr
+shuair4 ʂ w aj˥˩ rr
+shuair5 ʂ w aj˦ rr
+shuan1 ʂ w a˥˥ n
+shuan2 ʂ w a˧˥ n
+shuan3 ʂ w a˨˩˦ n
+shuan4 ʂ w a˥˩ n
+shuan5 ʂ w a˦ n
+shuanr1 ʂ w a˥˥ n rr
+shuanr2 ʂ w a˧˥ n rr
+shuanr3 ʂ w a˨˩˦ n rr
+shuanr4 ʂ w a˥˩ n rr
+shuanr5 ʂ w a˦ n rr
+shuang1 ʂ w a˥˥ ŋ
+shuang2 ʂ w a˧˥ ŋ
+shuang3 ʂ w a˨˩˦ ŋ
+shuang4 ʂ w a˥˩ ŋ
+shuang5 ʂ w a˦ ŋ
+shuangr1 ʂ w a˥˥ ŋ rr
+shuangr2 ʂ w a˧˥ ŋ rr
+shuangr3 ʂ w a˨˩˦ ŋ rr
+shuangr4 ʂ w a˥˩ ŋ rr
+shuangr5 ʂ w a˦ ŋ rr
+shui1 ʂ w ej˥˥
+shui2 ʂ w ej˧˥
+shui3 ʂ w ej˨˩˦
+shui4 ʂ w ej˥˩
+shui5 ʂ w ej˦
+shuir1 ʂ w ej˥˥ rr
+shuir2 ʂ w ej˧˥ rr
+shuir3 ʂ w ej˨˩˦ rr
+shuir4 ʂ w ej˥˩ rr
+shuir5 ʂ w ej˦ rr
+shuo1 ʂ w o˥˥
+shuo2 ʂ w o˧˥
+shuo3 ʂ w o˨˩˦
+shuo4 ʂ w o˥˩
+shuo5 ʂ w o˦
+shuor1 ʂ w o˥˥ rr
+shuor2 ʂ w o˧˥ rr
+shuor3 ʂ w o˨˩˦ rr
+shuor4 ʂ w o˥˩ rr
+shuor5 ʂ w o˦ rr
+shun1 ʂ w ə˥˥ n
+shun2 ʂ w ə˧˥ n
+shun3 ʂ w ə˨˩˦ n
+shun4 ʂ w ə˥˩ n
+shun5 ʂ w ə˦ n
+shunr1 ʂ w ə˥˥ n rr
+shunr2 ʂ w ə˧˥ n rr
+shunr3 ʂ w ə˨˩˦ n rr
+shunr4 ʂ w ə˥˩ n rr
+shunr5 ʂ w ə˦ n rr
+rao1 ʐ aw˥˥
+rao2 ʐ aw˧˥
+rao3 ʐ aw˨˩˦
+rao4 ʐ aw˥˩
+rao5 ʐ aw˦
+raor1 ʐ aw˥˥ rr
+raor2 ʐ aw˧˥ rr
+raor3 ʐ aw˨˩˦ rr
+raor4 ʐ aw˥˩ rr
+raor5 ʐ aw˦ rr
+ran1 ʐ a˥˥ n
+ran2 ʐ a˧˥ n
+ran3 ʐ a˨˩˦ n
+ran4 ʐ a˥˩ n
+ran5 ʐ a˦ n
+ranr1 ʐ a˥˥ n rr
+ranr2 ʐ a˧˥ n rr
+ranr3 ʐ a˨˩˦ n rr
+ranr4 ʐ a˥˩ n rr
+ranr5 ʐ a˦ n rr
+rang1 ʐ a˥˥ ŋ
+rang2 ʐ a˧˥ ŋ
+rang3 ʐ a˨˩˦ ŋ
+rang4 ʐ a˥˩ ŋ
+rang5 ʐ a˦ ŋ
+rangr1 ʐ a˥˥ ŋ rr
+rangr2 ʐ a˧˥ ŋ rr
+rangr3 ʐ a˨˩˦ ŋ rr
+rangr4 ʐ a˥˩ ŋ rr
+rangr5 ʐ a˦ ŋ rr
+re1 ʐ o˥˥
+re2 ʐ o˧˥
+re3 ʐ o˨˩˦
+re4 ʐ o˥˩
+re5 ʐ o˦
+rer1 ʐ o˥˥ rr
+rer2 ʐ o˧˥ rr
+rer3 ʐ o˨˩˦ rr
+rer4 ʐ o˥˩ rr
+rer5 ʐ o˦ rr
+ren1 ʐ ə˥˥ n
+ren2 ʐ ə˧˥ n
+ren3 ʐ ə˨˩˦ n
+ren4 ʐ ə˥˩ n
+ren5 ʐ ə˦ n
+renr1 ʐ ə˥˥ n rr
+renr2 ʐ ə˧˥ n rr
+renr3 ʐ ə˨˩˦ n rr
+renr4 ʐ ə˥˩ n rr
+renr5 ʐ ə˦ n rr
+reng1 ʐ o˥˥ ŋ
+reng2 ʐ o˧˥ ŋ
+reng3 ʐ o˨˩˦ ŋ
+reng4 ʐ o˥˩ ŋ
+reng5 ʐ o˦ ŋ
+rengr1 ʐ o˥˥ ŋ rr
+rengr2 ʐ o˧˥ ŋ rr
+rengr3 ʐ o˨˩˦ ŋ rr
+rengr4 ʐ o˥˩ ŋ rr
+rengr5 ʐ o˦ ŋ rr
+rou1 ʐ ow˥˥
+rou2 ʐ ow˧˥
+rou3 ʐ ow˨˩˦
+rou4 ʐ ow˥˩
+rou5 ʐ ow˦
+rour1 ʐ ow˥˥ rr
+rour2 ʐ ow˧˥ rr
+rour3 ʐ ow˨˩˦ rr
+rour4 ʐ ow˥˩ rr
+rour5 ʐ ow˦ rr
+rong1 ʐ u˥˥ ŋ
+rong2 ʐ u˧˥ ŋ
+rong3 ʐ u˨˩˦ ŋ
+rong4 ʐ u˥˩ ŋ
+rong5 ʐ u˦ ŋ
+rongr1 ʐ u˥˥ ŋ rr
+rongr2 ʐ u˧˥ ŋ rr
+rongr3 ʐ u˨˩˦ ŋ rr
+rongr4 ʐ u˥˩ ŋ rr
+rongr5 ʐ u˦ ŋ rr
+ri1 ʐ̩˥˥
+ri2 ʐ̩˧˥
+ri3 ʐ̩˨˩˦
+ri4 ʐ̩˥˩
+ri5 ʐ̩˦
+rir1 ʐ̩˥˥ rr
+rir2 ʐ̩˧˥ rr
+rir3 ʐ̩˨˩˦ rr
+rir4 ʐ̩˥˩ rr
+rir5 ʐ̩˦ rr
+ru1 ʐ u˥˥
+ru2 ʐ u˧˥
+ru3 ʐ u˨˩˦
+ru4 ʐ u˥˩
+ru5 ʐ u˦
+rur1 ʐ u˥˥ rr
+rur2 ʐ u˧˥ rr
+rur3 ʐ u˨˩˦ rr
+rur4 ʐ u˥˩ rr
+rur5 ʐ u˦ rr
+ruan1 ʐ w a˥˥ n
+ruan2 ʐ w a˧˥ n
+ruan3 ʐ w a˨˩˦ n
+ruan4 ʐ w a˥˩ n
+ruan5 ʐ w a˦ n
+ruanr1 ʐ w a˥˥ n rr
+ruanr2 ʐ w a˧˥ n rr
+ruanr3 ʐ w a˨˩˦ n rr
+ruanr4 ʐ w a˥˩ n rr
+ruanr5 ʐ w a˦ n rr
+rui1 ʐ w ej˥˥
+rui2 ʐ w ej˧˥
+rui3 ʐ w ej˨˩˦
+rui4 ʐ w ej˥˩
+rui5 ʐ w ej˦
+ruir1 ʐ w ej˥˥ rr
+ruir2 ʐ w ej˧˥ rr
+ruir3 ʐ w ej˨˩˦ rr
+ruir4 ʐ w ej˥˩ rr
+ruir5 ʐ w ej˦ rr
+ruo1 ʐ w o˥˥
+ruo2 ʐ w o˧˥
+ruo3 ʐ w o˨˩˦
+ruo4 ʐ w o˥˩
+ruo5 ʐ w o˦
+ruor1 ʐ w o˥˥ rr
+ruor2 ʐ w o˧˥ rr
+ruor3 ʐ w o˨˩˦ rr
+ruor4 ʐ w o˥˩ rr
+ruor5 ʐ w o˦ rr
+run1 ʐ w ə˥˥ n
+run2 ʐ w ə˧˥ n
+run3 ʐ w ə˨˩˦ n
+run4 ʐ w ə˥˩ n
+run5 ʐ w ə˦ n
+runr1 ʐ w ə˥˥ n rr
+runr2 ʐ w ə˧˥ n rr
+runr3 ʐ w ə˨˩˦ n rr
+runr4 ʐ w ə˥˩ n rr
+runr5 ʐ w ə˦ n rr
+za1 ts a˥˥
+za2 ts a˧˥
+za3 ts a˨˩˦
+za4 ts a˥˩
+za5 ts a˦
+zar1 ts a˥˥ rr
+zar2 ts a˧˥ rr
+zar3 ts a˨˩˦ rr
+zar4 ts a˥˩ rr
+zar5 ts a˦ rr
+zai1 ts aj˥˥
+zai2 ts aj˧˥
+zai3 ts aj˨˩˦
+zai4 ts aj˥˩
+zai5 ts aj˦
+zair1 ts aj˥˥ rr
+zair2 ts aj˧˥ rr
+zair3 ts aj˨˩˦ rr
+zair4 ts aj˥˩ rr
+zair5 ts aj˦ rr
+zao1 ts aw˥˥
+zao2 ts aw˧˥
+zao3 ts aw˨˩˦
+zao4 ts aw˥˩
+zao5 ts aw˦
+zaor1 ts aw˥˥ rr
+zaor2 ts aw˧˥ rr
+zaor3 ts aw˨˩˦ rr
+zaor4 ts aw˥˩ rr
+zaor5 ts aw˦ rr
+zan1 ts a˥˥ n
+zan2 ts a˧˥ n
+zan3 ts a˨˩˦ n
+zan4 ts a˥˩ n
+zan5 ts a˦ n
+zanr1 ts a˥˥ n rr
+zanr2 ts a˧˥ n rr
+zanr3 ts a˨˩˦ n rr
+zanr4 ts a˥˩ n rr
+zanr5 ts a˦ n rr
+zang1 ts a˥˥ ŋ
+zang2 ts a˧˥ ŋ
+zang3 ts a˨˩˦ ŋ
+zang4 ts a˥˩ ŋ
+zang5 ts a˦ ŋ
+zangr1 ts a˥˥ ŋ rr
+zangr2 ts a˧˥ ŋ rr
+zangr3 ts a˨˩˦ ŋ rr
+zangr4 ts a˥˩ ŋ rr
+zangr5 ts a˦ ŋ rr
+ze1 ts o˥˥
+ze2 ts o˧˥
+ze3 ts o˨˩˦
+ze4 ts o˥˩
+ze5 ts o˦
+zer1 ts o˥˥ rr
+zer2 ts o˧˥ rr
+zer3 ts o˨˩˦ rr
+zer4 ts o˥˩ rr
+zer5 ts o˦ rr
+zei1 ts ej˥˥
+zei2 ts ej˧˥
+zei3 ts ej˨˩˦
+zei4 ts ej˥˩
+zei5 ts ej˦
+zeir1 ts ej˥˥ rr
+zeir2 ts ej˧˥ rr
+zeir3 ts ej˨˩˦ rr
+zeir4 ts ej˥˩ rr
+zeir5 ts ej˦ rr
+zen1 ts ə˥˥ n
+zen2 ts ə˧˥ n
+zen3 ts ə˨˩˦ n
+zen4 ts ə˥˩ n
+zen5 ts ə˦ n
+zenr1 ts ə˥˥ n rr
+zenr2 ts ə˧˥ n rr
+zenr3 ts ə˨˩˦ n rr
+zenr4 ts ə˥˩ n rr
+zenr5 ts ə˦ n rr
+zeng1 ts o˥˥ ŋ
+zeng2 ts o˧˥ ŋ
+zeng3 ts o˨˩˦ ŋ
+zeng4 ts o˥˩ ŋ
+zeng5 ts o˦ ŋ
+zengr1 ts o˥˥ ŋ rr
+zengr2 ts o˧˥ ŋ rr
+zengr3 ts o˨˩˦ ŋ rr
+zengr4 ts o˥˩ ŋ rr
+zengr5 ts o˦ ŋ rr
+zou1 ts ow˥˥
+zou2 ts ow˧˥
+zou3 ts ow˨˩˦
+zou4 ts ow˥˩
+zou5 ts ow˦
+zour1 ts ow˥˥ rr
+zour2 ts ow˧˥ rr
+zour3 ts ow˨˩˦ rr
+zour4 ts ow˥˩ rr
+zour5 ts ow˦ rr
+zong1 ts u˥˥ ŋ
+zong2 ts u˧˥ ŋ
+zong3 ts u˨˩˦ ŋ
+zong4 ts u˥˩ ŋ
+zong5 ts u˦ ŋ
+zongr1 ts u˥˥ ŋ rr
+zongr2 ts u˧˥ ŋ rr
+zongr3 ts u˨˩˦ ŋ rr
+zongr4 ts u˥˩ ŋ rr
+zongr5 ts u˦ ŋ rr
+zi1 ts z̩˥˥
+zi2 ts z̩˧˥
+zi3 ts z̩˨˩˦
+zi4 ts z̩˥˩
+zi5 ts z̩˦
+zir1 ts z̩˥˥ rr
+zir2 ts z̩˧˥ rr
+zir3 ts z̩˨˩˦ rr
+zir4 ts z̩˥˩ rr
+zir5 ts z̩˦ rr
+zu1 ts u˥˥
+zu2 ts u˧˥
+zu3 ts u˨˩˦
+zu4 ts u˥˩
+zu5 ts u˦
+zur1 ts u˥˥ rr
+zur2 ts u˧˥ rr
+zur3 ts u˨˩˦ rr
+zur4 ts u˥˩ rr
+zur5 ts u˦ rr
+zuan1 ts w a˥˥ n
+zuan2 ts w a˧˥ n
+zuan3 ts w a˨˩˦ n
+zuan4 ts w a˥˩ n
+zuan5 ts w a˦ n
+zuanr1 ts w a˥˥ n rr
+zuanr2 ts w a˧˥ n rr
+zuanr3 ts w a˨˩˦ n rr
+zuanr4 ts w a˥˩ n rr
+zuanr5 ts w a˦ n rr
+zui1 ts w ej˥˥
+zui2 ts w ej˧˥
+zui3 ts w ej˨˩˦
+zui4 ts w ej˥˩
+zui5 ts w ej˦
+zuir1 ts w ej˥˥ rr
+zuir2 ts w ej˧˥ rr
+zuir3 ts w ej˨˩˦ rr
+zuir4 ts w ej˥˩ rr
+zuir5 ts w ej˦ rr
+zuo1 ts w o˥˥
+zuo2 ts w o˧˥
+zuo3 ts w o˨˩˦
+zuo4 ts w o˥˩
+zuo5 ts w o˦
+zuor1 ts w o˥˥ rr
+zuor2 ts w o˧˥ rr
+zuor3 ts w o˨˩˦ rr
+zuor4 ts w o˥˩ rr
+zuor5 ts w o˦ rr
+zun1 ts w ə˥˥ n
+zun2 ts w ə˧˥ n
+zun3 ts w ə˨˩˦ n
+zun4 ts w ə˥˩ n
+zun5 ts w ə˦ n
+zunr1 ts w ə˥˥ n rr
+zunr2 ts w ə˧˥ n rr
+zunr3 ts w ə˨˩˦ n rr
+zunr4 ts w ə˥˩ n rr
+zunr5 ts w ə˦ n rr
+ca1 tsʰ a˥˥
+ca2 tsʰ a˧˥
+ca3 tsʰ a˨˩˦
+ca4 tsʰ a˥˩
+ca5 tsʰ a˦
+car1 tsʰ a˥˥ rr
+car2 tsʰ a˧˥ rr
+car3 tsʰ a˨˩˦ rr
+car4 tsʰ a˥˩ rr
+car5 tsʰ a˦ rr
+cai1 tsʰ aj˥˥
+cai2 tsʰ aj˧˥
+cai3 tsʰ aj˨˩˦
+cai4 tsʰ aj˥˩
+cai5 tsʰ aj˦
+cair1 tsʰ aj˥˥ rr
+cair2 tsʰ aj˧˥ rr
+cair3 tsʰ aj˨˩˦ rr
+cair4 tsʰ aj˥˩ rr
+cair5 tsʰ aj˦ rr
+cao1 tsʰ aw˥˥
+cao2 tsʰ aw˧˥
+cao3 tsʰ aw˨˩˦
+cao4 tsʰ aw˥˩
+cao5 tsʰ aw˦
+caor1 tsʰ aw˥˥ rr
+caor2 tsʰ aw˧˥ rr
+caor3 tsʰ aw˨˩˦ rr
+caor4 tsʰ aw˥˩ rr
+caor5 tsʰ aw˦ rr
+can1 tsʰ a˥˥ n
+can2 tsʰ a˧˥ n
+can3 tsʰ a˨˩˦ n
+can4 tsʰ a˥˩ n
+can5 tsʰ a˦ n
+canr1 tsʰ a˥˥ n rr
+canr2 tsʰ a˧˥ n rr
+canr3 tsʰ a˨˩˦ n rr
+canr4 tsʰ a˥˩ n rr
+canr5 tsʰ a˦ n rr
+cang1 tsʰ a˥˥ ŋ
+cang2 tsʰ a˧˥ ŋ
+cang3 tsʰ a˨˩˦ ŋ
+cang4 tsʰ a˥˩ ŋ
+cang5 tsʰ a˦ ŋ
+cangr1 tsʰ a˥˥ ŋ rr
+cangr2 tsʰ a˧˥ ŋ rr
+cangr3 tsʰ a˨˩˦ ŋ rr
+cangr4 tsʰ a˥˩ ŋ rr
+cangr5 tsʰ a˦ ŋ rr
+ce1 tsʰ o˥˥
+ce2 tsʰ o˧˥
+ce3 tsʰ o˨˩˦
+ce4 tsʰ o˥˩
+ce5 tsʰ o˦
+cer1 tsʰ o˥˥ rr
+cer2 tsʰ o˧˥ rr
+cer3 tsʰ o˨˩˦ rr
+cer4 tsʰ o˥˩ rr
+cer5 tsʰ o˦ rr
+cen1 tsʰ ə˥˥ n
+cen2 tsʰ ə˧˥ n
+cen3 tsʰ ə˨˩˦ n
+cen4 tsʰ ə˥˩ n
+cen5 tsʰ ə˦ n
+cenr1 tsʰ ə˥˥ n rr
+cenr2 tsʰ ə˧˥ n rr
+cenr3 tsʰ ə˨˩˦ n rr
+cenr4 tsʰ ə˥˩ n rr
+cenr5 tsʰ ə˦ n rr
+ceng1 tsʰ o˥˥ ŋ
+ceng2 tsʰ o˧˥ ŋ
+ceng3 tsʰ o˨˩˦ ŋ
+ceng4 tsʰ o˥˩ ŋ
+ceng5 tsʰ o˦ ŋ
+cengr1 tsʰ o˥˥ ŋ rr
+cengr2 tsʰ o˧˥ ŋ rr
+cengr3 tsʰ o˨˩˦ ŋ rr
+cengr4 tsʰ o˥˩ ŋ rr
+cengr5 tsʰ o˦ ŋ rr
+cou1 tsʰ ow˥˥
+cou2 tsʰ ow˧˥
+cou3 tsʰ ow˨˩˦
+cou4 tsʰ ow˥˩
+cou5 tsʰ ow˦
+cour1 tsʰ ow˥˥ rr
+cour2 tsʰ ow˧˥ rr
+cour3 tsʰ ow˨˩˦ rr
+cour4 tsʰ ow˥˩ rr
+cour5 tsʰ ow˦ rr
+cong1 tsʰ u˥˥ ŋ
+cong2 tsʰ u˧˥ ŋ
+cong3 tsʰ u˨˩˦ ŋ
+cong4 tsʰ u˥˩ ŋ
+cong5 tsʰ u˦ ŋ
+congr1 tsʰ u˥˥ ŋ rr
+congr2 tsʰ u˧˥ ŋ rr
+congr3 tsʰ u˨˩˦ ŋ rr
+congr4 tsʰ u˥˩ ŋ rr
+congr5 tsʰ u˦ ŋ rr
+ci1 tsʰ z̩˥˥
+ci2 tsʰ z̩˧˥
+ci3 tsʰ z̩˨˩˦
+ci4 tsʰ z̩˥˩
+ci5 tsʰ z̩˦
+cir1 tsʰ z̩˥˥ rr
+cir2 tsʰ z̩˧˥ rr
+cir3 tsʰ z̩˨˩˦ rr
+cir4 tsʰ z̩˥˩ rr
+cir5 tsʰ z̩˦ rr
+cu1 tsʰ u˥˥
+cu2 tsʰ u˧˥
+cu3 tsʰ u˨˩˦
+cu4 tsʰ u˥˩
+cu5 tsʰ u˦
+cur1 tsʰ u˥˥ rr
+cur2 tsʰ u˧˥ rr
+cur3 tsʰ u˨˩˦ rr
+cur4 tsʰ u˥˩ rr
+cur5 tsʰ u˦ rr
+cuan1 tsʰ w a˥˥ n
+cuan2 tsʰ w a˧˥ n
+cuan3 tsʰ w a˨˩˦ n
+cuan4 tsʰ w a˥˩ n
+cuan5 tsʰ w a˦ n
+cuanr1 tsʰ w a˥˥ n rr
+cuanr2 tsʰ w a˧˥ n rr
+cuanr3 tsʰ w a˨˩˦ n rr
+cuanr4 tsʰ w a˥˩ n rr
+cuanr5 tsʰ w a˦ n rr
+cui1 tsʰ w ej˥˥
+cui2 tsʰ w ej˧˥
+cui3 tsʰ w ej˨˩˦
+cui4 tsʰ w ej˥˩
+cui5 tsʰ w ej˦
+cuir1 tsʰ w ej˥˥ rr
+cuir2 tsʰ w ej˧˥ rr
+cuir3 tsʰ w ej˨˩˦ rr
+cuir4 tsʰ w ej˥˩ rr
+cuir5 tsʰ w ej˦ rr
+cuo1 tsʰ w o˥˥
+cuo2 tsʰ w o˧˥
+cuo3 tsʰ w o˨˩˦
+cuo4 tsʰ w o˥˩
+cuo5 tsʰ w o˦
+cuor1 tsʰ w o˥˥ rr
+cuor2 tsʰ w o˧˥ rr
+cuor3 tsʰ w o˨˩˦ rr
+cuor4 tsʰ w o˥˩ rr
+cuor5 tsʰ w o˦ rr
+cun1 tsʰ w ə˥˥ n
+cun2 tsʰ w ə˧˥ n
+cun3 tsʰ w ə˨˩˦ n
+cun4 tsʰ w ə˥˩ n
+cun5 tsʰ w ə˦ n
+cunr1 tsʰ w ə˥˥ n rr
+cunr2 tsʰ w ə˧˥ n rr
+cunr3 tsʰ w ə˨˩˦ n rr
+cunr4 tsʰ w ə˥˩ n rr
+cunr5 tsʰ w ə˦ n rr
+sa1 s a˥˥
+sa2 s a˧˥
+sa3 s a˨˩˦
+sa4 s a˥˩
+sa5 s a˦
+sar1 s a˥˥ rr
+sar2 s a˧˥ rr
+sar3 s a˨˩˦ rr
+sar4 s a˥˩ rr
+sar5 s a˦ rr
+sai1 s aj˥˥
+sai2 s aj˧˥
+sai3 s aj˨˩˦
+sai4 s aj˥˩
+sai5 s aj˦
+sair1 s aj˥˥ rr
+sair2 s aj˧˥ rr
+sair3 s aj˨˩˦ rr
+sair4 s aj˥˩ rr
+sair5 s aj˦ rr
+sao1 s aw˥˥
+sao2 s aw˧˥
+sao3 s aw˨˩˦
+sao4 s aw˥˩
+sao5 s aw˦
+saor1 s aw˥˥ rr
+saor2 s aw˧˥ rr
+saor3 s aw˨˩˦ rr
+saor4 s aw˥˩ rr
+saor5 s aw˦ rr
+san1 s a˥˥ n
+san2 s a˧˥ n
+san3 s a˨˩˦ n
+san4 s a˥˩ n
+san5 s a˦ n
+sanr1 s a˥˥ n rr
+sanr2 s a˧˥ n rr
+sanr3 s a˨˩˦ n rr
+sanr4 s a˥˩ n rr
+sanr5 s a˦ n rr
+sang1 s a˥˥ ŋ
+sang2 s a˧˥ ŋ
+sang3 s a˨˩˦ ŋ
+sang4 s a˥˩ ŋ
+sang5 s a˦ ŋ
+sangr1 s a˥˥ ŋ rr
+sangr2 s a˧˥ ŋ rr
+sangr3 s a˨˩˦ ŋ rr
+sangr4 s a˥˩ ŋ rr
+sangr5 s a˦ ŋ rr
+se1 s o˥˥
+se2 s o˧˥
+se3 s o˨˩˦
+se4 s o˥˩
+se5 s o˦
+ser1 s o˥˥ rr
+ser2 s o˧˥ rr
+ser3 s o˨˩˦ rr
+ser4 s o˥˩ rr
+ser5 s o˦ rr
+sen1 s ə˥˥ n
+sen2 s ə˧˥ n
+sen3 s ə˨˩˦ n
+sen4 s ə˥˩ n
+sen5 s ə˦ n
+senr1 s ə˥˥ n rr
+senr2 s ə˧˥ n rr
+senr3 s ə˨˩˦ n rr
+senr4 s ə˥˩ n rr
+senr5 s ə˦ n rr
+seng1 s o˥˥ ŋ
+seng2 s o˧˥ ŋ
+seng3 s o˨˩˦ ŋ
+seng4 s o˥˩ ŋ
+seng5 s o˦ ŋ
+sengr1 s o˥˥ ŋ rr
+sengr2 s o˧˥ ŋ rr
+sengr3 s o˨˩˦ ŋ rr
+sengr4 s o˥˩ ŋ rr
+sengr5 s o˦ ŋ rr
+sou1 s ow˥˥
+sou2 s ow˧˥
+sou3 s ow˨˩˦
+sou4 s ow˥˩
+sou5 s ow˦
+sour1 s ow˥˥ rr
+sour2 s ow˧˥ rr
+sour3 s ow˨˩˦ rr
+sour4 s ow˥˩ rr
+sour5 s ow˦ rr
+song1 s u˥˥ ŋ
+song2 s u˧˥ ŋ
+song3 s u˨˩˦ ŋ
+song4 s u˥˩ ŋ
+song5 s u˦ ŋ
+songr1 s u˥˥ ŋ rr
+songr2 s u˧˥ ŋ rr
+songr3 s u˨˩˦ ŋ rr
+songr4 s u˥˩ ŋ rr
+songr5 s u˦ ŋ rr
+si1 s z̩˥˥
+si2 s z̩˧˥
+si3 s z̩˨˩˦
+si4 s z̩˥˩
+si5 s z̩˦
+sir1 s z̩˥˥ rr
+sir2 s z̩˧˥ rr
+sir3 s z̩˨˩˦ rr
+sir4 s z̩˥˩ rr
+sir5 s z̩˦ rr
+su1 s u˥˥
+su2 s u˧˥
+su3 s u˨˩˦
+su4 s u˥˩
+su5 s u˦
+sur1 s u˥˥ rr
+sur2 s u˧˥ rr
+sur3 s u˨˩˦ rr
+sur4 s u˥˩ rr
+sur5 s u˦ rr
+suan1 s w a˥˥ n
+suan2 s w a˧˥ n
+suan3 s w a˨˩˦ n
+suan4 s w a˥˩ n
+suan5 s w a˦ n
+suanr1 s w a˥˥ n rr
+suanr2 s w a˧˥ n rr
+suanr3 s w a˨˩˦ n rr
+suanr4 s w a˥˩ n rr
+suanr5 s w a˦ n rr
+sui1 s w ej˥˥
+sui2 s w ej˧˥
+sui3 s w ej˨˩˦
+sui4 s w ej˥˩
+sui5 s w ej˦
+suir1 s w ej˥˥ rr
+suir2 s w ej˧˥ rr
+suir3 s w ej˨˩˦ rr
+suir4 s w ej˥˩ rr
+suir5 s w ej˦ rr
+suo1 s w o˥˥
+suo2 s w o˧˥
+suo3 s w o˨˩˦
+suo4 s w o˥˩
+suo5 s w o˦
+suor1 s w o˥˥ rr
+suor2 s w o˧˥ rr
+suor3 s w o˨˩˦ rr
+suor4 s w o˥˩ rr
+suor5 s w o˦ rr
+sun1 s w ə˥˥ n
+sun2 s w ə˧˥ n
+sun3 s w ə˨˩˦ n
+sun4 s w ə˥˩ n
+sun5 s w ə˦ n
+sunr1 s w ə˥˥ n rr
+sunr2 s w ə˧˥ n rr
+sunr3 s w ə˨˩˦ n rr
+sunr4 s w ə˥˩ n rr
+sunr5 s w ə˦ n rr
+ji1 tɕ i˥˥
+ji2 tɕ i˧˥
+ji3 tɕ i˨˩˦
+ji4 tɕ i˥˩
+ji5 tɕ i˦
+jir1 tɕ i˥˥ rr
+jir2 tɕ i˧˥ rr
+jir3 tɕ i˨˩˦ rr
+jir4 tɕ i˥˩ rr
+jir5 tɕ i˦ rr
+jia1 tɕ j a˥˥
+jia2 tɕ j a˧˥
+jia3 tɕ j a˨˩˦
+jia4 tɕ j a˥˩
+jia5 tɕ j a˦
+jiar1 tɕ j a˥˥ rr
+jiar2 tɕ j a˧˥ rr
+jiar3 tɕ j a˨˩˦ rr
+jiar4 tɕ j a˥˩ rr
+jiar5 tɕ j a˦ rr
+jiao1 tɕ j aw˥˥
+jiao2 tɕ j aw˧˥
+jiao3 tɕ j aw˨˩˦
+jiao4 tɕ j aw˥˩
+jiao5 tɕ j aw˦
+jiaor1 tɕ j aw˥˥ rr
+jiaor2 tɕ j aw˧˥ rr
+jiaor3 tɕ j aw˨˩˦ rr
+jiaor4 tɕ j aw˥˩ rr
+jiaor5 tɕ j aw˦ rr
+jian1 tɕ j e˥˥ n
+jian2 tɕ j e˧˥ n
+jian3 tɕ j e˨˩˦ n
+jian4 tɕ j e˥˩ n
+jian5 tɕ j e˦ n
+jianr1 tɕ j e˥˥ n rr
+jianr2 tɕ j e˧˥ n rr
+jianr3 tɕ j e˨˩˦ n rr
+jianr4 tɕ j e˥˩ n rr
+jianr5 tɕ j e˦ n rr
+jiang1 tɕ j a˥˥ ŋ
+jiang2 tɕ j a˧˥ ŋ
+jiang3 tɕ j a˨˩˦ ŋ
+jiang4 tɕ j a˥˩ ŋ
+jiang5 tɕ j a˦ ŋ
+jiangr1 tɕ j a˥˥ ŋ rr
+jiangr2 tɕ j a˧˥ ŋ rr
+jiangr3 tɕ j a˨˩˦ ŋ rr
+jiangr4 tɕ j a˥˩ ŋ rr
+jiangr5 tɕ j a˦ ŋ rr
+jie1 tɕ j e˥˥
+jie2 tɕ j e˧˥
+jie3 tɕ j e˨˩˦
+jie4 tɕ j e˥˩
+jie5 tɕ j e˦
+jier1 tɕ j e˥˥ rr
+jier2 tɕ j e˧˥ rr
+jier3 tɕ j e˨˩˦ rr
+jier4 tɕ j e˥˩ rr
+jier5 tɕ j e˦ rr
+jiu1 tɕ j ow˥˥
+jiu2 tɕ j ow˧˥
+jiu3 tɕ j ow˨˩˦
+jiu4 tɕ j ow˥˩
+jiu5 tɕ j ow˦
+jiur1 tɕ j ow˥˥ rr
+jiur2 tɕ j ow˧˥ rr
+jiur3 tɕ j ow˨˩˦ rr
+jiur4 tɕ j ow˥˩ rr
+jiur5 tɕ j ow˦ rr
+jiong1 tɕ j u˥˥ ŋ
+jiong2 tɕ j u˧˥ ŋ
+jiong3 tɕ j u˨˩˦ ŋ
+jiong4 tɕ j u˥˩ ŋ
+jiong5 tɕ j u˦ ŋ
+jiongr1 tɕ j u˥˥ ŋ rr
+jiongr2 tɕ j u˧˥ ŋ rr
+jiongr3 tɕ j u˨˩˦ ŋ rr
+jiongr4 tɕ j u˥˩ ŋ rr
+jiongr5 tɕ j u˦ ŋ rr
+jin1 tɕ i˥˥ n
+jin2 tɕ i˧˥ n
+jin3 tɕ i˨˩˦ n
+jin4 tɕ i˥˩ n
+jin5 tɕ i˦ n
+jinr1 tɕ i˥˥ n rr
+jinr2 tɕ i˧˥ n rr
+jinr3 tɕ i˨˩˦ n rr
+jinr4 tɕ i˥˩ n rr
+jinr5 tɕ i˦ n rr
+jing1 tɕ i˥˥ ŋ
+jing2 tɕ i˧˥ ŋ
+jing3 tɕ i˨˩˦ ŋ
+jing4 tɕ i˥˩ ŋ
+jing5 tɕ i˦ ŋ
+jingr1 tɕ i˥˥ ŋ rr
+jingr2 tɕ i˧˥ ŋ rr
+jingr3 tɕ i˨˩˦ ŋ rr
+jingr4 tɕ i˥˩ ŋ rr
+jingr5 tɕ i˦ ŋ rr
+ju1 tɕ y˥˥
+ju2 tɕ y˧˥
+ju3 tɕ y˨˩˦
+ju4 tɕ y˥˩
+ju5 tɕ y˦
+jur1 tɕ y˥˥ rr
+jur2 tɕ y˧˥ rr
+jur3 tɕ y˨˩˦ rr
+jur4 tɕ y˥˩ rr
+jur5 tɕ y˦ rr
+jue1 tɕ ɥ e˥˥
+jue2 tɕ ɥ e˧˥
+jue3 tɕ ɥ e˨˩˦
+jue4 tɕ ɥ e˥˩
+jue5 tɕ ɥ e˦
+juer1 tɕ ɥ e˥˥ rr
+juer2 tɕ ɥ e˧˥ rr
+juer3 tɕ ɥ e˨˩˦ rr
+juer4 tɕ ɥ e˥˩ rr
+juer5 tɕ ɥ e˦ rr
+juan1 tɕ ɥ e˥˥ n
+juan2 tɕ ɥ e˧˥ n
+juan3 tɕ ɥ e˨˩˦ n
+juan4 tɕ ɥ e˥˩ n
+juan5 tɕ ɥ e˦ n
+juanr1 tɕ ɥ e˥˥ n rr
+juanr2 tɕ ɥ e˧˥ n rr
+juanr3 tɕ ɥ e˨˩˦ n rr
+juanr4 tɕ ɥ e˥˩ n rr
+juanr5 tɕ ɥ e˦ n rr
+jun1 tɕ y˥˥ n
+jun2 tɕ y˧˥ n
+jun3 tɕ y˨˩˦ n
+jun4 tɕ y˥˩ n
+jun5 tɕ y˦ n
+junr1 tɕ y˥˥ n rr
+junr2 tɕ y˧˥ n rr
+junr3 tɕ y˨˩˦ n rr
+junr4 tɕ y˥˩ n rr
+junr5 tɕ y˦ n rr
+qi1 tɕʰ i˥˥
+qi2 tɕʰ i˧˥
+qi3 tɕʰ i˨˩˦
+qi4 tɕʰ i˥˩
+qi5 tɕʰ i˦
+qir1 tɕʰ i˥˥ rr
+qir2 tɕʰ i˧˥ rr
+qir3 tɕʰ i˨˩˦ rr
+qir4 tɕʰ i˥˩ rr
+qir5 tɕʰ i˦ rr
+qia1 tɕʰ j a˥˥
+qia2 tɕʰ j a˧˥
+qia3 tɕʰ j a˨˩˦
+qia4 tɕʰ j a˥˩
+qia5 tɕʰ j a˦
+qiar1 tɕʰ j a˥˥ rr
+qiar2 tɕʰ j a˧˥ rr
+qiar3 tɕʰ j a˨˩˦ rr
+qiar4 tɕʰ j a˥˩ rr
+qiar5 tɕʰ j a˦ rr
+qiao1 tɕʰ j aw˥˥
+qiao2 tɕʰ j aw˧˥
+qiao3 tɕʰ j aw˨˩˦
+qiao4 tɕʰ j aw˥˩
+qiao5 tɕʰ j aw˦
+qiaor1 tɕʰ j aw˥˥ rr
+qiaor2 tɕʰ j aw˧˥ rr
+qiaor3 tɕʰ j aw˨˩˦ rr
+qiaor4 tɕʰ j aw˥˩ rr
+qiaor5 tɕʰ j aw˦ rr
+qian1 tɕʰ j e˥˥ n
+qian2 tɕʰ j e˧˥ n
+qian3 tɕʰ j e˨˩˦ n
+qian4 tɕʰ j e˥˩ n
+qian5 tɕʰ j e˦ n
+qianr1 tɕʰ j e˥˥ n rr
+qianr2 tɕʰ j e˧˥ n rr
+qianr3 tɕʰ j e˨˩˦ n rr
+qianr4 tɕʰ j e˥˩ n rr
+qianr5 tɕʰ j e˦ n rr
+qiang1 tɕʰ j a˥˥ ŋ
+qiang2 tɕʰ j a˧˥ ŋ
+qiang3 tɕʰ j a˨˩˦ ŋ
+qiang4 tɕʰ j a˥˩ ŋ
+qiang5 tɕʰ j a˦ ŋ
+qiangr1 tɕʰ j a˥˥ ŋ rr
+qiangr2 tɕʰ j a˧˥ ŋ rr
+qiangr3 tɕʰ j a˨˩˦ ŋ rr
+qiangr4 tɕʰ j a˥˩ ŋ rr
+qiangr5 tɕʰ j a˦ ŋ rr
+qie1 tɕʰ j e˥˥
+qie2 tɕʰ j e˧˥
+qie3 tɕʰ j e˨˩˦
+qie4 tɕʰ j e˥˩
+qie5 tɕʰ j e˦
+qier1 tɕʰ j e˥˥ rr
+qier2 tɕʰ j e˧˥ rr
+qier3 tɕʰ j e˨˩˦ rr
+qier4 tɕʰ j e˥˩ rr
+qier5 tɕʰ j e˦ rr
+qiu1 tɕʰ j ow˥˥
+qiu2 tɕʰ j ow˧˥
+qiu3 tɕʰ j ow˨˩˦
+qiu4 tɕʰ j ow˥˩
+qiu5 tɕʰ j ow˦
+qiur1 tɕʰ j ow˥˥ rr
+qiur2 tɕʰ j ow˧˥ rr
+qiur3 tɕʰ j ow˨˩˦ rr
+qiur4 tɕʰ j ow˥˩ rr
+qiur5 tɕʰ j ow˦ rr
+qiong1 tɕʰ j u˥˥ ŋ
+qiong2 tɕʰ j u˧˥ ŋ
+qiong3 tɕʰ j u˨˩˦ ŋ
+qiong4 tɕʰ j u˥˩ ŋ
+qiong5 tɕʰ j u˦ ŋ
+qiongr1 tɕʰ j u˥˥ ŋ rr
+qiongr2 tɕʰ j u˧˥ ŋ rr
+qiongr3 tɕʰ j u˨˩˦ ŋ rr
+qiongr4 tɕʰ j u˥˩ ŋ rr
+qiongr5 tɕʰ j u˦ ŋ rr
+qin1 tɕʰ i˥˥ n
+qin2 tɕʰ i˧˥ n
+qin3 tɕʰ i˨˩˦ n
+qin4 tɕʰ i˥˩ n
+qin5 tɕʰ i˦ n
+qinr1 tɕʰ i˥˥ n rr
+qinr2 tɕʰ i˧˥ n rr
+qinr3 tɕʰ i˨˩˦ n rr
+qinr4 tɕʰ i˥˩ n rr
+qinr5 tɕʰ i˦ n rr
+qing1 tɕʰ i˥˥ ŋ
+qing2 tɕʰ i˧˥ ŋ
+qing3 tɕʰ i˨˩˦ ŋ
+qing4 tɕʰ i˥˩ ŋ
+qing5 tɕʰ i˦ ŋ
+qingr1 tɕʰ i˥˥ ŋ rr
+qingr2 tɕʰ i˧˥ ŋ rr
+qingr3 tɕʰ i˨˩˦ ŋ rr
+qingr4 tɕʰ i˥˩ ŋ rr
+qingr5 tɕʰ i˦ ŋ rr
+qu1 tɕʰ y˥˥
+qu2 tɕʰ y˧˥
+qu3 tɕʰ y˨˩˦
+qu4 tɕʰ y˥˩
+qu5 tɕʰ y˦
+qur1 tɕʰ y˥˥ rr
+qur2 tɕʰ y˧˥ rr
+qur3 tɕʰ y˨˩˦ rr
+qur4 tɕʰ y˥˩ rr
+qur5 tɕʰ y˦ rr
+que1 tɕʰ ɥ e˥˥
+que2 tɕʰ ɥ e˧˥
+que3 tɕʰ ɥ e˨˩˦
+que4 tɕʰ ɥ e˥˩
+que5 tɕʰ ɥ e˦
+quer1 tɕʰ ɥ e˥˥ rr
+quer2 tɕʰ ɥ e˧˥ rr
+quer3 tɕʰ ɥ e˨˩˦ rr
+quer4 tɕʰ ɥ e˥˩ rr
+quer5 tɕʰ ɥ e˦ rr
+quan1 tɕʰ ɥ e˥˥ n
+quan2 tɕʰ ɥ e˧˥ n
+quan3 tɕʰ ɥ e˨˩˦ n
+quan4 tɕʰ ɥ e˥˩ n
+quan5 tɕʰ ɥ e˦ n
+quanr1 tɕʰ ɥ e˥˥ n rr
+quanr2 tɕʰ ɥ e˧˥ n rr
+quanr3 tɕʰ ɥ e˨˩˦ n rr
+quanr4 tɕʰ ɥ e˥˩ n rr
+quanr5 tɕʰ ɥ e˦ n rr
+qun1 tɕʰ y˥˥ n
+qun2 tɕʰ y˧˥ n
+qun3 tɕʰ y˨˩˦ n
+qun4 tɕʰ y˥˩ n
+qun5 tɕʰ y˦ n
+qunr1 tɕʰ y˥˥ n rr
+qunr2 tɕʰ y˧˥ n rr
+qunr3 tɕʰ y˨˩˦ n rr
+qunr4 tɕʰ y˥˩ n rr
+qunr5 tɕʰ y˦ n rr
+xi1 ɕ i˥˥
+xi2 ɕ i˧˥
+xi3 ɕ i˨˩˦
+xi4 ɕ i˥˩
+xi5 ɕ i˦
+xir1 ɕ i˥˥ rr
+xir2 ɕ i˧˥ rr
+xir3 ɕ i˨˩˦ rr
+xir4 ɕ i˥˩ rr
+xir5 ɕ i˦ rr
+xia1 ɕ j a˥˥
+xia2 ɕ j a˧˥
+xia3 ɕ j a˨˩˦
+xia4 ɕ j a˥˩
+xia5 ɕ j a˦
+xiar1 ɕ j a˥˥ rr
+xiar2 ɕ j a˧˥ rr
+xiar3 ɕ j a˨˩˦ rr
+xiar4 ɕ j a˥˩ rr
+xiar5 ɕ j a˦ rr
+xiao1 ɕ j aw˥˥
+xiao2 ɕ j aw˧˥
+xiao3 ɕ j aw˨˩˦
+xiao4 ɕ j aw˥˩
+xiao5 ɕ j aw˦
+xiaor1 ɕ j aw˥˥ rr
+xiaor2 ɕ j aw˧˥ rr
+xiaor3 ɕ j aw˨˩˦ rr
+xiaor4 ɕ j aw˥˩ rr
+xiaor5 ɕ j aw˦ rr
+xian1 ɕ j e˥˥ n
+xian2 ɕ j e˧˥ n
+xian3 ɕ j e˨˩˦ n
+xian4 ɕ j e˥˩ n
+xian5 ɕ j e˦ n
+xianr1 ɕ j e˥˥ n rr
+xianr2 ɕ j e˧˥ n rr
+xianr3 ɕ j e˨˩˦ n rr
+xianr4 ɕ j e˥˩ n rr
+xianr5 ɕ j e˦ n rr
+xiang1 ɕ j a˥˥ ŋ
+xiang2 ɕ j a˧˥ ŋ
+xiang3 ɕ j a˨˩˦ ŋ
+xiang4 ɕ j a˥˩ ŋ
+xiang5 ɕ j a˦ ŋ
+xiangr1 ɕ j a˥˥ ŋ rr
+xiangr2 ɕ j a˧˥ ŋ rr
+xiangr3 ɕ j a˨˩˦ ŋ rr
+xiangr4 ɕ j a˥˩ ŋ rr
+xiangr5 ɕ j a˦ ŋ rr
+xie1 ɕ j e˥˥
+xie2 ɕ j e˧˥
+xie3 ɕ j e˨˩˦
+xie4 ɕ j e˥˩
+xie5 ɕ j e˦
+xier1 ɕ j e˥˥ rr
+xier2 ɕ j e˧˥ rr
+xier3 ɕ j e˨˩˦ rr
+xier4 ɕ j e˥˩ rr
+xier5 ɕ j e˦ rr
+xiu1 ɕ j ow˥˥
+xiu2 ɕ j ow˧˥
+xiu3 ɕ j ow˨˩˦
+xiu4 ɕ j ow˥˩
+xiu5 ɕ j ow˦
+xiur1 ɕ j ow˥˥ rr
+xiur2 ɕ j ow˧˥ rr
+xiur3 ɕ j ow˨˩˦ rr
+xiur4 ɕ j ow˥˩ rr
+xiur5 ɕ j ow˦ rr
+xiong1 ɕ j u˥˥ ŋ
+xiong2 ɕ j u˧˥ ŋ
+xiong3 ɕ j u˨˩˦ ŋ
+xiong4 ɕ j u˥˩ ŋ
+xiong5 ɕ j u˦ ŋ
+xiongr1 ɕ j u˥˥ ŋ rr
+xiongr2 ɕ j u˧˥ ŋ rr
+xiongr3 ɕ j u˨˩˦ ŋ rr
+xiongr4 ɕ j u˥˩ ŋ rr
+xiongr5 ɕ j u˦ ŋ rr
+xin1 ɕ i˥˥ n
+xin2 ɕ i˧˥ n
+xin3 ɕ i˨˩˦ n
+xin4 ɕ i˥˩ n
+xin5 ɕ i˦ n
+xinr1 ɕ i˥˥ n rr
+xinr2 ɕ i˧˥ n rr
+xinr3 ɕ i˨˩˦ n rr
+xinr4 ɕ i˥˩ n rr
+xinr5 ɕ i˦ n rr
+xing1 ɕ i˥˥ ŋ
+xing2 ɕ i˧˥ ŋ
+xing3 ɕ i˨˩˦ ŋ
+xing4 ɕ i˥˩ ŋ
+xing5 ɕ i˦ ŋ
+xingr1 ɕ i˥˥ ŋ rr
+xingr2 ɕ i˧˥ ŋ rr
+xingr3 ɕ i˨˩˦ ŋ rr
+xingr4 ɕ i˥˩ ŋ rr
+xingr5 ɕ i˦ ŋ rr
+xu1 ɕ y˥˥
+xu2 ɕ y˧˥
+xu3 ɕ y˨˩˦
+xu4 ɕ y˥˩
+xu5 ɕ y˦
+xur1 ɕ y˥˥ rr
+xur2 ɕ y˧˥ rr
+xur3 ɕ y˨˩˦ rr
+xur4 ɕ y˥˩ rr
+xur5 ɕ y˦ rr
+xue1 ɕ ɥ e˥˥
+xue2 ɕ ɥ e˧˥
+xue3 ɕ ɥ e˨˩˦
+xue4 ɕ ɥ e˥˩
+xue5 ɕ ɥ e˦
+xuer1 ɕ ɥ e˥˥ rr
+xuer2 ɕ ɥ e˧˥ rr
+xuer3 ɕ ɥ e˨˩˦ rr
+xuer4 ɕ ɥ e˥˩ rr
+xuer5 ɕ ɥ e˦ rr
+xuan1 ɕ ɥ e˥˥ n
+xuan2 ɕ ɥ e˧˥ n
+xuan3 ɕ ɥ e˨˩˦ n
+xuan4 ɕ ɥ e˥˩ n
+xuan5 ɕ ɥ e˦ n
+xuanr1 ɕ ɥ e˥˥ n rr
+xuanr2 ɕ ɥ e˧˥ n rr
+xuanr3 ɕ ɥ e˨˩˦ n rr
+xuanr4 ɕ ɥ e˥˩ n rr
+xuanr5 ɕ ɥ e˦ n rr
+xun1 ɕ y˥˥ n
+xun2 ɕ y˧˥ n
+xun3 ɕ y˨˩˦ n
+xun4 ɕ y˥˩ n
+xun5 ɕ y˦ n
+xunr1 ɕ y˥˥ n rr
+xunr2 ɕ y˧˥ n rr
+xunr3 ɕ y˨˩˦ n rr
+xunr4 ɕ y˥˩ n rr
+xunr5 ɕ y˦ n rr

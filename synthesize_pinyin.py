@@ -1,11 +1,15 @@
 import re
+import os
 import argparse
 from string import punctuation
 
 import torch
 import yaml
 import cn2an
+import librosa
 import numpy as np
+import audio as Audio
+from scipy.io import wavfile
 from torch.utils.data import DataLoader
 from pypinyin import pinyin, Style
 
@@ -14,9 +18,22 @@ from utils.tools import to_device, synth_samples
 from dataset import TextDataset
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+dataset = "AISHELL3"
+preprocess_config= "config/{}/preprocess.yaml".format(dataset)
+model_config = "config/{}/model.yaml".format(dataset)
+train_config = "config/{}/train.yaml".format(dataset)
+preprocess_config = yaml.load(open(preprocess_config, "r"), Loader=yaml.FullLoader)
+model_config = yaml.load(open(model_config, "r"), Loader=yaml.FullLoader)
+train_config = yaml.load(open(train_config, "r"), Loader=yaml.FullLoader)
+configs = (preprocess_config, model_config, train_config)
+
+pitch_control = 1.0
+energy_control = 1.0
+duration_control = 1.0
+control_values = pitch_control, energy_control, duration_control
 
 
-lexicon_path = "/home/duser/tts/mfa_exp/mandarin_china_mfa.dict"
+lexicon_path = preprocess_config["path"]["lexicon_path_set"]
 lexicon_tmp = set()
 with open(lexicon_path, "r") as log:
     lines = log.readlines()
@@ -159,16 +176,15 @@ def preprocess_mandarin(text, preprocess_config,model_g2p):
     lexicon = read_lexicon(preprocess_config["path"]["lexicon_path"])
     text = text_normalizetion(text)
     phones = []
-    """
-    pinyins = [
-        p[0]
-        for p in pinyin(
-            text, style=Style.TONE3, strict=False, neutral_tone_with_five=True
-        )
-    ]
-    #"""
-    #print(pinyins)
-    pinyins = model_g2p(text)[0]
+    if model_g2p is None:
+        pinyins = [
+            p[0]
+            for p in pinyin(
+                text, style=Style.TONE3, strict=False, neutral_tone_with_five=True
+            )
+        ]
+    else:
+        pinyins = model_g2p(text)[0]
     print("Pinyin Sequence：{}".format(pinyins))
     piny2phone_list = []
     punc = ",.!?，。！？"
@@ -213,7 +229,7 @@ def synthesize(model, step, configs, vocoder, batchs, control_values):
                 preprocess_config,
                 train_config["path"]["result_path"],
             )
-def synthesize_sub(model, configs, vocoder, batchs, control_values):
+def synthesize_sub(model, configs, vocoder, batchs, control_values, target_path):
     preprocess_config, model_config, train_config = configs
     pitch_control, energy_control, duration_control = control_values
     for batch in batchs:
@@ -233,84 +249,72 @@ def synthesize_sub(model, configs, vocoder, batchs, control_values):
                 vocoder,
                 model_config,
                 preprocess_config,
-                train_config["path"]["result_path"],
+                target_path,
             )
         return  _, wave_path
+def get_stft_func():
+    stft_func = Audio.stft.TacotronSTFT(
+        preprocess_config["preprocessing"]["stft"]["filter_length"],
+        preprocess_config["preprocessing"]["stft"]["hop_length"],
+        preprocess_config["preprocessing"]["stft"]["win_length"],
+        preprocess_config["preprocessing"]["mel"]["n_mel_channels"],
+        preprocess_config["preprocessing"]["audio"]["sampling_rate"],
+        preprocess_config["preprocessing"]["mel"]["mel_fmin"],
+        preprocess_config["preprocessing"]["mel"]["mel_fmax"],)
+    return stft_func
+def get_ref_mel(ref_path):
+    ref_dir = os.path.dirname(ref_path)
+    wav_name = os.path.split(ref_path)[-1]
+    ref_sampling_rate = 22050
+    wav, _ = librosa.load(ref_path, ref_sampling_rate)
+    wav = wav / max(abs(wav)) * 32768.0
+    # if not os.path.exists(os.path.join(out_dir, speaker, wav_name)):
+    wavfile.write(os.path.join(ref_dir, wav_name.replace(".wav","_22k.wav")), ref_sampling_rate, wav.astype(np.int16), )
+    ref_wav_path = os.path.join(ref_dir, wav_name.replace(".wav","_22k.wav"))
+    wav, _ = librosa.load(ref_wav_path,sr = ref_sampling_rate)
+    stft_func = get_stft_func()
+    ref_mel_spec, _ = Audio.tools.get_mel_from_wav(wav, stft_func)
+    return ref_mel_spec.T
 
-
-def text_to_speech(text, models):
+def text_to_speech(text, ref_wav_path, models):
     mode="single"
     dataset = "AISHELL3"
     speaker_id=0
-    pitch_control = 1.0
-    energy_control = 1.0
-    duration_control = 1.0
-    preprocess_config= "config/{}/preprocess.yaml".format(dataset)
-    model_config = "config/{}/model.yaml".format(dataset)
-    train_config = "config/{}/train.yaml".format(dataset)
+    ref_mel_spect = get_ref_mel(ref_wav_path)
 
-    # Read Config
-    preprocess_config = yaml.load(
-        open(preprocess_config, "r"), Loader=yaml.FullLoader
-    )
-    model_config = yaml.load(open(model_config, "r"), Loader=yaml.FullLoader)
-    train_config = yaml.load(open(train_config, "r"), Loader=yaml.FullLoader)
-    configs = (preprocess_config, model_config, train_config)
-
-    # Get model
-
-    # Preprocess texts
-    if mode == "batch":
-        # Get dataset
-        source = "preprocessed_data/term_mini/val.txt"
-        dataset = TextDataset(source, preprocess_config)
-        batchs = DataLoader(
-            dataset,
-            batch_size=4,
-            collate_fn=dataset.collate_fn,
-        )
     if mode == "single":
         ids = raw_texts = [text[:100]]
         speakers = np.array([speaker_id])
-        #import ipdb
-        #ipdb.set_trace()
         texts = preprocess_mandarin(text, preprocess_config, models["g2p"])
         texts = np.array([texts])
         text_lens = np.array([len(texts[0])])
-        batchs = [(ids, raw_texts, speakers, texts, text_lens, max(text_lens))]
+        ref_mel = np.array([ref_mel_spect])
+        batchs = [(ids, raw_texts, speakers, texts, text_lens, max(text_lens),ref_mel_spect)]
 
-    control_values = pitch_control, energy_control, duration_control
-    _, wav_path = synthesize_sub(models["model"], configs, models["vocoder"],batchs, control_values)
+    _, wav_path = synthesize_sub(models["model"], configs, models["vocoder"],batchs, control_values, ref_wav_path.replace(".wav","_ref_res.wav"))
     return wav_path
-def main():
-    import yaml
+def main(text, ref_wav_path):
     import torch
     from utils.model import get_model, get_vocoder
-    from g2pW.get_convert import conv
+    # from g2pW.get_convert import conv
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    speaker = "dongd_mini"
-    preprocess_config= "config/{}/preprocess.yaml".format(speaker)
-    model_config = "config/{}/model.yaml".format(speaker)
-    train_config = "config/{}/train.yaml".format(speaker)
-    preprocess_config = yaml.load(open(preprocess_config, "r"), Loader=yaml.FullLoader)
-    model_config = yaml.load(open(model_config, "r"), Loader=yaml.FullLoader)
-    train_config = yaml.load(open(train_config, "r"), Loader=yaml.FullLoader)
-    configs = (preprocess_config, model_config, train_config)
 
-    restore_step=200000
+    restore_step=75000
     model = get_model(restore_step, configs, device, train=False)
     vocoder = get_vocoder(model_config, device)
     models = {}
     models["model"] = model
     models["vocoder"] = vocoder
-    models["g2p"] = conv
-    text = "你这里有一笔贷款还没有还,一共222.24元"
+    models["g2p"] = None
     import time
     t0 = time.time()
-    wav_path = text_to_speech(text, models)
+    wav_path = text_to_speech(text, ref_wav_path, models)
     print(time.time()-t0)
     print(wav_path)
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    text = "你这里有一笔贷款还没有还,一共222.24元"
+    ref_wav_path = sys.argv[1]
+    main(text,ref_wav_path)

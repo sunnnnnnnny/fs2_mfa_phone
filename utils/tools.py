@@ -55,14 +55,15 @@ def to_device(data, device):
             durations,
         )
 
-    if len(data) == 6:
-        (ids, raw_texts, speakers, texts, src_lens, max_src_len) = data
+    if len(data) == 7:
+        (ids, raw_texts, speakers, texts, src_lens, max_src_len,ref_mel) = data
 
         speakers = torch.from_numpy(speakers).long().to(device)
         texts = torch.from_numpy(texts).long().to(device)
         src_lens = torch.from_numpy(src_lens).to(device)
+        ref_mel = torch.from_numpy(ref_mel).to(device).unsqueeze(0)
 
-        return (ids, raw_texts, speakers, texts, src_lens, max_src_len)
+        return (ids, raw_texts, speakers, texts, src_lens, max_src_len,ref_mel)
 
 
 def log(
@@ -175,22 +176,6 @@ def synth_samples(targets, predictions, vocoder, model_config, preprocess_config
             energy = expand(energy, duration)
         else:
             energy = predictions[3][i, :mel_len].detach().cpu().numpy()
-    # import ipdb
-    # ipdb.set_trace()
-    with open(
-            os.path.join(preprocess_config["path"]["preprocessed_path"], "stats.json")
-    ) as f:
-        stats = json.load(f)
-        stats = stats["pitch"] + stats["energy"][:2]
-    fig = plot_mel(
-        [
-            (mel_prediction.cpu().numpy(), pitch, energy),
-            (mel_prediction.cpu().numpy(), pitch, energy),
-        ],
-        stats,
-        ["Synthetized Spectrogram", "Ground-Truth Spectrogram"],
-    )
-    plt.savefig(os.path.join("term_server_out", "pitch_energy.png"))
 
     from .model import vocoder_infer
 
@@ -201,15 +186,10 @@ def synth_samples(targets, predictions, vocoder, model_config, preprocess_config
     )
 
     sampling_rate = preprocess_config["preprocessing"]["audio"]["sampling_rate"]
-    outdir = "term_server_out"
-    if not os.path.exists(outdir):
-        os.makedirs(outdir)
     basename_list = []
     for i, wav in enumerate(wav_predictions):
-        now = time.time()
-        basename = str(int(now) + i + 1)
-        wavfile.write(os.path.join(outdir, "{}.wav".format(basename)), sampling_rate, wav)
-        basename_list.append(os.path.join(outdir, "{}.wav".format(basename)))
+        wavfile.write(path, sampling_rate, wav)
+        basename_list.append(path)
     # return mel_predictions.squeeze().cpu().numpy(), os.path.join(outdir, "{}.wav".format(basename))
     return mel_predictions.squeeze().cpu().numpy(), basename_list
 
@@ -319,3 +299,4 @@ def pad(input_ele, mel_max_length=None):
         out_list.append(one_batch_padded)
     out_padded = torch.stack(out_list)
     return out_padded
+

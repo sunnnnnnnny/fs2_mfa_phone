@@ -36,7 +36,7 @@ class Encoder(nn.Module):
         super(Encoder, self).__init__()
 
         n_position = config["max_seq_len"] + 1
-        lexicon_path = preprocess_config["path"]["lexicon_path"]
+        lexicon_path = preprocess_config["path"]["lexicon_path_set"]
         lexicon_tmp = set()
         with open(lexicon_path, "r") as log:
             lines = log.readlines()
