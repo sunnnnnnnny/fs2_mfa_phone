@@ -12,7 +12,6 @@ def prepare_align(config):
     out_dir = config["path"]["raw_path"]
     sampling_rate = config["preprocessing"]["audio"]["sampling_rate"]
     max_wav_value = config["preprocessing"]["audio"]["max_wav_value"]
-    #for dataset in ["train", "test"]:
     for dataset in ["train"]:
         print("Processing {}ing set...".format(dataset))
         with open(os.path.join(in_dir, dataset, "content.txt"), encoding="utf-8") as f:
