@@ -33,13 +33,12 @@ def get_sinusoid_encoding_table(n_position, d_hid, padding_idx=None):
 class Encoder(nn.Module):
     """ Encoder """
 
-    def __init__(self, config):
+    def __init__(self, configs):
         super(Encoder, self).__init__()
-
+        preprocess_config, model_config, train_config = configs
+        config = model_config
         n_position = config["max_seq_len"] + 1
-        #n_src_vocab = len(symbols) + 1
-        #"""
-        lexicon_path = "/home/duser/tts/mfa_exp/mandarin_china_mfa.dict"
+        lexicon_path = preprocess_config["path"]["lexicon_path2"]
         lexicon_tmp = set()
         with open(lexicon_path, "r") as log:
             lines = log.readlines()
@@ -55,7 +54,6 @@ class Encoder(nn.Module):
         print("n_src_vocab : ", n_src_vocab)
 
         d_word_vec = config["transformer"]["encoder_hidden"]
-        d_prosody_vec = config["transformer"]["prosody_hidden"]
         n_layers = config["transformer"]["encoder_layer"]
         n_head = config["transformer"]["encoder_head"]
         d_k = d_v = (
@@ -73,9 +71,9 @@ class Encoder(nn.Module):
         self.src_word_emb = nn.Embedding(
             n_src_vocab, d_word_vec, padding_idx=5
         )
-        self.src_prosody_emb = nn.Embedding(
-            6, d_prosody_vec, padding_idx=Constants.PAD
-        )
+        # self.src_prosody_emb = nn.Embedding(
+        #     6, d_prosody_vec, padding_idx=Constants.PAD
+        # )
         self.position_enc = nn.Parameter(
             get_sinusoid_encoding_table(n_position, d_word_vec).unsqueeze(0),
             requires_grad=False,
@@ -90,7 +88,7 @@ class Encoder(nn.Module):
             ]
         )
 
-    def forward(self, src_seq, mask, prosodys,return_attns=False):
+    def forward(self, src_seq, mask, return_attns=False):
         #import ipdb
         #ipdb.set_trace()
         enc_slf_attn_list = []
@@ -110,10 +108,6 @@ class Encoder(nn.Module):
             enc_output = self.src_word_emb(src_seq) + self.position_enc[
                 :, :max_len, :
             ].expand(batch_size, -1, -1)
-        prosody_embed = self.src_prosody_emb(prosodys)
-        enc_output =  enc_output + prosody_embed
-        #import ipdb
-        #ipdb.set_trace()
         for enc_layer in self.layer_stack:
             enc_output, enc_slf_attn = enc_layer(
                 enc_output, mask=mask, slf_attn_mask=slf_attn_mask
@@ -121,7 +115,7 @@ class Encoder(nn.Module):
             if return_attns:
                 enc_slf_attn_list += [enc_slf_attn]
 
-        return enc_output, prosody_embed
+        return enc_output
 
 
 class Decoder(nn.Module):
@@ -193,3 +187,4 @@ class Decoder(nn.Module):
                 dec_slf_attn_list += [dec_slf_attn]
 
         return dec_output, mask
+

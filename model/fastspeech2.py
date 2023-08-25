@@ -13,11 +13,11 @@ from utils.tools import get_mask_from_lengths
 class FastSpeech2(nn.Module):
     """ FastSpeech2 """
 
-    def __init__(self, preprocess_config, model_config):
+    def __init__(self, configs):
         super(FastSpeech2, self).__init__()
-        self.model_config = model_config
-
-        self.encoder = Encoder(model_config)
+        preprocess_config, model_config, train_config = configs
+        self.model_config = model_config 
+        self.encoder = Encoder(configs)
         self.variance_adaptor = VarianceAdaptor(preprocess_config, model_config)
         self.decoder = Decoder(model_config)
         self.mel_linear = nn.Linear(
@@ -29,10 +29,10 @@ class FastSpeech2(nn.Module):
         self.speaker_emb = None
         if model_config["multi_speaker"]:
             with open(
-                os.path.join(
-                    preprocess_config["path"]["preprocessed_path"], "speakers.json"
-                ),
-                "r",
+                    os.path.join(
+                        preprocess_config["path"]["preprocessed_path"], "speakers.json"
+                    ),
+                    "r",
             ) as f:
                 n_speaker = len(json.load(f))
             n_speaker = 218
@@ -40,23 +40,26 @@ class FastSpeech2(nn.Module):
                 n_speaker,
                 model_config["transformer"]["encoder_hidden"],
             )
+        self.emotion_emb = None
+        if model_config["multi_emotion"]:
+            self.emotion_emb = nn.Embedding(5, model_config["transformer"]["encoder_hidden"])
 
     def forward(
-        self,
-        speakers,
-        texts,
-        src_lens,
-        max_src_len,
-        mels=None,
-        mel_lens=None,
-        max_mel_len=None,
-        p_targets=None,
-        e_targets=None,
-        d_targets=None,
-        prosodys = None,
-        p_control=1.0,
-        e_control=1.0,
-        d_control=1.0,
+            self,
+            speakers,
+            texts,
+            src_lens,
+            max_src_len,
+            mels=None,
+            mel_lens=None,
+            max_mel_len=None,
+            p_targets=None,
+            e_targets=None,
+            d_targets=None,
+            emos=None,
+            p_control=1.0,
+            e_control=1.0,
+            d_control=1.0,
     ):
         src_masks = get_mask_from_lengths(src_lens, max_src_len)
         mel_masks = (
@@ -64,13 +67,13 @@ class FastSpeech2(nn.Module):
             if mel_lens is not None
             else None
         )
-        output, prosody_embed = self.encoder(texts, src_masks, prosodys)
-        #import ipdb
-        #ipdb.set_trace()
-        if self.speaker_emb is not None:
-            output = output + self.speaker_emb(speakers).unsqueeze(1).expand(
-                -1, max_src_len, -1
-            )
+        output = self.encoder(texts, src_masks)
+        if self.speaker_emb is not None and speakers is not None:
+            spk_embed = self.speaker_emb(speakers).unsqueeze(1).expand(-1, max_src_len, -1)
+        if self.emotion_emb is not None and emos is not None:
+            emo_embed = self.emotion_emb(emos).unsqueeze(1).expand(-1, max_src_len, -1)
+        merge_embed = output + spk_embed + emo_embed
+        output = output + merge_embed
 
         (
             output,
@@ -91,7 +94,6 @@ class FastSpeech2(nn.Module):
             p_control,
             e_control,
             d_control,
-            prosody_embed
         )
 
         output, mel_masks = self.decoder(output, mel_masks)
@@ -111,3 +113,4 @@ class FastSpeech2(nn.Module):
             src_lens,
             mel_lens,
         )
+

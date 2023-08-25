@@ -5,7 +5,7 @@ import os
 import numpy as np
 from torch.utils.data import Dataset
 
-#from text import text_to_sequence
+# from text import text_to_sequence
 from utils.tools import pad_1D, pad_2D
 
 lexicon_path = "/home/duser/tts/mfa_exp/mandarin_china_mfa.dict"
@@ -24,50 +24,52 @@ lexicon.sort()
 
 
 def phone_text_to_sequence(text):
-    #import ipdb
-    #ipdb.set_trace()
+    # import ipdb
+    # ipdb.set_trace()
     text_split = text.strip().split()
     text_ids = []
     for phone in text_split:
         if phone not in lexicon:
             continue
-        text_ids.append(lexicon.index(phone)+1)
+        text_ids.append(lexicon.index(phone) + 1)
     return text_ids
-
 
 
 class Dataset(Dataset):
     def __init__(
-        self, filename, preprocess_config, train_config, sort=False, drop_last=False
+            self, filename, preprocess_config, train_config, sort=False, drop_last=False
     ):
         self.dataset_name = preprocess_config["dataset"]
         self.preprocessed_path = preprocess_config["path"]["preprocessed_path"]
         self.cleaners = preprocess_config["preprocessing"]["text"]["text_cleaners"]
         self.batch_size = train_config["optimizer"]["batch_size"]
 
-        self.basename, self.speaker, self.text, self.raw_text, self.prosody = self.process_meta(
+        self.basename, self.speaker, self.text, self.raw_text, self.emo = self.process_meta(
             filename
         )
         with open(os.path.join(self.preprocessed_path, "speakers.json")) as f:
             self.speaker_map = json.load(f)
         self.sort = sort
         self.drop_last = drop_last
+        self.emo_list = ["生气", "伤心", "中立", "惊喜", "快乐"]
 
     def __len__(self):
         return len(self.text)
 
     def __getitem__(self, idx):
-        #import ipdb
-        #ipdb.set_trace()
+        # import ipdb
+        # ipdb.set_trace()
         basename = self.basename[idx]
         speaker = self.speaker[idx]
         speaker_id = self.speaker_map[speaker]
         raw_text = self.raw_text[idx]
         text = self.text[idx]
-        text = text.replace("{","").replace("}","")
-        prosody = np.array([int(item) for item in self.prosody[idx].replace("#","").split()])
+        text = text.replace("{", "").replace("}", "")
         phone = np.array(phone_text_to_sequence(text))
-        #phone = np.array(text_to_sequence(self.text[idx], self.cleaners))
+        emo = self.emo[idx]
+        assert emo in self.emo_list
+        emo = self.emo_list.index(emo)
+        # phone = np.array(text_to_sequence(self.text[idx], self.cleaners))
         mel_path = os.path.join(
             self.preprocessed_path,
             "mel",
@@ -95,7 +97,7 @@ class Dataset(Dataset):
         try:
             assert len(phone) == len(pitch) == len(energy) == len(duration)
         except:
-            idx = np.random.randint(0, len(self)-1)
+            idx = np.random.randint(0, len(self) - 1)
             return self[idx]
         sample = {
             "id": basename,
@@ -106,32 +108,32 @@ class Dataset(Dataset):
             "pitch": pitch,
             "energy": energy,
             "duration": duration,
-            "prosody":prosody
+            "emo": emo
         }
 
         return sample
 
     def process_meta(self, filename):
         with open(
-            os.path.join(self.preprocessed_path, filename), "r", encoding="utf-8"
+                os.path.join(self.preprocessed_path, filename), "r", encoding="utf-8"
         ) as f:
             name = []
             speaker = []
             text = []
             raw_text = []
-            prosody = []
+            emo = []
             for line in f.readlines():
-                n, s, t, r, psdy = line.strip("\n").split("|")
+                n, s, t, r, _, e = line.strip("\n").split("|")
                 name.append(n)
                 speaker.append(s)
                 text.append(t)
                 raw_text.append(r)
-                prosody.append(psdy)
-            return name, speaker, text, raw_text, prosody
+                emo.append(e)
+            return name, speaker, text, raw_text, emo
 
     def reprocess(self, data, idxs):
-        #import ipdb
-        #ipdb.set_trace()
+        # import ipdb
+        # ipdb.set_trace()
         ids = [data[idx]["id"] for idx in idxs]
         speakers = [data[idx]["speaker"] for idx in idxs]
         texts = [data[idx]["text"] for idx in idxs]
@@ -140,7 +142,7 @@ class Dataset(Dataset):
         pitches = [data[idx]["pitch"] for idx in idxs]
         energies = [data[idx]["energy"] for idx in idxs]
         durations = [data[idx]["duration"] for idx in idxs]
-        prosodys = [data[idx]["prosody"] for idx in idxs]
+        emos = [data[idx]["emo"] for idx in idxs]
 
         text_lens = np.array([text.shape[0] for text in texts])
         mel_lens = np.array([mel.shape[0] for mel in mels])
@@ -151,8 +153,8 @@ class Dataset(Dataset):
         pitches = pad_1D(pitches)
         energies = pad_1D(energies)
         durations = pad_1D(durations)
-        prosodys = pad_1D(prosodys,5)
-        
+        emos = np.array(emos)
+
         return (
             ids,
             raw_texts,
@@ -166,7 +168,7 @@ class Dataset(Dataset):
             pitches,
             energies,
             durations,
-            prosodys
+            emos
         )
 
     def collate_fn(self, data):
@@ -178,7 +180,7 @@ class Dataset(Dataset):
         else:
             idx_arr = np.arange(data_size)
 
-        tail = idx_arr[len(idx_arr) - (len(idx_arr) % self.batch_size) :]
+        tail = idx_arr[len(idx_arr) - (len(idx_arr) % self.batch_size):]
         idx_arr = idx_arr[: len(idx_arr) - (len(idx_arr) % self.batch_size)]
         idx_arr = idx_arr.reshape((-1, self.batch_size)).tolist()
         if not self.drop_last and len(tail) > 0:
@@ -199,9 +201,9 @@ class TextDataset(Dataset):
             filepath
         )
         with open(
-            os.path.join(
-                preprocess_config["path"]["preprocessed_path"], "speakers.json"
-            )
+                os.path.join(
+                    preprocess_config["path"]["preprocessed_path"], "speakers.json"
+                )
         ) as f:
             self.speaker_map = json.load(f)
 
@@ -298,3 +300,4 @@ if __name__ == "__main__":
             len(val_dataset), n_batch
         )
     )
+

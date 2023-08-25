@@ -30,7 +30,6 @@ def main(args, configs):
     batch_size = train_config["optimizer"]["batch_size"]
     group_size = 1  # Set this larger than 1 to enable sorting in Dataset
     assert batch_size * group_size < len(dataset)
-    args.restore_step = 360*1000
     loader = DataLoader(
         dataset,
         batch_size=batch_size * group_size,
@@ -38,7 +37,8 @@ def main(args, configs):
         collate_fn=dataset.collate_fn,
     )
     # Prepare model
-    model, optimizer = get_model(args.restore_step, configs, device, train=True)
+    pretrained_checkpoint = train_config["path"]["pretrained_checkpoint_path"]
+    model, optimizer = get_model(pretrained_checkpoint, configs, device, train=True)
     model = model.to(device)
     model = nn.DataParallel(model)
     num_param = get_param_num(model)
@@ -46,11 +46,15 @@ def main(args, configs):
     print("Number of FastSpeech2 Parameters:", num_param)
 
     # Load vocoder
-    vocoder = get_vocoder(model_config, device)
+    vocoder = get_vocoder(configs, device)
 
     # Init logger
     for p in train_config["path"].values():
+        if os.path.exists(p):
+            continue
         os.makedirs(p, exist_ok=True)
+        
+        
     train_log_path = os.path.join(train_config["path"]["log_path"], "train")
     val_log_path = os.path.join(train_config["path"]["log_path"], "val")
     os.makedirs(train_log_path, exist_ok=True)
@@ -59,7 +63,6 @@ def main(args, configs):
     val_logger = SummaryWriter(val_log_path)
 
     # Training
-    step = args.restore_step + 1
     step = 1
     epoch = 1
     grad_acc_step = train_config["optimizer"]["grad_acc_step"]
@@ -80,8 +83,6 @@ def main(args, configs):
         for batchs in loader:
             for batch in batchs:
                 batch = to_device(batch, device)
-                #import ipdb
-                #ipdb.set_trace()
                 # Forward
                 output = model(*(batch[2:]))
 

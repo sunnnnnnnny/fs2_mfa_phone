@@ -49,6 +49,19 @@ class Preprocessor:
             config["preprocessing"]["mel"]["mel_fmin"],
             config["preprocessing"]["mel"]["mel_fmax"],
         )
+        self.filename2emo = {}
+        with open(config["path"]["filename2emo_path"], "r", encoding="gbk") as log:
+            lines = log.readlines()
+            idx = 0
+            while idx < len(lines):
+                line = lines[idx]
+                line_split = line.strip().split("\t")
+                assert len(line_split) == 3
+                filename = line_split[0].split("_")[1]
+                emo = line_split[2]
+                self.filename2emo[filename] = emo
+                idx = idx + 2
+        assert len(self.filename2emo) == 1750
 
     def build_from_path(self):
         os.makedirs((os.path.join(self.out_dir, "mel")), exist_ok=True)
@@ -65,17 +78,13 @@ class Preprocessor:
         # Compute pitch, energy, duration, and mel-spectrogram
         speakers = {}
         for i, speaker in enumerate(tqdm(os.listdir(self.in_dir))):
-            # if speaker not in ["SSB0005","SSB0009","SSB1935","SSB1939","SSB1956"]:
-            #    continue
             if ".wav" in speaker or ".TextGrid" in speaker:
                 continue
-            speakers[speaker] = i
+            speakers[speaker] = int(speaker)
             for wav_name in os.listdir(os.path.join(self.in_dir, speaker)):
                 if ".wav" not in wav_name:
                     continue
                 basename = wav_name.split(".")[0]
-                if basename not in self.select_filename:
-                    continue
                 tg_path = os.path.join(
                     self.tg_dir, speaker, "{}.TextGrid".format(basename)
                 )
@@ -87,6 +96,9 @@ class Preprocessor:
                         continue
                     else:
                         info, pitch, energy, n = ret
+                        tg_filename = tg_path.split("/")[-1].split("_")[1]
+                        emo = self.filename2emo[tg_filename]
+                        info = info + "|" + speaker + "|" + emo
                     out.append(info)
 
                 if len(pitch) > 0:
@@ -150,7 +162,6 @@ class Preprocessor:
 
         random.shuffle(out)
         out = [r for r in out if r is not None]
-
         # Write metadata
         with open(os.path.join(self.out_dir, "train.txt"), "w", encoding="utf-8") as f:
             for m in out[self.val_size:]:
@@ -332,3 +343,4 @@ class Preprocessor:
             min_value = min(min_value, min(values))
 
         return min_value, max_value
+

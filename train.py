@@ -27,13 +27,10 @@ def main(args, configs):
     dataset = Dataset(
         "train.txt", preprocess_config, train_config, sort=True, drop_last=True
     )
-    import ipdb
-    ipdb.set_trace()
-    dataset.__getitem__(0)
     batch_size = train_config["optimizer"]["batch_size"]
     group_size = 1  # Set this larger than 1 to enable sorting in Dataset
     assert batch_size * group_size < len(dataset)
-    args.restore_step = 235*1000
+    args.restore_step = 0
     loader = DataLoader(
         dataset,
         batch_size=batch_size * group_size,

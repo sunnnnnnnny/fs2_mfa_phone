@@ -30,9 +30,12 @@ variance_embedding:
 #   attn_head: 4
 
 multi_speaker: True
+multi_emotion: True
 
 max_seq_len: 1000
 
 vocoder:
   model: "HiFi-GAN" # support 'HiFi-GAN', 'MelGAN'
   speaker: "universal" # support  'LJSpeech', 'universal'
+  universal_path: "/tmp/zhangyuqiang/master_dataset_models/fs2_mfa_phone_emo/model/generator_universal.pth.tar"
+

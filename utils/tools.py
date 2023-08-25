@@ -42,7 +42,7 @@ def to_device(data, device):
         pitches = torch.from_numpy(pitches).float().to(device)
         energies = torch.from_numpy(energies).to(device)
         durations = torch.from_numpy(durations).long().to(device)
-        prosodys = torch.from_numpy(prosodys).long().to(device)
+        emos = torch.from_numpy(prosodys).long().to(device)
 
         return (
             ids,
@@ -57,7 +57,8 @@ def to_device(data, device):
             pitches,
             energies,
             durations,
-            prosodys
+            emos,
+
         )
 
     if len(data) == 7:
@@ -66,10 +67,10 @@ def to_device(data, device):
         speakers = torch.from_numpy(speakers).long().to(device)
         texts = torch.from_numpy(texts).long().to(device)
         src_lens = torch.from_numpy(src_lens).to(device)
-        prosody = torch.from_numpy(prosody).long().to(device)
+        emos = torch.from_numpy(prosody).long().to(device)
         
 
-        return (ids, raw_texts, speakers, texts, src_lens, max_src_len,prosody)
+        return (ids, raw_texts, speakers, texts, src_lens, max_src_len,emos)
 
 
 def log(
@@ -327,4 +328,5 @@ def pad(input_ele, mel_max_length=None):
         out_list.append(one_batch_padded)
     out_padded = torch.stack(out_list)
     return out_padded
+
 

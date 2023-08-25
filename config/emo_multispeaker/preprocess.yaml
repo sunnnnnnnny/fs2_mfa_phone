@@ -1,16 +1,17 @@
 dataset: "emo_multispeaker"
 
 path:
-  raw_path: "/Users/zhangsan/workspace/dataset/ESD/EmotionalSpeechDataset_merge"
-  wav_path: "/Users/zhangsan/workspace/dataset/ESD/EmotionalSpeechDataset_merge"
-  corpus_path: "/Users/zhangsan/workspace/dataset/ESD/EmotionalSpeechDataset_merge"
-  lexicon_path: "/Users/zhangsan/workspace/master_datasets_models/fs2_mfa_phone_emo/datasets/reconstruct_mfa_phone.dict"
-  tg_path: "/Users/zhangsan/workspace/master_datasets_models/fs2_mfa_phone_emo/datasets/EmotionalSpeechDataset_merge_22k_total17500_mfa_out"
-  phone_path: "/Users/zhangsan/workspace/master_datasets_models/fs2_mfa_phone_emo/datasets/EmotionalSpeechDataset_merge_22k_total17500_mfa_out"
-  preprocessed_path: "/Users/zhangsan/workspace/master_datasets_models/fs2_mfa_phone_emo/datasets/preprocessed_data/emo_multispeaker"
-
+  raw_path: "/tmp/zhangyuqiang/master_dataset_models/fs2_mfa_phone_emo/dataset/EmotionalSpeechDataset_merge"
+  wav_path: "/tmp/zhangyuqiang/master_dataset_models/fs2_mfa_phone_emo/dataset/EmotionalSpeechDataset_merge"
+  corpus_path: "/tmp/zhangyuqiang/master_dataset_models/fs2_mfa_phone_emo/dataset/EmotionalSpeechDataset_merge"
+  lexicon_path: "/tmp/zhangyuqiang/master_dataset_models/fs2_mfa_phone_emo/dataset/reconstruct_mfa_phone.dict"
+  lexicon_path2: "/tmp/zhangyuqiang/master_dataset_models/fs2_mfa_phone_emo/dataset/mandarin_china_mfa.dict"
+  tg_path: "/tmp/zhangyuqiang/master_dataset_models/fs2_mfa_phone_emo/dataset/EmotionalSpeechDataset_merge_22k_total17500_mfa_out"
+  phone_path: "/tmp/zhangyuqiang/master_dataset_models/fs2_mfa_phone_emo/dataset/EmotionalSpeechDataset_merge_22k_total17500_mfa_out"
+  preprocessed_path: "/tmp/zhangyuqiang/master_dataset_models/fs2_mfa_phone_emo/dataset/preprocessed_data/emo_multispeaker"
+  filename2emo_path: "/tmp/zhangyuqiang/master_dataset_models/fs2_mfa_phone_emo/dataset/0001.txt"
 preprocessing:
-  val_size: 20
+  val_size: 100
   text:
     text_cleaners: []
     language: "zh"
@@ -31,4 +32,5 @@ preprocessing:
   energy:
     feature: "phoneme_level" # support 'phoneme_level' or 'frame_level'
     normalization: True
+
 

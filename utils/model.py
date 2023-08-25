@@ -8,32 +8,21 @@ import hifigan
 from model import FastSpeech2, ScheduledOptim
 
 
-def get_model(restore_step, configs, device, train=False):
-    #import ipdb
-    #ipdb.set_trace()
+def get_model(pretrain_checkpoint, configs, device, train=False):
     (preprocess_config, model_config, train_config) = configs
 
-    model = FastSpeech2(preprocess_config, model_config).to(device)
-    if restore_step > 0 :
-        ckpt_path = os.path.join(
-            train_config["path"]["ckpt_path"],
-            #"AISHELL3_{}.pth.tar".format(restore_step),
-            "{}.pth.tar".format(restore_step),
-        )
-        ckpt = torch.load(ckpt_path)
-        model.load_state_dict(ckpt["model"],strict= False)
+    model = FastSpeech2(configs).to(device)
+    if pretrain_checkpoint is not None:
+        print("加载模型:", pretrain_checkpoint)
+        ckpt = torch.load(pretrain_checkpoint)
+        model.load_state_dict(ckpt["model"], strict= False)
 
     if train:
-        scheduled_optim = ScheduledOptim(
-            model, train_config, model_config, restore_step
-        )
-        #import ipdb
-        #ipdb.set_trace()
-        #if restore_step > 0 :
-        #    scheduled_optim.load_state_dict(ckpt["optimizer"])
+        scheduled_optim = ScheduledOptim(model, train_config, model_config, 0)
+        # if pretrain_checkpoint is not None:
+        #     scheduled_optim.load_state_dict(ckpt["optimizer"])
         model.train()
         return model, scheduled_optim
-
     model.eval()
     model.requires_grad_ = False
     return model
@@ -44,7 +33,9 @@ def get_param_num(model):
     return num_param
 
 
-def get_vocoder(config, device):
+def get_vocoder(configs, device):
+    (preprocess_config, config, train_config) = configs
+    model_path_config = config
     name = config["vocoder"]["model"]
     speaker = config["vocoder"]["speaker"]
 
@@ -67,7 +58,7 @@ def get_vocoder(config, device):
         if speaker == "LJSpeech":
             ckpt = torch.load("hifigan/generator_LJSpeech.pth.tar")
         elif speaker == "universal":
-            ckpt = torch.load("hifigan/generator_universal.pth.tar")
+            ckpt = torch.load(model_path_config["vocoder"]["universal_path"])
         vocoder.load_state_dict(ckpt["generator"])
         vocoder.eval()
         vocoder.remove_weight_norm()
@@ -95,3 +86,4 @@ def vocoder_infer(mels, vocoder, model_config, preprocess_config, lengths=None):
             wavs[i] = wavs[i][: lengths[i]]
 
     return wavs
+

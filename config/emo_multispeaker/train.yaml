@@ -1,9 +1,11 @@
 path:
-  ckpt_path: "./output/ckpt/dongd_mini_prosody"
-  log_path: "./output/log/dongd_mini_prosody"
-  result_path: "./output/result/dongd_mini_prosody"
+  ckpt_path: "/tmp/zhangyuqiang/master_dataset_models/fs2_mfa_phone_emo/model/output/ckpt/emo_multispeaker"
+  log_path: "/tmp/zhangyuqiang/master_dataset_models/fs2_mfa_phone_emo/model/output/log/emo_multispeaker"
+  result_path: "/tmp/zhangyuqiang/master_dataset_models/fs2_mfa_phone_emo/model/output/result/emo_multispeaker"
+  pretrained_checkpoint_path: "/tmp/zhangyuqiang/master_dataset_models/fs2_mfa_phone_emo/model/350000.pth.tar"
+
 optimizer:
-  batch_size: 8
+  batch_size: 16
   betas: [0.9, 0.98]
   eps: 0.000000001
   weight_decay: 0.0
