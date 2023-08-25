@@ -1,0 +1,34 @@
+dataset: "emo_multispeaker"
+
+path:
+  raw_path: "/Users/zhangsan/workspace/dataset/ESD/EmotionalSpeechDataset_merge"
+  wav_path: "/Users/zhangsan/workspace/dataset/ESD/EmotionalSpeechDataset_merge"
+  corpus_path: "/Users/zhangsan/workspace/dataset/ESD/EmotionalSpeechDataset_merge"
+  lexicon_path: "/Users/zhangsan/workspace/master_datasets_models/fs2_mfa_phone_emo/datasets/reconstruct_mfa_phone.dict"
+  tg_path: "/Users/zhangsan/workspace/master_datasets_models/fs2_mfa_phone_emo/datasets/EmotionalSpeechDataset_merge_22k_total17500_mfa_out"
+  phone_path: "/Users/zhangsan/workspace/master_datasets_models/fs2_mfa_phone_emo/datasets/EmotionalSpeechDataset_merge_22k_total17500_mfa_out"
+  preprocessed_path: "/Users/zhangsan/workspace/master_datasets_models/fs2_mfa_phone_emo/datasets/preprocessed_data/emo_multispeaker"
+
+preprocessing:
+  val_size: 20
+  text:
+    text_cleaners: []
+    language: "zh"
+  audio:
+    sampling_rate: 22050
+    max_wav_value: 32768.0
+  stft:
+    filter_length: 1024
+    hop_length: 256
+    win_length: 1024
+  mel:
+    n_mel_channels: 80
+    mel_fmin: 0
+    mel_fmax: 8000 # please set to 8000 for HiFi-GAN vocoder, set to null for MelGAN vocoder
+  pitch:
+    feature: "phoneme_level" # support 'phoneme_level' or 'frame_level'
+    normalization: True
+  energy:
+    feature: "phoneme_level" # support 'phoneme_level' or 'frame_level'
+    normalization: True
+
